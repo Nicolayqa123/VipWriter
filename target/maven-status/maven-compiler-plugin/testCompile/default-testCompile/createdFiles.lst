@@ -42,13 +42,13 @@ com\PageWriter\AvailablePage.class
 com\vipwriters\available\AvailableDetailedOrderView.class
 com\Pro_Papers\UnpaidOrders\PayToOrder.class
 com\PageWriter\Transactions.class
-com\Pro_Papers\CurrentOrders\DetailedOrderView.class
 com\vipwriters\available\AvailableShowOnlyOrdersWithinMyProficiency.class
 com\vipwriters\MyOrders\MyOrdersSaveFiles.class
 com\vipwriters\WebDriverSettingsIE.class
 com\Pro_Papers\CurrentOrders\Filter.class
 com\vipwriters\WebDriverSettings.class
 com\vipwriters\PageTERMSOFUSE.class
+com\Pro_Papers\CurrentOrders\DetailedOrderViewTest.class
 com\support\AssignAndNoAssignWriter.class
 com\Pro_Papers\ForgotPassword.class
 com\Pro_Papers\CurrentOrders\PayToOrder.class
@@ -57,8 +57,6 @@ com\Pro_Papers\Registered.class
 com\vipwriters\available\AvailableFilter.class
 com\vipwriters\MyOrders\MyOrderShowEntries.class
 com\Pro_Papers\RegisteredStep2.class
-com\vipwriters\WebDriverSettings$1.class
-com\Pro_Papers\LoginClient.class
 com\vipwriters\Applied\AppliedShowEntries.class
 com\vipwriters\Payments\PaymentsShowEntries.class
 com\Pro_Papers\PreviousOrders\Filter.class
@@ -86,6 +84,7 @@ com\Pro_Papers\Profile\ChangesPassword.class
 com\vipwriters\PageFactore.class
 com\Screenshot.class
 com\Pro_Papers\PreviousOrders\SendMessageInOrder.class
+com\Pro_Papers\LoginClientTest.class
 com\Pro_Papers\RegisteredStep3.class
 com\Pro_Papers\PreviousOrders\DetailedOrderView1.class
 com\Pro_Papers\UnpaidOrders\DetailedOrderView1.class

@@ -3,9 +3,6 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Rule;
-import org.junit.rules.TestRule;
-import org.junit.rules.TestWatcher;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -56,17 +53,11 @@ public class WebDriverSettings  {
 
 @After
 public void close() {
-
+    driver.close();
     driver.quit();
 }
 
-    @Rule
-    public TestRule screenshotRule = new TestWatcher() {
-    };
 
-    private void captureScreenshot(String name) {
-
-    }
     
    /* @AfterMethod
     public static void   screenshot(ITestResult result) throws Exception {
