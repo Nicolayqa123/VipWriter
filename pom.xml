@@ -13,12 +13,6 @@
 
 
     <properties>
-        <systemProperties>
-            <property>
-                <name>allure.results.directory</name>
-                <value>C:\Program Files (x86)\Jenkins\workspace\MavenTest\mvnVip\target</value>
-            </property>
-        </systemProperties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
