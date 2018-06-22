@@ -22,10 +22,6 @@ public class LoginClientTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(10);
         Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]").getText()));
 
-
-
-
-
     }
 
    /* @After

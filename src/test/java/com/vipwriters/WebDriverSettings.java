@@ -53,7 +53,7 @@ public class WebDriverSettings  {
 
 @After
 public void close() {
-    driver.close();
+
     driver.quit();
 }
 
