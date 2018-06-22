@@ -3,14 +3,13 @@ package com.vipwriters.available;
 import com.PageWriter.AvailablePage;
 import com.PageWriter.DetailedOrder;
 import com.vipwriters.WebDriverSettings;
-import org.junit.Test;
 import org.openqa.selenium.By;
 
 import static org.junit.Assert.assertEquals;
 
 public class AvailableSaveFilesTest extends WebDriverSettings {
 
-    @Test
+
     public void dropfile ()throws Exception {
     WritersLogin();
         AvailablePage.order10004(driver).click();

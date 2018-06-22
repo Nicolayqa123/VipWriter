@@ -7,7 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import static org.junit.Assert.assertEquals;
 
-public class DetailedOrderView extends WebDriverSettings {
+public class DetailedOrderViewTest extends WebDriverSettings {
     @Test
     public void DetaileOrder () throws Exception {
         LoginPap();
