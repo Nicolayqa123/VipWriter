@@ -20,7 +20,7 @@ public class LoginClientTest extends WebDriverSettings {
         driver.findElement(loginClientPassword).sendKeys("nicolay");
         driver.findElement(loginClientSubmit).click();
         TimeUnit.SECONDS.sleep(10);
-        Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("/html/body/div[1]/div/div/div/div/div[3]/div/div[1]/div[1]/div[2]").findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[1]/div[1]/div[2]/span[1]")).getText()));
+        Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]").findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[1]/div[1]/div[2]/span[1]")).getText()));
 
 
 
