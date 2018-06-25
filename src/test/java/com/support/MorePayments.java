@@ -1,12 +1,12 @@
 package com.support;
 
+
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.concurrent.TimeUnit;
 
@@ -346,19 +346,7 @@ public class MorePayments extends WebDriverSettings {
             e.printStackTrace();
         }
         driver.findElementByXPath("//*[@id=\"fileUploadDropzone\"]").click();
-        setClipboardData("C:\\Test.docx");
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        TestFileDrop();
             TimeUnit.SECONDS.sleep(2);
         driver.findElementByXPath("//*[@id=\"fileSubmitButton\"]").click();
             TimeUnit.SECONDS.sleep(5);
@@ -666,19 +654,7 @@ public class MorePayments extends WebDriverSettings {
             e.printStackTrace();
         }
         driver.findElementByXPath("//*[@id=\"fileUploadDropzone\"]").click();
-        setClipboardData("C:\\Test.docx");
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        TestFileDrop();
         TimeUnit.SECONDS.sleep(2);
         driver.findElementByXPath("//*[@id=\"fileSubmitButton\"]").click();
         TimeUnit.SECONDS.sleep(5);
@@ -986,19 +962,7 @@ public class MorePayments extends WebDriverSettings {
             e.printStackTrace();
         }
         driver.findElementByXPath("//*[@id=\"fileUploadDropzone\"]").click();
-        setClipboardData("C:\\Test.docx");
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        TestFileDrop();
         TimeUnit.SECONDS.sleep(2);
         driver.findElementByXPath("//*[@id=\"fileSubmitButton\"]").click();
         TimeUnit.SECONDS.sleep(5);
@@ -1305,19 +1269,7 @@ public class MorePayments extends WebDriverSettings {
             e.printStackTrace();
         }
         driver.findElementByXPath("//*[@id=\"fileUploadDropzone\"]").click();
-        setClipboardData("C:\\Test.docx");
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        TestFileDrop();
         TimeUnit.SECONDS.sleep(2);
         driver.findElementByXPath("//*[@id=\"fileSubmitButton\"]").click();
         TimeUnit.SECONDS.sleep(5);
@@ -1624,19 +1576,7 @@ public class MorePayments extends WebDriverSettings {
             e.printStackTrace();
         }
         driver.findElementByXPath("//*[@id=\"fileUploadDropzone\"]").click();
-        setClipboardData("C:\\Test.docx");
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        TestFileDrop();
         TimeUnit.SECONDS.sleep(2);
         driver.findElementByXPath("//*[@id=\"fileSubmitButton\"]").click();
         TimeUnit.SECONDS.sleep(5);
