@@ -66,32 +66,13 @@ public class WebDriverSettings  {
 
 @After
 public void close() {
-new Screenshot();
+
     driver.quit();
 
 
 }
 
-    @Attachment
-    public static byte[] getBytes(String resourceName) throws IOException {
-        return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
-    }
 
-    @Step("Проверка эквивалентности строки {str1} строке {str2}")
-    public static void checkStringEqualsStep(String str1, String str2) throws IOException {
-        Assert.assertTrue("Строки не эквивалентны", str1.equals(str2));
-        getBytes("picture.jpg");
-        getBytes("text.txt");
-    }
-    @Attachment
-    public String performedActions(ActionSequence actionSequence) {
-        return actionSequence.toString();
-    }
-
-    @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveScreenshot(byte[] screenShot) {
-        return screenShot;
-    }
 
    /* @AfterMethod
     public static void   screenshot(ITestResult result) throws Exception {

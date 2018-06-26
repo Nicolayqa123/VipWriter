@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class RegisteredStep3 extends WebDriverSettings {
+public class RegisteredStep3Test extends WebDriverSettings {
 
     Random r = new Random();
     int x = r.nextInt(20) + 1;

@@ -2,7 +2,6 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
-import io.qameta.allure.Attachment;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -26,8 +25,6 @@ public class LoginTest extends WebDriverSettings {
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
             assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-            String darkSouls = "Dark souls 3";
-            checkStringEqualsStep(darkSouls, darkSouls);
         }
 
         public void UnLoginNoValid() throws InterruptedException {
