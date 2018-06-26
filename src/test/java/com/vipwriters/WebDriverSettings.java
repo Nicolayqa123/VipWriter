@@ -2,16 +2,14 @@ package com.vipwriters;
 
 import com.PageWriter.Lending;
 import com.Screenshot;
-import io.qameta.allure.Attachment;
+
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.ITestResult;
-import org.testng.TestListenerAdapter;
-import org.testng.annotations.AfterMethod;
+
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
@@ -65,7 +63,7 @@ public void close() {
 
 
 
-    
+
    /* @AfterMethod
     public static void   screenshot(ITestResult result) throws Exception {
         if (!result.isSuccess()) {
