@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class SaveFiles extends WebDriverSettings {
+public class SaveFilesTest extends WebDriverSettings {
 
 
     @Test
