@@ -16,7 +16,7 @@ public class LoginTest extends WebDriverSettings {
     @Listeners({CustomTestListener.class})
     public abstract class TestBase {
         // You code here
-
+    }
 
         @Test
         public void Loginuser() throws Exception {
@@ -68,4 +68,3 @@ public class LoginTest extends WebDriverSettings {
         }
 
     }
-}
