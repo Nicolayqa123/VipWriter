@@ -69,6 +69,16 @@ public void close() {
 
 
 
+    @Attachment
+    public String performedActions(ActionSequence actionSequence) {
+        return actionSequence.toString();
+    }
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+    public byte[] saveScreenshot(byte[] screenShot) {
+        return screenShot;
+    }
+
    /* @AfterMethod
     public static void   screenshot(ITestResult result) throws Exception {
         if (!result.isSuccess()) {
@@ -91,15 +101,7 @@ public void close() {
     }*/
 
 
-    @Attachment
-    public String performedActions(ActionSequence actionSequence) {
-        return actionSequence.toString();
-    }
 
-    @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveScreenshot(byte[] screenShot) {
-        return screenShot;
-    }
 
 
 
