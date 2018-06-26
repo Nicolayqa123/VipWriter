@@ -2,6 +2,7 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
+import io.qameta.allure.Attachment;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

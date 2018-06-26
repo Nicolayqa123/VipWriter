@@ -3,8 +3,12 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import com.Screenshot;
 
+import io.qameta.allure.Attachment;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.slf4j.Logger;
@@ -58,8 +62,9 @@ public class WebDriverSettings  {
 public void close() {
 
     driver.quit();
-}
 
+
+}
 
 
 
@@ -86,7 +91,15 @@ public void close() {
     }*/
 
 
+    @Attachment
+    public String performedActions(ActionSequence actionSequence) {
+        return actionSequence.toString();
+    }
 
+    @Attachment(value = "Page screenshot", type = "image/png")
+    public byte[] saveScreenshot(byte[] screenShot) {
+        return screenShot;
+    }
 
 
 
