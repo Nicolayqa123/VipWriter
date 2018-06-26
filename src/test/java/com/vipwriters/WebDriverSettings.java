@@ -65,10 +65,7 @@ public void close() {
 
 
 
-    @Attachment(value = "Page screenshot", type = "image/png")
-    protected byte[] saveAllureScreenshot() {
-        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-    }
+    
    /* @AfterMethod
     public static void   screenshot(ITestResult result) throws Exception {
         if (!result.isSuccess()) {
