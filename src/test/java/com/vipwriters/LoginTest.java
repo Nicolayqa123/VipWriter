@@ -26,7 +26,8 @@ public class LoginTest extends WebDriverSettings {
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
             assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-
+            String darkSouls = "Dark souls 3";
+            checkStringEqualsStep(darkSouls, darkSouls);
         }
 
         public void UnLoginNoValid() throws InterruptedException {

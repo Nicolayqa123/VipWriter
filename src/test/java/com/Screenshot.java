@@ -1,22 +1,24 @@
 package com;
 
 
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 
 import java.io.File;
 
 public class Screenshot {
 
-public static void takeScreenshot(WebDriver driver, String fileName) throws Exception{
+public static void takeScreenshot(WebDriver driver, String fileName) throws Exception {
 
     fileName = fileName + ".png";
     String directory = "C:\\Programms\\PNG\\" + fileName;
-    File sourceFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-   // FileUtils.copyFile(sourceFile, new File(directory + fileName));
-
+    File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+    // FileUtils.copyFile(sourceFile, new File(directory + fileName));
 }
+
 
 
   /*  public  void   close() throws Exception {

@@ -4,7 +4,9 @@ import com.PageWriter.Lending;
 import com.Screenshot;
 
 import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.rules.TestWatcher;
@@ -18,6 +20,10 @@ import org.slf4j.LoggerFactory;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -60,15 +66,23 @@ public class WebDriverSettings  {
 
 @After
 public void close() {
-
+new Screenshot();
     driver.quit();
 
 
 }
 
+    @Attachment
+    public static byte[] getBytes(String resourceName) throws IOException {
+        return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
+    }
 
-
-
+    @Step("Проверка эквивалентности строки {str1} строке {str2}")
+    public static void checkStringEqualsStep(String str1, String str2) throws IOException {
+        Assert.assertTrue("Строки не эквивалентны", str1.equals(str2));
+        getBytes("picture.jpg");
+        getBytes("text.txt");
+    }
     @Attachment
     public String performedActions(ActionSequence actionSequence) {
         return actionSequence.toString();
