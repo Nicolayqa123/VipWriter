@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class LoginClientTest extends WebDriverSettings {
+public class LoginClient extends WebDriverSettings {
 
     @Test
     public void Login1() throws InterruptedException {

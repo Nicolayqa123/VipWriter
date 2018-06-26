@@ -7,7 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import static org.junit.Assert.assertEquals;
 
-public class FilterTest extends WebDriverSettings {
+public class Filter extends WebDriverSettings {
     @Test
     public void Filter1 () throws Exception {
         LoginPap();
