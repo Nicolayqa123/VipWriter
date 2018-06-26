@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 
 public class LoginTest extends WebDriverSettings {
 
-    
+
 
         @Test
         public void Loginuser() throws Exception {
