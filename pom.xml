@@ -126,24 +126,9 @@
             <version>2.6.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-java-adaptor-api</artifactId>
-            <version>1.5.4</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-java-adaptor-api</artifactId>
-            <version>1.5.4</version>
-            <scope>test</scope>
-        </dependency>
+
+
+        
 
     </dependencies>
 
