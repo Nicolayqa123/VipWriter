@@ -1,7 +1,6 @@
 package com.Pro_Papers.CurrentOrders;
 
-import com.vipwriters.WebDriverSettings;
-import io.qameta.allure.Attachment;
+import com.vipwriters.WebDriverSettings;;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,7 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import static org.junit.Assert.assertEquals;
 
 public class FilterTest extends WebDriverSettings {
-    @Attachment
+
     @Test
     public void Filter1 () throws Exception {
         LoginPap();
