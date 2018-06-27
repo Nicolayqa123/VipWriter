@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
-Test set: com.Pro_Papers.CurrentOrders.DetailedOrderViewTest
+Test set: com.Pro_Papers.CurrentOrders.PayToOrderTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 64.124 sec <<< FAILURE!
-DetaileOrder(com.Pro_Papers.CurrentOrders.DetailedOrderViewTest)  Time elapsed: 63.594 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 58.785 sec <<< FAILURE!
+orderPay(com.Pro_Papers.CurrentOrders.PayToOrderTest)  Time elapsed: 58.782 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: Unable to locate element: .table > tbody:nth-child(2) > tr:nth-child(48) > td:nth-child(1) > a:nth-child(1)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-6L7S93F', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12556, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: d29eadfc-e83e-42d0-8bda-e200b3889b7b
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5668, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d6eac7e3-007b-43c7-a0df-769c0cc58c20
 *** Element info: {Using=css selector, value=.table > tbody:nth-child(2) > tr:nth-child(48) > td:nth-child(1) > a:nth-child(1)}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -25,7 +25,7 @@ Session ID: d29eadfc-e83e-42d0-8bda-e200b3889b7b
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:411)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.Pro_Papers.CurrentOrders.DetailedOrderViewTest.DetaileOrder(DetailedOrderViewTest.java:16)
+	at com.Pro_Papers.CurrentOrders.PayToOrderTest.orderPay(PayToOrderTest.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

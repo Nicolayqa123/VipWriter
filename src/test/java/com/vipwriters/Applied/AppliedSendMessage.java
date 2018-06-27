@@ -1,181 +1,85 @@
 package com.vipwriters.Applied;
 
+import com.PageWriter.AppliedOrders;
+import com.PageWriter.DetailedOrder;
 import com.vipwriters.WebDriverSettings;
+
+import org.assertj.core.api.Fail;
+import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.util.NoSuchElementException;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
 public class AppliedSendMessage extends WebDriverSettings {
+    @Test
+    public void sendMessage() throws Exception {
 
-    public void sendMessage() {
+        WritersLogin();
+        TimeUnit.SECONDS.sleep(4);
+        AppliedOrders.appliedOrders(driver).click();
+        AppliedOrders.order10354(driver).click();
+        DetailedOrder.openMessageForm(driver).click();
+        DetailedOrder.messageRecipientClient(driver).click();
+        DetailedOrder.message(driver).sendKeys("Test Client");
+        DetailedOrder.sendMessageForm(driver).click();
+        assertEquals("Message successfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
-        driver.get("https://writer.urgentpapers.org");
-        WebElement login = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"));
-        WebElement username = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input"));
-        WebElement password = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input"));
-        WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[4]/input"));
-        try {
-            TimeUnit.SECONDS.sleep(6);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        login.click();
-        username.sendKeys(mail);
-        password.sendKeys(pass);
-        loginButton.click();
-        try {
-            TimeUnit.SECONDS.sleep(12);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        WebElement available = driver.findElement(By.xpath("/html/body/div[2]/div/div/ul/li[3]/a"));
-        WebElement order = driver.findElement(By.xpath("//*[@id=\"availableOrders\"]/tbody/tr[1]/td[1]/a"));
-        available.click();
-        order.click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("//*[@id=\"send-new-button\"]/span").click();
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/div[1]/select").click();
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/div[1]/select/option[2]").click();
-        driver.findElementByXPath("//*[@id=\"textarea-expand\"]").sendKeys("test1test2test3");
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/button[2]").click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
-    public void sendMessageMin() {
+    @Test
+    public void sendMessageMin() throws Exception {
 
-        driver.get("https://writer.urgentpapers.org");
-        WebElement login = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"));
-        WebElement username = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input"));
-        WebElement password = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input"));
-        WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[4]/input"));
-        try {
-            TimeUnit.SECONDS.sleep(6);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        login.click();
-        username.sendKeys(mail);
-        password.sendKeys(pass);
-        loginButton.click();
-        try {
-            TimeUnit.SECONDS.sleep(12);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        WebElement available = driver.findElement(By.xpath("/html/body/div[2]/div/div/ul/li[3]/a"));
-        WebElement order = driver.findElement(By.xpath("//*[@id=\"availableOrders\"]/tbody/tr[1]/td[1]/a"));
-        available.click();
-        order.click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("//*[@id=\"send-new-button\"]/span").click();
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/div[1]/select").click();
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/div[1]/select/option[2]").click();
-        driver.findElementByXPath("//*[@id=\"textarea-expand\"]").sendKeys("t");
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/button[2]").click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        WritersLogin();
+        TimeUnit.SECONDS.sleep(4);
+        AppliedOrders.appliedOrders(driver).click();
+        AppliedOrders.order10354(driver).click();
+        DetailedOrder.openMessageForm(driver).click();
+        DetailedOrder.messageRecipientClient(driver).click();
+        DetailedOrder.message(driver).sendKeys("Test");
+        DetailedOrder.sendMessageForm(driver).click();
+        assertEquals("Message successfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
+
     }
 
-    public void sendMessageMax() {
+    @Test
+    public void sendMessageMax() throws Exception {
 
-        driver.get("https://writer.urgentpapers.org");
-        WebElement login = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"));
-        WebElement username = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input"));
-        WebElement password = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input"));
-        WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[4]/input"));
-        try {
-            TimeUnit.SECONDS.sleep(6);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        login.click();
-        username.sendKeys(mail);
-        password.sendKeys(pass);
-        loginButton.click();
-        try {
-            TimeUnit.SECONDS.sleep(12);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        WebElement available = driver.findElement(By.xpath("/html/body/div[2]/div/div/ul/li[3]/a"));
-        WebElement order = driver.findElement(By.xpath("//*[@id=\"availableOrders\"]/tbody/tr[1]/td[1]/a"));
-        available.click();
-        order.click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("//*[@id=\"send-new-button\"]/span").click();
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/div[1]/select").click();
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/div[1]/select/option[2]").click();
-        driver.findElementByXPath("//*[@id=\"textarea-expand\"]").sendKeys("test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3" +
-                "test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3" +
-                "test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3" +
-                "test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3test1test2test3");
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/button[2]").click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        WritersLogin();
+        TimeUnit.SECONDS.sleep(4);
+        AppliedOrders.appliedOrders(driver).click();
+        AppliedOrders.order10354(driver).click();
+        DetailedOrder.openMessageForm(driver).click();
+        DetailedOrder.messageRecipientClient(driver).click();
+        DetailedOrder.message(driver).sendKeys("Test ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest Client");
+        DetailedOrder.sendMessageForm(driver).click();
+        assertEquals("Message successfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
+
     }
 
-    public void SendMessageToClientEmptyField() {
+    @Test
+    public void SendMessageToClientEmptyField() throws Exception {
 
-        driver.get("https://writer.urgentpapers.org");
-        WebElement login = driver.findElement(By.xpath("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"));
-        WebElement username = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input"));
-        WebElement password = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input"));
-        WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[4]/input"));
-        try {
-            TimeUnit.SECONDS.sleep(6);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        login.click();
-        username.sendKeys(mail);
-        password.sendKeys(pass);
-        loginButton.click();
-        try {
-            TimeUnit.SECONDS.sleep(12);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        WebElement available = driver.findElement(By.xpath("/html/body/div[2]/div/div/ul/li[1]/a"));
-        WebElement order = driver.findElement(By.xpath("//*[@id=\"availableOrders\"]/tbody/tr[1]/td[1]/a"));
-        available.click();
-        order.click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("//*[@id=\"send-new-button\"]/span").click();
-        driver.findElementByXPath("//*[@id=\"newMessageForm\"]/button[2]").click();
-        assertEquals("Please select a recipient", driver.findElement(By.xpath("//*[@id=\"newMessageForm\"]/div[1]/span")).getText());
-        assertEquals("Please enter a message", driver.findElement(By.xpath("//*[@id=\"newMessageForm\"]/div[2]/p")).getText());
-
+        WritersLogin();
+        TimeUnit.SECONDS.sleep(4);
+        AppliedOrders.appliedOrders(driver).click();
+        AppliedOrders.order10354(driver).click();
+        DetailedOrder.openMessageForm(driver).click();
+        DetailedOrder.messageRecipientClient(driver).click();
+        DetailedOrder.message(driver).sendKeys("");
+        DetailedOrder.sendMessageForm(driver).click();
+        
     }
 }
+  //  Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).equals(true));
+
+
+
 
 
 

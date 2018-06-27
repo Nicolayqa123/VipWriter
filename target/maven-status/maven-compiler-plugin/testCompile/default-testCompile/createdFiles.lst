@@ -2,6 +2,7 @@ com\vipwriters\RegisteredFormJustRequiredField.class
 com\Pro_Papers\ContactUS.class
 com\Pro_Papers\UnpaidOrders\AddChangeDiscount.class
 Regression\asdsadasd.class
+com\Pro_Papers\CurrentOrders\FilterTest.class
 com\Pro_Papers\CurrentOrders\SaveFiles.class
 com\vipwriters\Payments\PaymentsPageSwitching.class
 com\vipwriters\Affiliate\AffiliateStatistics.class
@@ -28,14 +29,12 @@ com\PageWriter\AppliedOrders.class
 com\support\Verification.class
 com\vipwriters\Applied\AppliedSendMessage.class
 com\PageWriter\MyOrders.class
-com\Pro_Papers\CurrentOrders\SendMessageInOrder.class
 com\Pro_Papers\UnpaidOrders\SaveFiles.class
 com\support\MorePayments.class
 com\vipwriters\Applied\Search.class
 com\vipwriters\available\AvailableSendMessageInOrder.class
 com\Pro_Papers\PreviousOrders\PayToOrder.class
 com\support\CheckStepsOfSupport.class
-com\vipwriters\available\AvailableSaveFilesTest.class
 com\vipwriters\WebDriverSettingsChrome.class
 com\vipwriters\Applied\AppliedFilter.class
 com\PageWriter\AvailablePage.class
@@ -45,13 +44,10 @@ com\PageWriter\Transactions.class
 com\vipwriters\available\AvailableShowOnlyOrdersWithinMyProficiency.class
 com\vipwriters\MyOrders\MyOrdersSaveFiles.class
 com\vipwriters\WebDriverSettingsIE.class
-com\Pro_Papers\CurrentOrders\Filter.class
 com\vipwriters\WebDriverSettings.class
 com\vipwriters\PageTERMSOFUSE.class
-com\Pro_Papers\CurrentOrders\DetailedOrderViewTest.class
 com\support\AssignAndNoAssignWriter.class
 com\Pro_Papers\ForgotPassword.class
-com\Pro_Papers\CurrentOrders\PayToOrder.class
 com\vipwriters\Applied\AppliedPageSwitching.class
 com\Pro_Papers\Registered.class
 com\vipwriters\available\AvailableFilter.class
@@ -59,6 +55,7 @@ com\vipwriters\MyOrders\MyOrderShowEntries.class
 com\Pro_Papers\RegisteredStep2.class
 com\vipwriters\Applied\AppliedShowEntries.class
 com\vipwriters\Payments\PaymentsShowEntries.class
+com\Pro_Papers\CurrentOrders\SendMessageInOrderTest.class
 com\Pro_Papers\PreviousOrders\Filter.class
 com\vipwriters\MyOrders\MyOrderDetailedOrderView.class
 Regression\LogIn.class
@@ -68,6 +65,7 @@ com\vipwriters\Applied\AppliedDetailedOrderView.class
 com\vipwriters\MyOrders\MyOrderFilter.class
 com\PageWriter\DetailedOrder.class
 com\vipwriters\MyOrders\MyOrderPageSwitching.class
+com\Pro_Papers\CurrentOrders\PayToOrderTest.class
 com\PageWriter\MailUs.class
 com\vipwriters\available\AvailableDownloadFiles.class
 com\vipwriters\Trainee.class

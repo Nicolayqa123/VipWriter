@@ -10,15 +10,19 @@ public class AppliedOrders {
 
 
     public static WebElement filterOrderId(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/thead/tr/th[1]/p"));
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/thead/tr/th[1]/p"));
         return element;
     }
     public static WebElement filterPrice(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/thead/tr/th[2]/p"));
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/thead/tr/th[2]/p"));
         return element;
     }
     public static WebElement appliedOrders(WebDriver driver){
         element = driver.findElement(By.id("writers-applied-orders-amount"));
+        return element;
+    }
+    public static WebElement order10354(WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr/td[1]/a"));
         return element;
     }
 }

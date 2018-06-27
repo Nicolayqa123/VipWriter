@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.concurrent.TimeUnit;
 
-public class PayToOrder extends WebDriverSettings {
+public class PayToOrderTest extends WebDriverSettings {
 @Test
     public void orderPay () throws Exception {
         LoginPap();
