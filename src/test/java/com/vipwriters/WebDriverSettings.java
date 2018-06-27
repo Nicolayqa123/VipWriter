@@ -3,22 +3,27 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import com.Screenshot;
 
-
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
-
+import org.junit.Rule;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
 
-
-
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
