@@ -20,19 +20,18 @@ public class EditingProfile extends WebDriverSettings {
             e.printStackTrace();
         }
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[2]/td[2]/input").clear();
-        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[2]/td[2]/input").sendKeys("NicolayQA1");
+        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[2]/td[2]/input").sendKeys("NicolayQAtest");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[3]/td[2]/input").clear();
-        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[3]/td[2]/input").sendKeys("Nicolas1");
+        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[3]/td[2]/input").sendKeys("NicolasTest");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[4]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[4]/td[2]/input").sendKeys("kallyan2@ya.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[5]/td[2]/div/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[5]/td[2]/div/input").sendKeys("79124566455");
-        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[6]/td[2]/pp-country-input/input").clear();
-        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[6]/td[2]/pp-country-input/input").sendKeys("Russia");
+        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[6]/td[2]/select/option[170]").click();
         driver.findElementByXPath("//*[@id=\"timezone\"]").click();
         driver.findElementByXPath("//*[@id=\"timezone\"]/option[69]").click();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
-        assertEquals("Saved", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[12]/td[2]")).getText());
+        assertEquals("Saved", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button")).getText());
 
         try {
             TimeUnit.SECONDS.sleep(4);

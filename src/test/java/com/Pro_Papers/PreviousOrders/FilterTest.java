@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import static org.junit.Assert.assertEquals;
 
-public class Filter extends WebDriverSettings {
+public class FilterTest extends WebDriverSettings {
     @Test
     public void Filter1 () throws Exception {
         LoginPap();
@@ -16,7 +16,7 @@ public class Filter extends WebDriverSettings {
         jse.executeScript("scroll(0, -350);");
         String order1 = driver.findElementByCssSelector(".table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1)").getText();
         jse.executeScript("scroll(0, 500);");
-        String order2 = driver.findElementByCssSelector(".table > tbody:nth-child(2) > tr:nth-child(26) > td:nth-child(1) > a:nth-child(1)").getText();
+        String order2 = driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/table/tbody/tr[29]/td[1]/a").getText();
 
         driver.findElementByCssSelector("th.case").click();
         assertEquals(order2, driver.findElementByCssSelector(".table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1)").getText());
