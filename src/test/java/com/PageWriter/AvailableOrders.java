@@ -18,7 +18,7 @@ public class AvailableOrders {
         return element;
     }
     public static WebElement order10004(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[29]/td[1]/a"));
+        element = driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > div.writers-available-orders-table > table > tbody > tr:nth-child(29) > td:nth-child(1) > a"));
         return element;
     }
     public static WebElement filterorderId(WebDriver driver){
@@ -33,6 +33,21 @@ public class AvailableOrders {
         element = driver.findElement(By.id("writers-available-orders-amount"));
         return element;
     }
-
+    public static WebElement showEntries10(WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[1]/select/option[2]"));
+        return element;
+    }
+    public static WebElement showEntries25(WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[1]/select/option[3]"));
+        return element;
+    }
+    public static WebElement page2(WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[3]/ul/li[3]"));
+        return element;
+    }
+    public static WebElement page3(WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[3]/ul/li[4]"));
+        return element;
+    }
 
 }
