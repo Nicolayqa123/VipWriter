@@ -8,8 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class EditingProfile extends WebDriverSettings {
-    @Test
+public class EditingProfileTest extends WebDriverSettings {
+
     public void EditProfile() throws Exception {
 
         LoginPap();
@@ -54,7 +54,7 @@ public class EditingProfile extends WebDriverSettings {
         assertEquals("Saved", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[12]/td[2]")).getText());
     }
 
-    @Test
+
     public void EditProfileEmtyField() throws Exception {
 
         LoginPap();
@@ -102,7 +102,7 @@ public class EditingProfile extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("123456");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
-        assertEquals("Saved", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[12]/td[2]")).getText());
+
     }
     @Test
     public void AlternativeMailAndPhoneMin () throws Exception {
@@ -118,7 +118,7 @@ public class EditingProfile extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("1");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
-        assertEquals("Saved", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[12]/td[2]")).getText());
+
     }
     @Test
     public void AlternativeMailAndPhoneMax () throws Exception {
@@ -134,6 +134,6 @@ public class EditingProfile extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("123456789123456789123456789123456789123456789123456789");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
-        assertEquals("Saved", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[12]/td[2]")).getText());
+        assertEquals("Please enter valid alt. phone", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/span/text()")).getText());
     }
 }

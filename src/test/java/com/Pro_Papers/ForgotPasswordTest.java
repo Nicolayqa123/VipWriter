@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class ForgotPassword extends WebDriverSettings {
+public class ForgotPasswordTest extends WebDriverSettings {
     @Test
     public void forgotPassword1(){
         driver.get("https://commentality.com");

@@ -1,5 +1,6 @@
 package com.Pro_Papers.CurrentOrders;
 
+import com.PageClient.DetailedOrder;
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -27,7 +28,7 @@ public class SaveFilesTest extends WebDriverSettings {
         driver.findElement(currentOrdersOrder10292).click();
         jse.executeScript("scroll(0, 350);");
         TimeUnit.SECONDS.sleep(7);
-        driver.findElement(addNewFile).click();
+        DetailedOrder.addNewFile(driver).click();
         setClipboardData("C:\\Test.docx");
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_CONTROL);
