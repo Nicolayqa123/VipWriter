@@ -23,7 +23,7 @@ public class SaveFilesTest extends WebDriverSettings {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, -350);");
         driver.findElement(order10272).click();
-        jse.executeScript("scroll(0, 350);");
+        jse.executeScript("scroll(0, 950);");
         TimeUnit.SECONDS.sleep(7);
         driver.findElement(addNewFile).click();
         TestFileDrop();

@@ -3,6 +3,7 @@ package com.Pro_Papers.Profile;
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.concurrent.TimeUnit;
 
@@ -101,6 +102,8 @@ public class EditingProfileTest extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("asdf@asd.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("123456");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 550);");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
 
     }
@@ -117,6 +120,8 @@ public class EditingProfileTest extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("a@a.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("1");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 550);");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
 
     }
@@ -133,6 +138,8 @@ public class EditingProfileTest extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("asdfsdfasdfsdafdsfsdfsdfasdfsafsdafsddsafasdfasdf@sadfsadfasdfasdfsdsafasdfsadfsdfsada.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("123456789123456789123456789123456789123456789123456789");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 550);");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
         assertEquals("Please enter valid alt. phone", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/span/text()")).getText());
     }

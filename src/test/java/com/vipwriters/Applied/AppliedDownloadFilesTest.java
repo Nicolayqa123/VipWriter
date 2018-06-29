@@ -17,5 +17,6 @@ public class AppliedDownloadFilesTest extends WebDriverSettings {
         AppliedOrders.appliedOrders(driver).click();
         AppliedOrders.order10354(driver).click();
         DetailedOrder.downloadFile(driver).click();
+        TimeUnit.SECONDS.sleep(2);
     }
 }

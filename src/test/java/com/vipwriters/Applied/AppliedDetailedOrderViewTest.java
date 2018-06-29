@@ -17,6 +17,7 @@ public class AppliedDetailedOrderViewTest extends WebDriverSettings {
             TimeUnit.SECONDS.sleep(8);
         AppliedOrders.appliedOrders(driver).click();
         AppliedOrders.order10354(driver).click();
+        TimeUnit.SECONDS.sleep(2);
         assertEquals("Writer applied", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/h2/span")).getText());
 
     }
