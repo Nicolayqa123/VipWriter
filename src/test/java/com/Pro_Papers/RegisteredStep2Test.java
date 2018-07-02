@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class RegisteredStep2 extends WebDriverSettings {
+public class RegisteredStep2Test extends WebDriverSettings {
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
     int v = r.nextInt(300) + 1;

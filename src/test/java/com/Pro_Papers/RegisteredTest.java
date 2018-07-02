@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class Registered extends WebDriverSettings {
+public class RegisteredTest extends WebDriverSettings {
 
     Random r = new Random();
     int x = r.nextInt(10000) + 1;
