@@ -24,7 +24,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.manage().window().maximize();
         driver.get("https://client.urgentpapers.org");
 
-
+        TimeUnit.SECONDS.sleep(6);
         driver.findElement(orderNow).click();
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -43,11 +43,11 @@ public class RegisteredTest extends WebDriverSettings {
     }
 
     @Test
-    public void RegisteredMin(){
+    public void RegisteredMin() throws InterruptedException {
         driver.manage().window().maximize();
         driver.get("https://client.urgentpapers.org");
 
-
+        TimeUnit.SECONDS.sleep(6);
         driver.findElement(orderNow).click();
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -64,11 +64,11 @@ public class RegisteredTest extends WebDriverSettings {
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
     }
     @Test
-    public void RegisteredMax(){
+    public void RegisteredMax() throws InterruptedException {
         driver.manage().window().maximize();
         driver.get("https://client.urgentpapers.org");
 
-
+        TimeUnit.SECONDS.sleep(6);
         driver.findElement(orderNow).click();
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
