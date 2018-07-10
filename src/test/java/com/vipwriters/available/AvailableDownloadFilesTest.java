@@ -11,7 +11,7 @@ public class AvailableDownloadFilesTest extends WebDriverSettings {
 @Test
     public void download () throws Exception {
         WritersLogin();
-        TimeUnit.SECONDS.sleep(12);
+        TimeUnit.SECONDS.sleep(4);
     AvailableOrders.order10004(driver).click();
     DetailedOrder.downloadFile(driver).click();
 

@@ -17,7 +17,7 @@ public class MyOrdersDownloadFilesTest extends WebDriverSettings {
         MyOrders.Order10015(driver).click();
         TimeUnit.SECONDS.sleep(2);
         DetailedOrder.downloadFile(driver).click();
-        TimeUnit.SECONDS.sleep(2);
+
 
     }
 }

@@ -22,7 +22,7 @@ public class AvailableOrders {
         return element;
     }
     public static WebElement filterorderId(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/thead/tr/th[1]/p"));
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/thead/tr/th[1]"));
         return element;
     }
     public static WebElement filterprice(WebDriver driver){

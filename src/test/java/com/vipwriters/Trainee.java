@@ -21,6 +21,7 @@ public class Trainee extends WebDriverSettings {
 
     @Test
     public void Te4st () throws Exception{
+
         driver.get("https://writer.urgentpapers.org");
         TimeUnit.SECONDS.sleep(5);
         signUp.click();

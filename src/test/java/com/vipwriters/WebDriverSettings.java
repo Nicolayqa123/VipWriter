@@ -106,7 +106,7 @@ public void close() {
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);
         Lending.loginButton(driver).click();
-        TimeUnit.SECONDS.sleep(6);
+        TimeUnit.SECONDS.sleep(10);
     }
     public void TestFileDrop() throws Exception {
         setClipboardData("C:\\Test.docx");

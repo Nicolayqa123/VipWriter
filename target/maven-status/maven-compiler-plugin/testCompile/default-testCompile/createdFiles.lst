@@ -17,7 +17,6 @@ com\vipwriters\Applied\AppliedSendMessageTest.class
 com\vipwriters\available\AvailableShowOnlyOrdersWithinMyProficiencyTest.class
 com\Pro_Papers\Profile\EditingProfileTest.class
 com\vipwriters\OnlineForm.class
-com\vipwriters\Payments\PaymentsFilter.class
 com\PageWriter\ConfirmationNeeded.class
 com\Pro_Papers\PreviousOrders\PayToOrderTest.class
 com\vipwriters\PageTutorials.class
@@ -50,7 +49,6 @@ com\vipwriters\Applied\AppliedFilterTest.class
 com\Pro_Papers\Profile\ChangesPasswordTest.class
 com\vipwriters\MyOrders\MyOrdersUploadFileTest.class
 com\vipwriters\available\AvailableSendMessageInOrderTest.class
-com\vipwriters\Payments\PaymentsShowEntries.class
 com\Pro_Papers\CurrentOrders\SendMessageInOrderTest.class
 Regression\LogIn.class
 com\vipwriters\available\AvailableSearchTest.class

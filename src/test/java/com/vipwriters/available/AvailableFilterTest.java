@@ -17,7 +17,7 @@ public class AvailableFilterTest extends WebDriverSettings {
     public void Filter () throws Exception{
 
         WritersLogin();
-        TimeUnit.SECONDS.sleep(8);
+        TimeUnit.SECONDS.sleep(6);
         AvailableOrders.filterorderId(driver).click();
         AvailableOrders.filterorderId(driver).click();
         assertEquals("10004", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[1]/a")).getText());
