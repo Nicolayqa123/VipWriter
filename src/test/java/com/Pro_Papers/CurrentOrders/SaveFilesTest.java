@@ -29,15 +29,8 @@ public class SaveFilesTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 950);");
         TimeUnit.SECONDS.sleep(7);
         DetailedOrder.addNewFile(driver).click();
-        setClipboardData("C:\\Test.docx");
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
         TimeUnit.SECONDS.sleep(2);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        TestFileDrop();
         TimeUnit.SECONDS.sleep(2);
         jse.executeScript("scroll(0, 1050);");
         driver.findElement(aNFUpload).click();
