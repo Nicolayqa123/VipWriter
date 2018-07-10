@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class PaymentsReason extends WebDriverSettings {
+public class PaymentsReasonTest extends WebDriverSettings {
     @Test
     public void reaso () throws Exception {
         WritersLogin();
@@ -20,7 +20,7 @@ public class PaymentsReason extends WebDriverSettings {
         assertEquals("Earn", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]")).getText());
 
         Transactions.reasonCancell(driver).click();
-        assertEquals("Cancell", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
+        assertEquals("Cancell", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]")).getText());
 
 
 

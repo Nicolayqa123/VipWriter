@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class ContactForm extends WebDriverSettings {
+public class ContactFormTest extends WebDriverSettings {
 
     @Test
     public void ContactForm1 () throws InterruptedException  {
