@@ -18,6 +18,7 @@ public class ChangesPasswordTest extends WebDriverSettings {
         driver.findElement(profileChPCurrentPassword).sendKeys("nicolay");
         driver.findElement(profileChPNewPassword).sendKeys("nicolay1");
         driver.findElement(profileChPRepeatNewPassword).sendKeys("nicolay1");
+        TimeUnit.SECONDS.sleep(4);
         driver.findElement(profileChPButton).click();
 
         TimeUnit.SECONDS.sleep(4);
@@ -27,6 +28,7 @@ public class ChangesPasswordTest extends WebDriverSettings {
         driver.findElement(profileChPCurrentPassword).sendKeys("nicolay1");
         driver.findElement(profileChPNewPassword).sendKeys("nicolay");
         driver.findElement(profileChPRepeatNewPassword).sendKeys("nicolay");
+        TimeUnit.SECONDS.sleep(4);
         driver.findElement(profileChPButton).click();
 
         TimeUnit.SECONDS.sleep(4);
@@ -36,6 +38,7 @@ public class ChangesPasswordTest extends WebDriverSettings {
         driver.findElement(profileChPCurrentPassword).sendKeys("nicolay1");
         driver.findElement(profileChPNewPassword).sendKeys("1");
         driver.findElement(profileChPRepeatNewPassword).sendKeys("1");
+        TimeUnit.SECONDS.sleep(4);
         driver.findElement(profileChPButton).click();
             TimeUnit.SECONDS.sleep(4);
         assertEquals("SomethingWrong", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/form/div/div[4]/p/label")).getText());

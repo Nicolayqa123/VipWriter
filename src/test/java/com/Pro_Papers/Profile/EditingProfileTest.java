@@ -93,11 +93,7 @@ public class EditingProfileTest extends WebDriverSettings {
     public void AlternativeMailAndPhone () throws Exception {
         LoginPap();
         driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[2]/li[1]/a").click();
-        try {
             TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("asdf@asd.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
@@ -111,11 +107,7 @@ public class EditingProfileTest extends WebDriverSettings {
     public void AlternativeMailAndPhoneMin () throws Exception {
         LoginPap();
         driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[2]/li[1]/a").click();
-        try {
             TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("a@a.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
@@ -129,18 +121,16 @@ public class EditingProfileTest extends WebDriverSettings {
     public void AlternativeMailAndPhoneMax () throws Exception {
         LoginPap();
         driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[2]/li[1]/a").click();
-        try {
             TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("asdfsdfasdfsdafdsfsdfsdfasdfsafsdafsddsafasdfasdf@sadfsadfasdfasdfsdsafasdfsadfsdfsada.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("123456789123456789123456789123456789123456789123456789");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 550);");
+        TimeUnit.SECONDS.sleep(2);
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
+        TimeUnit.SECONDS.sleep(2);
         assertEquals("Please enter valid alt. phone", driver.findElement(By.xpath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/span/text()")).getText());
     }
 }

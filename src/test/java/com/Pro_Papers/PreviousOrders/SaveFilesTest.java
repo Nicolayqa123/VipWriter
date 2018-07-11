@@ -29,7 +29,8 @@ public class SaveFilesTest extends WebDriverSettings {
         driver.findElement(addNewFile).click();
         TimeUnit.SECONDS.sleep(2);
         TestFileDrop();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(10);
         driver.findElement(aNFUpload).click();
+        TimeUnit.SECONDS.sleep(10);
     }
 }
