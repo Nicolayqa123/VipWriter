@@ -5,6 +5,8 @@ import com.Screenshot;
 
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
+
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -20,6 +22,7 @@ import org.slf4j.LoggerFactory;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.File;
 import java.io.IOException;
 
 import java.nio.file.Files;
@@ -65,8 +68,8 @@ public class WebDriverSettings  {
     }
 
 @After
-public void close() {
-
+public void close() throws Exception {
+    Screen();
     driver.quit();
 
 
@@ -95,9 +98,14 @@ public void close() {
         }
     }*/
 
+    Random r = new Random();
+    int x = r.nextInt(90000) + 1;
 
-
-
+    public void Screen() throws Exception {
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+// Now you can do whatever you need to do with it, for example copy somewhere
+        FileUtils.copyFile(scrFile, new File("C:\\Programms\\PNG\\screenshot"+ x +".png"));
+    }
 
 
     public void WritersLogin() throws Exception {

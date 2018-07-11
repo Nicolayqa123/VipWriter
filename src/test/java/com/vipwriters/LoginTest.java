@@ -2,11 +2,15 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
+import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
@@ -25,6 +29,9 @@ public class LoginTest extends WebDriverSettings {
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
             assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
+
+
+
         }
 
         public void UnLoginNoValid() throws InterruptedException {

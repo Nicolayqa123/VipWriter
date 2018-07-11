@@ -11,7 +11,7 @@ import java.io.File;
 
 public class Screenshot {
 
-public static void takeScreenshot(WebDriver driver, String fileName) throws Exception {
+public static void TakeScreenshot(WebDriver driver, String fileName) throws Exception {
 
     fileName = fileName + ".png";
     String directory = "C:\\Programms\\PNG\\" + fileName;
