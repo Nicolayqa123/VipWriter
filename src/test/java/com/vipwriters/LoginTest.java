@@ -2,8 +2,12 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
+import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -17,7 +21,18 @@ import static org.junit.Assert.assertEquals;
 
 public class LoginTest extends WebDriverSettings {
 
+    @Rule
+    public TestWatcher screenshotOnFailure = new TestWatcher() {
+        @Override
+        protected void failed(Throwable e, Description description) {
+            makeScreenshotOnFailure();
+        }
 
+        @Attachment("Screenshot on failure")
+        public byte[] makeScreenshotOnFailure() {
+            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        }
+    };
 
         @Test
         public void Loginuser() throws Exception {

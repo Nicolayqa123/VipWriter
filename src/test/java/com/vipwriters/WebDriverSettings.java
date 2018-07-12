@@ -67,11 +67,24 @@ public class WebDriverSettings  {
         driver.manage().window().maximize();
     }
 
+    @Rule
+    public TestWatcher screenshotOnFailure = new TestWatcher() {
+        @Override
+        protected void failed(Throwable e, Description description) {
+            makeScreenshotOnFailure();
+        }
+
+        @Attachment("Screenshot on failure")
+        public byte[] makeScreenshotOnFailure() {
+            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        }
+    };
+
 @After
+
 public void close() throws Exception {
-   // saveAllureScreenshot();
-   // Screen();
-    getBytes(x+ "picture.jpg");
+
+
     driver.quit();
 
 
@@ -100,6 +113,12 @@ public void close() throws Exception {
         }
     }*/
 
+
+
+
+
+
+
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
 
@@ -118,6 +137,9 @@ public void close() throws Exception {
     public static byte[] getBytes(String resourceName) throws IOException {
         return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
     }
+
+
+
 
     public void WritersLogin() throws Exception {
         driver.get("https://writer.urgentpapers.org/");
