@@ -21,7 +21,7 @@ import static org.junit.Assert.assertEquals;
 
 public class LoginTest extends WebDriverSettings {
 
-    @Rule
+   /* @Rule
     public TestWatcher screenshotOnFailure = new TestWatcher() {
         @Override
         protected void failed(Throwable e, Description description) {
@@ -33,7 +33,7 @@ public class LoginTest extends WebDriverSettings {
             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         }
     };
-
+*/
         @Test
         public void Loginuser() throws Exception {
 
@@ -44,7 +44,6 @@ public class LoginTest extends WebDriverSettings {
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
             assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
-
 
 
         }
@@ -85,4 +84,5 @@ public class LoginTest extends WebDriverSettings {
 
         }
 
-    }
+
+}

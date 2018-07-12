@@ -52,23 +52,39 @@ public class WebDriverSettings  {
     public String mail = "gennadii2@test.com";
     public String pass = "123456";
 
-    @Before
-    public void setup() {
 
-        System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-        driver = new FirefoxDriver();
-        System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-        //  driver = new ChromeDriver();
-        System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-        // driver = new InternetExplorerDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-    }
+
+
+    /*@Rule
+    public TestWatcher screenshotOnFailure = new TestWatcher() {
+
+    };
+*/
+
 
     @Rule
-    public TestWatcher screenshotOnFailure = new TestWatcher() {
+    public TestWatcher watcher = new TestWatcher() {
+
+        @Override
+        protected void starting(Description description) {
+            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
+            driver = new FirefoxDriver();
+            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
+            //  driver = new ChromeDriver();
+            System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
+            // driver = new InternetExplorerDriver();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+            driver.manage().window().maximize();
+
+        }
+
+        @Override
+        protected void finished(Description description) {
+            driver.quit();
+        }
+
         @Override
         protected void failed(Throwable e, Description description) {
             makeScreenshotOnFailure();
@@ -78,17 +94,37 @@ public class WebDriverSettings  {
         public byte[] makeScreenshotOnFailure() {
             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         }
+
     };
 
-@After
-
-public void close() throws Exception {
 
 
-    driver.quit();
+/*
+
+        @Before
+        public void setup() {
+
+            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
+            driver = new FirefoxDriver();
+            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
+            //  driver = new ChromeDriver();
+            System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
+            // driver = new InternetExplorerDriver();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+            driver.manage().window().maximize();
+        }
+
+        @After
+        public void close() throws Exception {
+            driver.quit();
+        }
+
+*/
 
 
-}
+
 
 
 

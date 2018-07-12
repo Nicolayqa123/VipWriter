@@ -1,5 +1,6 @@
 package com.vipwriters;
 
+import com.PageWriter.Lending;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,21 +11,14 @@ import static org.junit.Assert.assertEquals;
 
 public class ForgotPassword extends WebDriverSettings {
 
-    @Test
+
     public void forgotpassword() throws Exception{
 
-        driver.get("https://client.urgentpapers.org/");
+        driver.get("https://writer.urgentpapers.org");
 
+        Lending.loginButton(driver).click();
 
-
-        driver.findElement(loginClient).click();
-        driver.findElement(resetPasswordClient).click();
-        TimeUnit.SECONDS.sleep(3);
-        driver.findElement(resetPasswordCMail).sendKeys("Test@test.com");
-        driver.findElement(resetPasswordCSend).click();
-            TimeUnit.SECONDS.sleep(3);
-        assertEquals("The password reset link was sent to you via email. Please navigate it to change your password.\n" +
-                "If the email does not arrive, please contact support administrator.", driver.findElement(By.cssSelector("#loginForm > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)")).getText());
+        assertEquals("", driver.findElement(By.cssSelector("#loginForm > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)")).getText());
     }
 
 
