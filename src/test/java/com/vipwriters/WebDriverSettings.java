@@ -70,6 +70,7 @@ public class WebDriverSettings  {
 @After
 public void close() throws Exception {
     saveAllureScreenshot();
+    Screen();
     driver.quit();
 
 
@@ -104,7 +105,7 @@ public void close() throws Exception {
     public void Screen() throws Exception {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 // Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("C:\\Programms\\PNG\\"+ scrFile.getName() +".png"));
+        FileUtils.copyFile(scrFile, new File("target\\surefire"+ scrFile.getName() +".png"));
     }
 
     @Attachment(value = "Page screenshot", type = "image/png")
