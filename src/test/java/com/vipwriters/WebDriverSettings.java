@@ -69,8 +69,9 @@ public class WebDriverSettings  {
 
 @After
 public void close() throws Exception {
-    saveAllureScreenshot();
-    Screen();
+   // saveAllureScreenshot();
+   // Screen();
+    getBytes(x+ "picture.jpg");
     driver.quit();
 
 
@@ -113,6 +114,10 @@ public void close() throws Exception {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
+    @Attachment
+    public static byte[] getBytes(String resourceName) throws IOException {
+        return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
+    }
 
     public void WritersLogin() throws Exception {
         driver.get("https://writer.urgentpapers.org/");
