@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.Pro_Papers.CurrentOrders.FilterTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.789 sec <<< FAILURE!
-Filter1(com.Pro_Papers.CurrentOrders.FilterTest)  Time elapsed: 43.503 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.18 sec <<< FAILURE!
+Filter1(com.Pro_Papers.CurrentOrders.FilterTest)  Time elapsed: 55.863 sec  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<102[90]> but was:<102[73]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)

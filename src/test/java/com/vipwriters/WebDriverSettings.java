@@ -69,7 +69,7 @@ public class WebDriverSettings  {
 
 @After
 public void close() throws Exception {
-    Screen();
+    saveAllureScreenshot();
     driver.quit();
 
 
@@ -104,7 +104,12 @@ public void close() throws Exception {
     public void Screen() throws Exception {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 // Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("C:\\Programms\\PNG\\screenshot"+ x +".png"));
+        FileUtils.copyFile(scrFile, new File("C:\\Programms\\PNG\\"+ scrFile.getName() +".png"));
+    }
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+    protected byte[] saveAllureScreenshot() {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
 

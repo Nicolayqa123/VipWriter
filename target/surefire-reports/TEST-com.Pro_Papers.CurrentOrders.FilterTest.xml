@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.Pro_Papers.CurrentOrders.FilterTest" time="43.503" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="com.Pro_Papers.CurrentOrders.FilterTest" time="55.863" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Program Files (x86)\Maven\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.Pro_Papers.CurrentOrders.FilterTest" name="Filter1" time="43.503">
+  <testcase classname="com.Pro_Papers.CurrentOrders.FilterTest" name="Filter1" time="55.863">
     <failure message="expected:&lt;102[90]&gt; but was:&lt;102[73]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;102[90]&gt; but was:&lt;102[73]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
@@ -101,21 +101,22 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-err>1530529748843	geckodriver	INFO	geckodriver 0.20.0
-1530529748873	geckodriver	INFO	Listening on 127.0.0.1:19450
-1530529750151	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.00OgTORTSkkj&quot;
-1530529756479	Marionette	INFO	Listening on port 54965
-1530529756535	Marionette	WARN	TLS certificate errors will be ignored for this session
-Jul 02, 2018 2:09:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err>1531320160815	geckodriver	INFO	geckodriver 0.20.0
+1531320160855	geckodriver	INFO	Listening on 127.0.0.1:16096
+1531320163078	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\dmytr\\AppData\\Local\\Temp\\rust_mozprofile.GdgijACezSm2&quot;
+1531320171303	Marionette	INFO	Listening on port 51796
+1531320171331	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 11, 2018 5:42:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[Parent 1500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
-[Child 348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5236, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chrom[Child 8520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-
+[GPU 4288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/sr
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1530529787461	geckodriver::marionette	ERROR	Failed to stop browser process
+1531320210491	geckodriver::marionette	ERROR	Failed to stop browser process
 </system-err>
   </testcase>
 </testsuite>

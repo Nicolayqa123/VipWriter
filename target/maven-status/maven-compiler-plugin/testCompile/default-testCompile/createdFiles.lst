@@ -6,7 +6,6 @@ Regression\asdsadasd.class
 com\Pro_Papers\CurrentOrders\FilterTest.class
 com\Pro_Papers\RegisteredTest.class
 com\vipwriters\MailUSFormTest.class
-com\vipwriters\Payments\PaymentsPageSwitching.class
 com\vipwriters\Affiliate\AffiliateStatistics.class
 com\Pro_Papers\ContactUSTest.class
 com\vipwriters\available\AvailableDownloadFilesTest.class
@@ -70,7 +69,6 @@ com\Pro_Papers\UnpaidOrders\SendMessageInOrder.class
 com\vipwriters\ForgotPassword.class
 com\vipwriters\MyOrders\MyOrdersDownloadFilesTest.class
 com\PageWriter\SignUp.class
-com\vipwriters\ContactForm.class
 Regression\Available.class
 com\vipwriters\PageFactore.class
 com\Screenshot.class
