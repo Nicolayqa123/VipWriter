@@ -3,6 +3,8 @@ package com.vipwriters;
 import com.PageWriter.Lending;
 import com.Screenshot;
 
+import com.SeleniumRunner;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 
@@ -11,8 +13,10 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
+import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.slf4j.Logger;
@@ -22,6 +26,7 @@ import org.slf4j.LoggerFactory;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.beans.Statement;
 import java.io.File;
 import java.io.IOException;
 
@@ -32,6 +37,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
+@RunWith(SeleniumRunner.class)
 public class WebDriverSettings  {
 
 
@@ -82,6 +88,7 @@ public class WebDriverSettings  {
 
         @Override
         protected void finished(Description description) {
+            makeScreenshotOnFailure();
             driver.quit();
         }
 
@@ -96,6 +103,13 @@ public class WebDriverSettings  {
         }
 
     };
+
+
+
+
+
+
+
 
 
 
@@ -184,6 +198,7 @@ public class WebDriverSettings  {
         Lending.password(driver).sendKeys(pass);
         Lending.loginButton(driver).click();
         TimeUnit.SECONDS.sleep(10);
+
     }
     public void TestFileDrop() throws Exception {
         setClipboardData("C:\\Test.docx");

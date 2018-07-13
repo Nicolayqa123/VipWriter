@@ -34,6 +34,7 @@ public class LoginTest extends WebDriverSettings {
         }
     };
 */
+
         @Test
         public void Loginuser() throws Exception {
 
@@ -43,7 +44,7 @@ public class LoginTest extends WebDriverSettings {
             Lending.password(driver).sendKeys(pass);
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
-            assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
+            assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
 
 
         }

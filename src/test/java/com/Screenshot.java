@@ -2,6 +2,7 @@ package com;
 
 
 
+import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +21,12 @@ public static void TakeScreenshot(WebDriver driver, String fileName) throws Exce
 }
 
 
+  /*  @Attachment("Screenshot on failure")
+    public byte[] makeScreenshotOnFailure() {
+
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
+*/
 
   /*  public  void   close() throws Exception {
 
