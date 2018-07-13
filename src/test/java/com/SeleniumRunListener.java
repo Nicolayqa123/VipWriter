@@ -67,7 +67,8 @@ public class SeleniumRunListener extends RunListener {
     public void testFailure(Failure failure) throws Exception {
         System.out.println("Test failed with: "
                 + failure.getException());
-        saveAllureScreenshot();
+
+makeScreenshotOnFailure();
 
         driver.quit();
     }
@@ -81,6 +82,8 @@ public class SeleniumRunListener extends RunListener {
     @Override
     public void testAssumptionFailure(Failure failure) {
         System.out.println("Test assumes: " + failure.getException());
+        makeScreenshotOnFailure();
+
     }
 
     /**
@@ -101,10 +104,8 @@ public class SeleniumRunListener extends RunListener {
 
 
 
-
-
-    @Attachment(value = "Page screenshot", type = "image/png")
-    protected byte[] saveAllureScreenshot() {
+    @Attachment("Screenshot on failure")
+    public byte[] makeScreenshotOnFailure() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 

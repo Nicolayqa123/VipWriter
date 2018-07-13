@@ -132,6 +132,10 @@ public class WebDriverSettings  {
 
         @After
         public void close() throws Exception {
+            File screenshot = ((TakesScreenshot) driver).
+                    getScreenshotAs(OutputType.FILE);
+            String path = "./target/surefire-reports/" + screenshot.getName();
+            FileUtils.copyFile(screenshot, new File(path));
             driver.quit();
         }
 
