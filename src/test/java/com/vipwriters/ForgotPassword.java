@@ -11,14 +11,18 @@ import static org.junit.Assert.assertEquals;
 
 public class ForgotPassword extends WebDriverSettings {
 
-
+@Test
     public void forgotpassword() throws Exception{
 
         driver.get("https://writer.urgentpapers.org");
-
+    TimeUnit.SECONDS.sleep(3);
         Lending.loginButton(driver).click();
+        Lending.forgotPassword(driver).click();
+        Lending.forgotPasswordMail(driver).sendKeys(mail);
+        Lending.forgotPasswordSend(driver).click();
 
-        assertEquals("", driver.findElement(By.cssSelector("#loginForm > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)")).getText());
+        assertEquals("The password reset link was sent to you via email. Please navigate it to change your password.\n" +
+                "If the email does not arrive, please contact support administrator.", driver.findElement(By.cssSelector("#loginForm > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)")).getText());
     }
 
 

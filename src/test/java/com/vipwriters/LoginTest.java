@@ -2,12 +2,14 @@ package com.vipwriters;
 
 
 import com.PageWriter.Lending;
+import com.SeleniumRunner;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,7 +20,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
-
+@RunWith(SeleniumRunner.class)
 public class LoginTest extends WebDriverSettings {
 
    /* @Rule

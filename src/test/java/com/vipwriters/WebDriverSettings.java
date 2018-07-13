@@ -68,7 +68,7 @@ public class WebDriverSettings  {
 */
 
 
-    @Rule
+   /* @Rule
     public TestWatcher watcher = new TestWatcher() {
 
         @Override
@@ -103,6 +103,7 @@ public class WebDriverSettings  {
         }
 
     };
+*/
 
 
 
@@ -113,7 +114,6 @@ public class WebDriverSettings  {
 
 
 
-/*
 
         @Before
         public void setup() {
@@ -135,7 +135,7 @@ public class WebDriverSettings  {
             driver.quit();
         }
 
-*/
+
 
 
 

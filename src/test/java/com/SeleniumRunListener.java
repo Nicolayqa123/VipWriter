@@ -1,6 +1,7 @@
 package com;
 
 import io.qameta.allure.Attachment;
+import org.apache.commons.io.FileUtils;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.Description;
 import org.junit.runner.Result;
@@ -8,8 +9,12 @@ import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunListener;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Augmenter;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class SeleniumRunListener extends RunListener {
@@ -29,7 +34,6 @@ public class SeleniumRunListener extends RunListener {
         System.out.println("Run count: " + result.getRunCount());
         System.out.println("Failure count: " + result.getFailureCount());
         System.out.println("Ignored count: " + result.getIgnoreCount());
-        makeScreenshotOnFailure();
         driver.quit();
     }
 
@@ -40,16 +44,6 @@ public class SeleniumRunListener extends RunListener {
      */
     @Override
     public void testStarted(Description description) throws Exception {
-        System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-        driver = new FirefoxDriver();
-        System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-        //  driver = new ChromeDriver();
-        System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-        // driver = new InternetExplorerDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
         System.out.println("Test starts: " + description);
     }
 
@@ -73,7 +67,9 @@ public class SeleniumRunListener extends RunListener {
     public void testFailure(Failure failure) throws Exception {
         System.out.println("Test failed with: "
                 + failure.getException());
-        makeScreenshotOnFailure();
+        saveAllureScreenshot();
+
+        driver.quit();
     }
 
     /**
@@ -97,6 +93,7 @@ public class SeleniumRunListener extends RunListener {
     public void testIgnored(Description description) throws Exception {
         System.out.println("Test ignored: " + description);
         System.out.println("--------------------------------------");
+
     }
     public FirefoxDriver driver;
 
@@ -104,13 +101,12 @@ public class SeleniumRunListener extends RunListener {
 
 
 
-    @Attachment("Screenshot on failure")
-    public byte[] makeScreenshotOnFailure() {
 
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+    protected byte[] saveAllureScreenshot() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
-
-
 
 }
 
