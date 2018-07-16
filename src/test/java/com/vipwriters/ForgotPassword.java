@@ -16,7 +16,7 @@ public class ForgotPassword extends WebDriverSettings {
 
         driver.get("https://writer.urgentpapers.org");
     TimeUnit.SECONDS.sleep(3);
-        Lending.loginButton(driver).click();
+        Lending.loginForm(driver).click();
         Lending.forgotPassword(driver).click();
         Lending.forgotPasswordMail(driver).sendKeys(mail);
         Lending.forgotPasswordSend(driver).click();

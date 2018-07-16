@@ -1,5 +1,6 @@
 package com.Pro_Papers;
 
+import com.PageClient.Registered;
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -60,7 +61,9 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNComfPassword).sendKeys(regpass);
         driver.findElement(oNPhone).sendKeys("50124" + x);
         TimeUnit.SECONDS.sleep(5);
-        driver.findElement(oNStep2).click();
+      //  driver.findElementById("endChat").click();
+        Registered.onStep2(driver).click();
+
         TimeUnit.SECONDS.sleep(5);
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
     }
