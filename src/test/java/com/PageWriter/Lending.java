@@ -9,7 +9,7 @@ public class Lending {
     public static WebElement element = null;
 
     public static WebElement loginForm (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/header/div/div[2]/nav/ul/li[10]/a"));
+        element = driver.findElement(By.xpath("/html/body/header/div/div[2]/nav/ul/li[10]/a"));
         return element;
     }
     public static WebElement userName (WebDriver driver){
@@ -21,7 +21,7 @@ public class Lending {
         return element;
     }
     public static WebElement loginButton (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[4]/input"));
+        element = driver.findElement(By.xpath("/html/body/div[1]/div/form/div/div[4]/input"));
         return element;
     }
     public static WebElement forgotPassword (WebDriver driver){

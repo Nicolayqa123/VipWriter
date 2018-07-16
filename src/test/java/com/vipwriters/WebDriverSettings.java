@@ -37,7 +37,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(SeleniumRunner.class)
+
 public class WebDriverSettings  {
 
 
@@ -134,7 +134,7 @@ public class WebDriverSettings  {
         public void close() throws Exception {
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "./target/surefire-reports/" + screenshot.getName();
+            String path = "C:\\Programms\\PNG\\" + screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
             driver.quit();
         }

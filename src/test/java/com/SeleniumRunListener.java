@@ -5,6 +5,7 @@ import org.apache.commons.io.FileUtils;
 import org.junit.AssumptionViolatedException;
 import org.junit.runner.Description;
 import org.junit.runner.Result;
+import org.junit.runner.RunWith;
 import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunListener;
 import org.openqa.selenium.OutputType;
@@ -16,7 +17,7 @@ import org.openqa.selenium.remote.Augmenter;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
+@RunWith(SeleniumRunner.class)
 public class SeleniumRunListener extends RunListener {
     @Override
     public void testRunStarted(Description description) throws Exception {
@@ -34,7 +35,7 @@ public class SeleniumRunListener extends RunListener {
         System.out.println("Run count: " + result.getRunCount());
         System.out.println("Failure count: " + result.getFailureCount());
         System.out.println("Ignored count: " + result.getIgnoreCount());
-        driver.quit();
+
     }
 
     /**

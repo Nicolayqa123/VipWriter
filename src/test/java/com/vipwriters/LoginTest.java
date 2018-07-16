@@ -20,7 +20,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
-@RunWith(SeleniumRunner.class)
+
 public class LoginTest extends WebDriverSettings {
 
    /* @Rule
@@ -46,7 +46,7 @@ public class LoginTest extends WebDriverSettings {
             Lending.password(driver).sendKeys(pass);
             Lending.loginButton(driver).click();
             TimeUnit.SECONDS.sleep(7);
-            assertEquals("Available Orders123", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
+            assertEquals("Available Orders", driver.findElement(By.cssSelector("#root > div > div > div.writers-content > div:nth-child(2) > h2")).getText());
 
 
         }
