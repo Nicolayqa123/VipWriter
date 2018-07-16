@@ -18,6 +18,7 @@ import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -127,14 +128,14 @@ public class WebDriverSettings  {
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
+            driver.manage().window().setSize(new Dimension(1550, 820));
         }
 
         @After
         public void close() throws Exception {
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\PNG\\" + screenshot.getName();
+            String path = "C:\\Programms\\PNG\\" +  screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
             driver.quit();
         }
@@ -435,7 +436,9 @@ public class WebDriverSettings  {
         driver.findElementByXPath("//*[@id=\"details\"]/div[9]/label[2]/select").click();
         driver.findElementByXPath("//*[@id=\"details\"]/div[9]/label[2]/select/option[3]").click();
         driver.findElement(oNSteps2NumberOfRef).sendKeys("2");
+        TimeUnit.SECONDS.sleep(10);
         driver.findElement(oNSteps3).click();
+        TimeUnit.SECONDS.sleep(10);
     }
     public void RegisteredStep3Inquiry() throws Exception {
         Random r = new Random();

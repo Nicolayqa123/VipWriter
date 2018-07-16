@@ -42,7 +42,9 @@ public class RegisteredStep2Test extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"details\"]/div[9]/label[2]/select").click();
         driver.findElementByXPath("//*[@id=\"details\"]/div[9]/label[2]/select/option[3]").click();
         driver.findElement(oNSteps2NumberOfRef).sendKeys("2");
+        TimeUnit.SECONDS.sleep(5);
         driver.findElement(oNSteps3).click();
+        TimeUnit.SECONDS.sleep(5);
         assertEquals("Spacing", driver.findElement(By.xpath("//*[@id=\"price\"]/div[3]/label")).getText());
     }
 

@@ -38,7 +38,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNPhone).sendKeys("50124" + x);
         TimeUnit.SECONDS.sleep(4);
         driver.findElement(oNStep2).click();
-
+        TimeUnit.SECONDS.sleep(5);
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
     }
 
@@ -59,8 +59,9 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNPassword).sendKeys(regpass);
         driver.findElement(oNComfPassword).sendKeys(regpass);
         driver.findElement(oNPhone).sendKeys("50124" + x);
+        TimeUnit.SECONDS.sleep(5);
         driver.findElement(oNStep2).click();
-
+        TimeUnit.SECONDS.sleep(5);
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
     }
     @Test
@@ -80,8 +81,9 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNPassword).sendKeys(regpass);
         driver.findElement(oNComfPassword).sendKeys(regpass);
         driver.findElement(oNPhone).sendKeys("50124" + x);
+        TimeUnit.SECONDS.sleep(5);
         driver.findElement(oNStep2).click();
-
+        TimeUnit.SECONDS.sleep(5);
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
     }
 
