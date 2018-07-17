@@ -123,9 +123,9 @@ public class EditingProfileTest extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[2]/li[1]/a").click();
             TimeUnit.SECONDS.sleep(2);
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").clear();
-        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("asdfsdfasdfsdafdsfsdfsdfasdfsafsdafsddsafasdfasdf@sadfsadfasdfasdfsdsafasdfsadfsdfsada.ru");
+        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[9]/td[2]/input").sendKeys("asdfsdfasdfsdafdsfsdfsdsafasdfsadfsdfsada.ru");
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").clear();
-        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("123456789123456789123456789123456789123456789123456789");
+        driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[10]/td[2]/input").sendKeys("123456789123456789123423456789");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 550);");
         TimeUnit.SECONDS.sleep(2);
