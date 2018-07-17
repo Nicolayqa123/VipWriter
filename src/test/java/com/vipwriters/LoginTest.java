@@ -39,9 +39,9 @@ public class LoginTest extends WebDriverSettings {
 
         @Test
         public void Loginuser() throws Exception {
-
             driver.get("https://writer.urgentpapers.org/");
             Lending.loginForm(driver).click();
+            Lending.userName(driver).click();
             Lending.userName(driver).sendKeys(mail);
             Lending.password(driver).sendKeys(pass);
             Lending.loginButton(driver).click();
