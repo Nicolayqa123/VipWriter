@@ -20,6 +20,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -128,7 +129,7 @@ public class WebDriverSettings  {
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1550, 820));
+            driver.manage().window().setSize(new Dimension(1400, 710));
         }
 
         @After
@@ -447,137 +448,64 @@ public class WebDriverSettings  {
         int y = r.nextInt(20) + 1;
         int z = r.nextInt(20) + 1;
         int a = r.nextInt(20) + 1;
-
+        int s = r.nextInt(9) + 1;
         LoginPap();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        driver.get("https://client.urgentpapers.org/my/new_inquiry");
+
+
+        driver.findElementByXPath("//*[@id=\"details\"]/div[1]/label[2]/select").click();
+        driver.findElementByXPath("//*[@id=\"details\"]/div[1]/label[2]/select/optgroup[1]/option[8]").click();
+        driver.findElementByXPath("//*[@id=\"details\"]/div[3]/label[2]/select").click();
+        driver.findElementByXPath("//*[@id=\"details\"]/div[3]/label[2]/select/optgroup[1]/option[4]").click();
+        for (int i = 1; i <= 3; i++) {
+
+            driver.findElement(oNSteps2Topic).sendKeys("as dfg hjkl");
+            driver.findElement(oNsteps2PaperDetails).sendKeys(x+"");
+            driver.findElement(oNsteps2PaperDetails).sendKeys("  ");
         }
-        driver.get("https://commentality.com/my/new_inquiry");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 350);");
+        driver.findElementByXPath("//*[@id=\"details\"]/div[9]/label[2]/select").click();
+        driver.findElementByXPath("//*[@id=\"details\"]/div[9]/label[2]/select/option[3]").click();
+        driver.findElement(oNSteps2NumberOfRef).sendKeys("2");
+        driver.findElement(oNSteps3).click();
 
-        WebElement typeOfPaper = driver.findElement(By.xpath("//*[@id=\"details\"]/div[1]/label[2]/select"));
-        WebElement adminEssay = driver.findElement(By.xpath("//*[@id=\"details\"]/div[1]/label[2]/select/optgroup[1]/option[1]"));
-        WebElement subject = driver.findElement(By.xpath("//*[@id=\"details\"]/div[3]/label[2]/select"));
-        WebElement arch = driver.findElement(By.xpath("//*[@id=\"details\"]/div[3]/label[2]/select/optgroup[1]/option[1]"));
-        WebElement topic = driver.findElement(By.xpath("//*[@id=\"details\"]/div[5]/textarea"));
-        WebElement paperDetails = driver.findElement(By.xpath("//*[@id=\"details\"]/div[7]/textarea"));
-        WebElement paperFormat = driver.findElement(By.xpath("//*[@id=\"details\"]/div[9]/label[2]/select"));
-        WebElement apa = driver.findElement(By.xpath("//*[@id=\"details\"]/div[9]/label[2]/select/option[1]"));
-        WebElement numbOfRence = driver.findElement(By.xpath("//*[@id=\"inputnumberof\"]"));
-        WebElement addMaterial = driver.findElement(By.xpath("//*[@id=\"details\"]/div[12]/button"));
-        WebElement step3 = driver.findElement(By.xpath("//*[@id=\"details\"]/button"));
-
-
-        typeOfPaper.click();
-        adminEssay.click();
-        subject.click();
-        arch.click();
-        topic.sendKeys("test tesst test");
-        paperDetails.sendKeys("test test test");
-        paperFormat.click();
-        apa.click();
-        numbOfRence.sendKeys("5");
-        step3.click();
-
-        WebElement academicLevel = driver.findElement(By.name("academic_level"));
-        WebElement bachelor = driver.findElement(By.xpath("//*[@id=\"price\"]/div[2]/label[2]/select/option[3]"));
-        WebElement numberOfPages = driver.findElement(By.xpath("//*[@id=\"numberOfPages\"]"));
-        WebElement nOproblems = driver.findElement(By.xpath("//*[@id=\"price\"]/div[5]/input"));
-        WebElement nOslides = driver.findElement(By.xpath("//*[@id=\"price\"]/div[6]/input"));
-        WebElement MCQ = driver.findElement(By.xpath("//*[@id=\"price\"]/div[7]/input"));
-        WebElement deadline = driver.findElement(By.xpath("//*[@id=\"price\"]/div[9]/label[2]/select"));
-        WebElement days7 = driver.findElement(By.xpath("//*[@id=\"price\"]/div[9]/label[2]/select/option[9]"));
-        WebElement termOfUse = driver.findElement(By.xpath("//*[@id=\"price\"]/div[15]/label/input"));
-        WebElement pay = driver.findElement(By.xpath("//*[@id=\"price\"]/button"));
-
-
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        academicLevel.click();
-        bachelor.click();
-        numberOfPages.sendKeys(x+"1");
-        nOproblems.sendKeys(y+"1");
-        nOslides.sendKeys(z+"1");
-        MCQ.sendKeys(a+"1");
-        deadline.click();
-        days7.click();
-        termOfUse.click();
-        pay.click();
+        Select level = new Select(driver.findElement(By.name("academic_level")));
+        level.selectByIndex(2);
+        driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "2");
+        driver.findElement(oNSteps3NumberOfProblem).sendKeys(y+"4");
+        driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "1");
+        driver.findElement(oNSteps3NumberOfSlides).sendKeys(a+"3");
+        Select deadlines = new Select(driver.findElement(By.name("deadline")));
+        deadlines.selectByIndex(s);
+        driver.findElementByCssSelector("#payment-radio-2").click();
+        driver.findElement(oNSteps3IAgree).click();
+        driver.findElement(oNStep3Pay).click();
 
 
 
     }
     public void RegisteredStep3NewOrder()throws Exception{
+
         Random r = new Random();
         int x = r.nextInt(20) + 1;
         int y = r.nextInt(20) + 1;
         int z = r.nextInt(20) + 1;
         int a = r.nextInt(20) + 1;
+        int s = r.nextInt(9) + 1;
 
-        LoginPap();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.get("https://commentality.com/my/new_order");
-
-        WebElement typeOfPaper = driver.findElement(By.xpath("//*[@id=\"details\"]/div[1]/label[2]/select"));
-        WebElement adminEssay = driver.findElement(By.xpath("//*[@id=\"details\"]/div[1]/label[2]/select/optgroup[1]/option[1]"));
-        WebElement subject = driver.findElement(By.xpath("//*[@id=\"details\"]/div[3]/label[2]/select"));
-        WebElement arch = driver.findElement(By.xpath("//*[@id=\"details\"]/div[3]/label[2]/select/optgroup[1]/option[1]"));
-        WebElement topic = driver.findElement(By.xpath("//*[@id=\"details\"]/div[5]/textarea"));
-        WebElement paperDetails = driver.findElement(By.xpath("//*[@id=\"details\"]/div[7]/textarea"));
-        WebElement paperFormat = driver.findElement(By.xpath("//*[@id=\"details\"]/div[9]/label[2]/select"));
-        WebElement apa = driver.findElement(By.xpath("//*[@id=\"details\"]/div[9]/label[2]/select/option[1]"));
-        WebElement numbOfRence = driver.findElement(By.xpath("//*[@id=\"inputnumberof\"]"));
-        WebElement addMaterial = driver.findElement(By.xpath("//*[@id=\"details\"]/div[12]/button"));
-        WebElement step3 = driver.findElement(By.xpath("//*[@id=\"details\"]/button"));
-
-
-        typeOfPaper.click();
-        adminEssay.click();
-        subject.click();
-        arch.click();
-        topic.sendKeys("test tesst test");
-        paperDetails.sendKeys("test test test");
-        paperFormat.click();
-        apa.click();
-        numbOfRence.sendKeys("5");
-        step3.click();
-
-        WebElement academicLevel = driver.findElement(By.name("academic_level"));
-        WebElement bachelor = driver.findElement(By.xpath("//*[@id=\"price\"]/div[2]/label[2]/select/option[3]"));
-        WebElement numberOfPages = driver.findElement(By.xpath("//*[@id=\"numberOfPages\"]"));
-        WebElement nOproblems = driver.findElement(By.xpath("//*[@id=\"price\"]/div[5]/input"));
-        WebElement nOslides = driver.findElement(By.xpath("//*[@id=\"price\"]/div[6]/input"));
-        WebElement MCQ = driver.findElement(By.xpath("//*[@id=\"price\"]/div[7]/input"));
-        WebElement deadline = driver.findElement(By.xpath("//*[@id=\"price\"]/div[9]/label[2]/select"));
-        WebElement days7 = driver.findElement(By.xpath("//*[@id=\"price\"]/div[9]/label[2]/select/option[9]"));
-        WebElement termOfUse = driver.findElement(By.xpath("//*[@id=\"price\"]/div[15]/label/input"));
-        WebElement pay = driver.findElement(By.xpath("//*[@id=\"price\"]/button"));
-
-
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        academicLevel.click();
-        bachelor.click();
-        numberOfPages.sendKeys(x+"");
-        nOproblems.sendKeys(y+"");
-        nOslides.sendKeys(z+"");
-        MCQ.sendKeys(a+"");
-        deadline.click();
-        days7.click();
-        termOfUse.click();
-        pay.click();
-
+        RegisteredStep2();
+        Select level = new Select(driver.findElement(By.name("academic_level")));
+        level.selectByIndex(2);
+        driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "2");
+        driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "4");
+        driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "1");
+        driver.findElement(oNSteps3NumberOfSlides).sendKeys(a + "3");
+        Select deadlines = new Select(driver.findElement(By.name("deadline")));
+        deadlines.selectByIndex(s);
+        driver.findElementByCssSelector("#payment-radio-2").click();
+        driver.findElement(oNSteps3IAgree).click();
+        driver.findElement(oNStep3Pay).click();
 
 
     }

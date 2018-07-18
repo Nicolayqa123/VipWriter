@@ -56,7 +56,7 @@ public class RegisteredStep3Test extends WebDriverSettings {
 
     }
     @Test
-    public void Step3NotPay() throws Exception {
+    public void Step3NewOrder() throws Exception {
 
 
         RegisteredStep2();

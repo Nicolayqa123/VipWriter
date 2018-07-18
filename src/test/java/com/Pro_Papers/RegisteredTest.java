@@ -1,5 +1,6 @@
 package com.Pro_Papers;
 
+import com.PageClient.DetailedOrder;
 import com.PageClient.Registered;
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
@@ -22,10 +23,11 @@ public class RegisteredTest extends WebDriverSettings {
 
     @Test
     public void Registered1() throws InterruptedException {
-        driver.manage().window().maximize();
         driver.get("https://client.urgentpapers.org");
 
         TimeUnit.SECONDS.sleep(6);
+      //  driver.findElementByXPath("//*[@id=\"endChat\"]").click();
+      //  DetailedOrder.endChat(driver).click();
         driver.findElement(orderNow).click();
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -36,7 +38,8 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(onConfirmMail).sendKeys(regmail);
         driver.findElement(oNPassword).sendKeys(regpass);
         driver.findElement(oNComfPassword).sendKeys(regpass);
-        driver.findElement(oNPhone).sendKeys("50124" + x);
+        driver.findElement(oNPhone).sendKeys("501244" + x);
+        jse.executeScript("scroll(0, 550);");
         TimeUnit.SECONDS.sleep(10);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);

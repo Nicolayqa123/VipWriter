@@ -27,7 +27,7 @@ public class AppliedUploadFilesTest extends WebDriverSettings {
     DetailedOrder.drop(driver).click();
     TestFileDrop();
     DetailedOrder.confirm(driver).click();
-    TimeUnit.SECONDS.sleep(2);
+    TimeUnit.SECONDS.sleep(20);
     assertEquals("File successfully upload!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
 
