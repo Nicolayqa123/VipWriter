@@ -129,7 +129,7 @@ public class WebDriverSettings  {
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1400, 710));
+            driver.manage().window().setSize(new Dimension(1500, 810));
         }
 
         @After

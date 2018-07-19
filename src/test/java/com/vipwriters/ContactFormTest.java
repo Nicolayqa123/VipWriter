@@ -1,5 +1,6 @@
 package com.vipwriters;
 
+import com.PageWriter.ContacteUs;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -16,119 +17,76 @@ public class ContactFormTest extends WebDriverSettings {
 
         driver.get("https://writer.urgentpapers.org/contacts");
         TimeUnit.SECONDS.sleep(4);
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("scroll(0, 600);");
-        WebElement subject =  driver.findElement(By.name("subjectOther"));
-        WebElement email =  driver.findElement(By.name("senderEmail"));
-        WebElement name =  driver.findElement(By.name("senderName"));
-        WebElement phone =  driver.findElement(By.name("senderPhone"));
-        WebElement message =  driver.findElement(By.name("messageText"));
-        WebElement send =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[3]/div[2]/div/div/form/div[6]/input"));
-        driver.manage().window().maximize();
-        subject.click();
-        subject.sendKeys("Test1");
-        email.sendKeys("12as23da@gmail.com");
-        name.sendKeys("Nico1");
-        phone.sendKeys("0504578965");
-        message.sendKeys("Testeeeeeeeee");
-        TimeUnit.SECONDS.sleep(3);
 
-        driver.findElement(By.xpath("//*[@id=\"contactUsForm\"]/div[6]/input")).click();
-        send.click();
-        TimeUnit.SECONDS.sleep(4);
-assertEquals("Message sucessfully sent", driver.findElement(By.xpath("/html/body/div/div/div/div[3]/div[2]/div/div/form/div[6]/span")).getText());
+        ContacteUs.subjectOther(driver).sendKeys("Test1");
+        ContacteUs.senderEmail(driver).sendKeys("12as23da@gmail.com");
+        ContacteUs.name(driver).sendKeys("Nico1");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 900);");
+        ContacteUs.phone(driver).sendKeys("0504578965");
+        ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
+        ContacteUs.send(driver).click();
+        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
+
     }
 
     @Test
     public void ContactFormMin () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/contacts");
-        driver.manage().window().maximize();
+        ContacteUs.subjectOther(driver).sendKeys("1");
+        ContacteUs.senderEmail(driver).sendKeys("a@g.com");
+        ContacteUs.name(driver).sendKeys("1");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("scroll(0, 600);");
-        WebElement subject =  driver.findElement(By.name("subjectOther"));
-        WebElement email =  driver.findElement(By.name("senderEmail"));
-        WebElement name =  driver.findElement(By.name("senderName"));
-        WebElement phone =  driver.findElement(By.name("senderPhone"));
-        WebElement message =  driver.findElement(By.name("messageText"));
-        WebElement send =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[3]/div[2]/div/div/form/div[6]/input"));
+        jse.executeScript("scroll(0, 900);");
+        ContacteUs.phone(driver).sendKeys("5");
+        ContacteUs.messageText(driver).sendKeys("e");
+        ContacteUs.send(driver).click();
+        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
 
-        subject.sendKeys("1");
-        email.sendKeys("a@g.com");
-        name.sendKeys("1");
-        phone.sendKeys("5");
-        message.sendKeys("e");
-        TimeUnit.SECONDS.sleep(2);
-        send.click();
-        TimeUnit.SECONDS.sleep(4);
-        assertEquals("Message sucessfully sent", driver.findElement(By.xpath("/html/body/div/div/div/div[3]/div[2]/div/div/form/div[6]/span")).getText());
-    }
+  }
 
     @Test
     public void ContactFormMax () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/contacts");
-        driver.manage().window().maximize();
+        ContacteUs.subjectOther(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
+        ContacteUs.senderEmail(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
+        ContacteUs.name(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("scroll(0, 600);");
-        WebElement subject =  driver.findElement(By.name("subjectOther"));
-        WebElement email =  driver.findElement(By.name("senderEmail"));
-        WebElement name =  driver.findElement(By.name("senderName"));
-        WebElement phone =  driver.findElement(By.name("senderPhone"));
-        WebElement message =  driver.findElement(By.name("messageText"));
-        WebElement send =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[3]/div[2]/div/div/form/div[6]/input"));
+        jse.executeScript("scroll(0, 900);");
+        ContacteUs.phone(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
+        ContacteUs.messageText(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
+        ContacteUs.send(driver).click();
+        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
 
-        subject.sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
-        email.sendKeys("12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890va@g.com");
-        name.sendKeys("112345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
-        phone.sendKeys("51234567890");
-        message.sendKeys("e1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
-        jse.executeScript("scroll(0, 600);");
-        TimeUnit.SECONDS.sleep(2);
-        send.click();
-        TimeUnit.SECONDS.sleep(4);
-        assertEquals("Message sucessfully sent", driver.findElement(By.xpath("/html/body/div/div/div/div[3]/div[2]/div/div/form/div[6]/span")).getText());
-    }
+
+          }
     @Test
     public void ContactFormRequiredField () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/contacts");
-        driver.manage().window().maximize();
+        ContacteUs.subjectOther(driver).sendKeys("Test1");
+        ContacteUs.senderEmail(driver).sendKeys("12as23da@gmail.com");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("scroll(0, 600);");
-        WebElement subject =  driver.findElement(By.name("subjectOther"));
-        WebElement email =  driver.findElement(By.name("senderEmail"));
-        WebElement name =  driver.findElement(By.name("senderName"));
-        WebElement phone =  driver.findElement(By.name("senderPhone"));
-        WebElement message =  driver.findElement(By.name("messageText"));
-        WebElement send =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[3]/div[2]/div/div/form/div[6]/input"));
-
-        subject.sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
-        email.sendKeys("12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890va@g.com");
-      //  name.sendKeys("112345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
-      //  phone.sendKeys("51234567890");
-        message.sendKeys("e1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
-        jse.executeScript("scroll(0, 600);");
-        TimeUnit.SECONDS.sleep(2);
-        send.click();
-        TimeUnit.SECONDS.sleep(4);
-        assertEquals("Message sucessfully sent", driver.findElement(By.xpath("/html/body/div/div/div/div[3]/div[2]/div/div/form/div[6]/span")).getText());
+        jse.executeScript("scroll(0, 900);");
+        ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
+        ContacteUs.send(driver).click();
+        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
     }
     @Test
     public void UnContactFormEmptyFields() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/contacts");
-        driver.manage().window().maximize();
+        ContacteUs.subjectOther(driver).sendKeys("");
+        ContacteUs.senderEmail(driver).sendKeys("");
+        ContacteUs.name(driver).sendKeys("");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("scroll(0, 600);");
-        WebElement subject =  driver.findElement(By.name("subjectOther"));
-        WebElement email =  driver.findElement(By.name("senderEmail"));
-        WebElement name =  driver.findElement(By.name("senderName"));
-        WebElement phone =  driver.findElement(By.name("senderPhone"));
-        WebElement message =  driver.findElement(By.name("messageText"));
-        WebElement send =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[3]/div[2]/div/div/form/div[6]/input"));
-        jse.executeScript("scroll(0, 600);");
-        TimeUnit.SECONDS.sleep(4);
-        send.click();
-        assertEquals("Please specify your subject", driver.findElement(By.cssSelector(".error")).getText());
-        assertEquals("Please specify valid email address", driver.findElement(By.cssSelector("div.form-group:nth-child(2) > label:nth-child(3)")).getText());
-        assertEquals("Please enter a message", driver.findElement(By.cssSelector("#messageText")).getText());
+        jse.executeScript("scroll(0, 900);");
+        ContacteUs.phone(driver).sendKeys("");
+        ContacteUs.messageText(driver).sendKeys("");
+        ContacteUs.send(driver).click();
+
+
+        assertEquals("Please specify your subject", driver.findElement(By.id(".subjectOtherError")).getText());
+        assertEquals("Please specify valid email address", driver.findElement(By.id("senderEmailError")).getText());
+        assertEquals("Please enter a message", driver.findElement(By.id("messageTextError")).getText());
 
     }
     }

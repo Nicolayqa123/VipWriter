@@ -21,7 +21,7 @@ public class FilterTest extends WebDriverSettings {
         driver.findElementByCssSelector("th.case").click();
         //driver.findElementByCssSelector("th.case").click();
        // assertEquals(order1, driver.findElement(By.cssSelector(".table > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1)")).getText());
-        assertTrue(order1.contains("11179"));
+        assertFalse(order1.contains("10273"));
     }
 
 }

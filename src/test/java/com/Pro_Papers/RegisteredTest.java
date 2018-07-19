@@ -62,7 +62,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(onConfirmMail).sendKeys(regmail);
         driver.findElement(oNPassword).sendKeys(regpass);
         driver.findElement(oNComfPassword).sendKeys(regpass);
-        driver.findElement(oNPhone).sendKeys("50124" + x);
+        driver.findElement(oNPhone).sendKeys("501244" + x);
         TimeUnit.SECONDS.sleep(5);
       //  driver.findElementById("endChat").click();
         Registered.onStep2(driver).click();
@@ -86,7 +86,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(onConfirmMail).sendKeys(regmail);
         driver.findElement(oNPassword).sendKeys(regpass);
         driver.findElement(oNComfPassword).sendKeys(regpass);
-        driver.findElement(oNPhone).sendKeys("50124" + x);
+        driver.findElement(oNPhone).sendKeys("501244" + x);
         TimeUnit.SECONDS.sleep(5);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);

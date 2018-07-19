@@ -16,7 +16,7 @@ public class AvailableDetailedOrderViewTest extends WebDriverSettings {
 
         WritersLogin();
         AvailableOrders.order10004(driver).click();
-        assertEquals("Case published", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/h2/span")).getText());
+        assertEquals("Inquiry applied", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/h2/span")).getText());
     }
 }
 

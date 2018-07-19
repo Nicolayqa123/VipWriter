@@ -20,7 +20,7 @@ public class ContacteUs {
         return element;
     }
     public static WebElement phone(WebDriver driver){
-        element = driver.findElement(By.xpath("senderPhone"));
+        element = driver.findElement(By.id("senderPhone"));
         return element;
     }
     public static WebElement messageText(WebDriver driver){
@@ -28,7 +28,7 @@ public class ContacteUs {
         return element;
     }
     public static WebElement send(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"contactUsForm\"]/div[6]/input"));
+        element = driver.findElement(By.id("submit-contact-us-button"));
         return element;
     }
 }

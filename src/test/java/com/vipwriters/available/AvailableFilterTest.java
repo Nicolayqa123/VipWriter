@@ -23,7 +23,7 @@ public class AvailableFilterTest extends WebDriverSettings {
         assertEquals("10004", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[1]/a")).getText());
 
         AvailableOrders.filterprice(driver).click();
-        assertEquals("1057.03", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[2]")).getText());
+        assertEquals("676.50", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[2]")).getText());
     }
 
 }

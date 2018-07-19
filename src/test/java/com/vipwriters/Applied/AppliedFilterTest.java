@@ -21,11 +21,11 @@ public class AppliedFilterTest extends WebDriverSettings {
     AppliedOrders.filterOrderId(driver).click();
     AppliedOrders.filterOrderId(driver).click();
     TimeUnit.SECONDS.sleep(2);
-    assertEquals("10354", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/a")).getText());
+    assertEquals("10475", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/a")).getText());
 
     AppliedOrders.filterPrice(driver).click();
     AppliedOrders.filterPrice(driver).click();
-    assertEquals("224.18", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[2]")).getText());
+    assertEquals("390.24", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[2]")).getText());
     }
 
 
