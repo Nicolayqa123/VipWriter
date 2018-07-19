@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-public class ForgotPassword extends WebDriverSettings {
+public class ForgotPasswordTest extends WebDriverSettings {
 
 @Test
     public void forgotpassword() throws Exception{

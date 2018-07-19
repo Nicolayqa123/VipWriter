@@ -33,7 +33,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys("test@456.ru");
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertEquals("User not found.", driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div/div[2]/div/div/div[3]/p[1]")).getText());
+        assertFalse( driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div/div[2]/div/div/div[3]/p[1]")).getText().contains("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours."));
 
     }
     @Test
