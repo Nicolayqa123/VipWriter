@@ -259,7 +259,7 @@ public class WebDriverSettings  {
                     e.printStackTrace();
                 }
     }
-    public void RegisteredFormJustRequiredField1() {
+    public void RegisteredFormJustRequiredField1() throws InterruptedException {
 
         Random r = new Random();
         int x = r.nextInt(1000) + 1;

@@ -76,5 +76,29 @@ public class SignUp {
         element = driver.findElement(By.xpath("//*[@id=\"signUpWizard\"]/div[2]/div/div/div/ul/li[2]/a"));
         return element;
     }
+    public static WebElement country (WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"select2-j03e-result-78nz-211\"]"));
+        return element;
+    }
+    public static WebElement disciplinesFilm (WebDriver driver){
+        element = driver.findElement(By.id("select2-j8r7-result-aegm-4"));
+        return element;
+    }
+    public static WebElement disciplinesMusic (WebDriver driver){
+        element = driver.findElement(By.id("select2-j8r7-result-th7g-6"));
+        return element;
+    }
+    public static WebElement disciplinesBusiness (WebDriver driver){
+        element = driver.findElement(By.id("select2-j8r7-result-zoa9-13"));
+        return element;
+    }
+    public static WebElement academicDegree (WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"highestVerifiableDegree\"]/option[3]"));
+        return element;
+    }
+    public static WebElement altPhone (WebDriver driver){
+        element = driver.findElement(By.id("alterPhone"));
+        return element;
+    }
 
 }
