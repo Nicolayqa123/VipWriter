@@ -98,7 +98,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         driver.findElementByXPath("/html/body/span/span/span[1]/input").sendKeys("Ukraine");
         driver.findElementByXPath("/html/body/span/span/span[2]").click();
         SignUp.phone(driver).sendKeys("50124" + x);
-        SignUp.altPhone(driver).sendKeys("050454" + x);
+        SignUp.altPhone(driver).sendKeys("50454" + x);
         jse.executeScript("scroll(0, 250);");
         TimeUnit.SECONDS.sleep(2);
         SignUp.next(driver).click();

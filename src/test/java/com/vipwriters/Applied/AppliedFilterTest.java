@@ -25,7 +25,7 @@ public class AppliedFilterTest extends WebDriverSettings {
 
     AppliedOrders.filterPrice(driver).click();
     AppliedOrders.filterPrice(driver).click();
-    assertEquals("390.24", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[2]")).getText());
+    assertEquals("609.75", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[2]")).getText());
     }
 
 

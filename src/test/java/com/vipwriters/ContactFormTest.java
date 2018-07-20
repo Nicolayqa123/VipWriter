@@ -41,6 +41,7 @@ public class ContactFormTest extends WebDriverSettings {
         ContacteUs.phone(driver).sendKeys("5");
         ContacteUs.messageText(driver).sendKeys("e");
         ContacteUs.send(driver).click();
+        TimeUnit.SECONDS.sleep(2);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
 
   }
@@ -49,13 +50,14 @@ public class ContactFormTest extends WebDriverSettings {
     public void ContactFormMax () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/contacts");
         ContacteUs.subjectOther(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
-        ContacteUs.senderEmail(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
+        ContacteUs.senderEmail(driver).sendKeys("12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234@ya.ru");
         ContacteUs.name(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 900);");
         ContacteUs.phone(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
         ContacteUs.messageText(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
         ContacteUs.send(driver).click();
+        TimeUnit.SECONDS.sleep(2);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
 
 
@@ -84,7 +86,7 @@ public class ContactFormTest extends WebDriverSettings {
         ContacteUs.send(driver).click();
 
 
-        assertEquals("Please specify your subject", driver.findElement(By.id(".subjectOtherError")).getText());
+        assertEquals("Please specify your subject", driver.findElement(By.id("subjectOtherError")).getText());
         assertEquals("Please specify valid email address", driver.findElement(By.id("senderEmailError")).getText());
         assertEquals("Please enter a message", driver.findElement(By.id("messageTextError")).getText());
 

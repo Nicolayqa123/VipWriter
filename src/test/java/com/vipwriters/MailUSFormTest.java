@@ -19,6 +19,7 @@ public class MailUSFormTest extends WebDriverSettings {
         MailUs.subjectQuestion(driver).click();
         MailUs.message(driver).sendKeys("test text mail US");
         MailUs.sendMessage(driver).click();
+        TimeUnit.SECONDS.sleep(8);
         assertEquals("Message sucessfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }
@@ -31,6 +32,7 @@ public class MailUSFormTest extends WebDriverSettings {
         MailUs.subjectQuestion(driver).click();
         MailUs.message(driver).sendKeys("t");
         MailUs.sendMessage(driver).click();
+        TimeUnit.SECONDS.sleep(8);
         assertEquals("Form is not valid!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }
@@ -43,6 +45,7 @@ public class MailUSFormTest extends WebDriverSettings {
         MailUs.subjectQuestion(driver).click();
         MailUs.message(driver).sendKeys("test test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeest");
         MailUs.sendMessage(driver).click();
+        TimeUnit.SECONDS.sleep(8);
         assertEquals("Message sucessfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }
@@ -54,6 +57,7 @@ public class MailUSFormTest extends WebDriverSettings {
         MailUs.mailUs(driver).click();
         MailUs.message(driver).sendKeys("trdf hfd ghfyg ");
         MailUs.sendMessage(driver).click();
+        TimeUnit.SECONDS.sleep(8);
         assertEquals("Form is not valid!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }
@@ -67,6 +71,7 @@ public class MailUSFormTest extends WebDriverSettings {
         MailUs.customSubject(driver).sendKeys("asda asd asd");
         MailUs.message(driver).sendKeys("test text mail US");
         MailUs.sendMessage(driver).click();
+        TimeUnit.SECONDS.sleep(8);
         assertEquals("Message sucessfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }

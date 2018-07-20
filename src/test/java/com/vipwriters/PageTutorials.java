@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 public class PageTutorials extends WebDriverSettings {
     @Test
-    public void Tutorial () {
+    public void Tutorial () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/tutorials");
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -39,14 +39,8 @@ public class PageTutorials extends WebDriverSettings {
                 "9.\n" +
                 "Congrats! Now you can apply for your first order!", driver.findElement(By.xpath("//*[@id=\"collapseOne\"]/div")).getText());
         jse.executeScript("scroll(0, 500);");
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
-
-        driver.findElementByXPath("/html/body/div/div[3]/div[2]/div/div/div/div[2]/div[1]/h4/a").click();
+        driver.findElementByXPath("//*[@id=\"headingTwo\"]/h4/a").click();
         assertEquals("1.\n" +
                 "Click the “Available orders” button on your Control panel to see the list of the available orders.\n" +
                 "2.\n" +
@@ -64,13 +58,9 @@ public class PageTutorials extends WebDriverSettings {
                 "8.\n" +
                 "If the paper is sent for revision, you will get an email notification and the status of the order will change to “Revision”\n" +
                 "9.\n" +
-                "When the final paper is delivered to the Client, the salary will be added to your balance.", driver.findElement(By.xpath("/html/body/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div")).getText());
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("/html/body/div/div[3]/div[2]/div/div/div/div[3]/div[1]/h4/a").click();
+                "When the final paper is delivered to the Client, the salary will be added to your balance.", driver.findElement(By.xpath("//*[@id=\"collapseTwo\"]/div")).getText());
+
+        driver.findElementByXPath("//*[@id=\"headingThree\"]/h4/a").click();
         assertEquals("1.\n" +
                 "When your account is registered at VIP-Writers.com, you become a VIP Writer.\n" +
                 "However, we would encourage you to complete the orders of the highest quality and when all requirements are met, you can apply for a promotion:\n" +
@@ -90,12 +80,8 @@ public class PageTutorials extends WebDriverSettings {
                 "No plagiarism;\n" +
                 "5 positive feedbacks from our Clients.\n" +
                 "4.\n" +
-                "Our Managers will review your application and you will receive an official email within the next 10 business days after we receive your application.", driver.findElement(By.xpath("/html/body/div/div[3]/div[2]/div/div/div/div[3]/div[2]/div/ol")).getText());
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+                "Our Managers will review your application and you will receive an official email within the next 10 business days after we receive your application.", driver.findElement(By.xpath("//*[@id=\"collapseThree\"]/div")).getText());
+
 
     }
 }

@@ -31,8 +31,8 @@ public class SaveFilesTest extends WebDriverSettings {
         DetailedOrder.addNewFile(driver).click();
         TimeUnit.SECONDS.sleep(2);
         TestFileDrop();
-        TimeUnit.SECONDS.sleep(2);
-        jse.executeScript("scroll(0, 1150);");
+        TimeUnit.SECONDS.sleep(10);
+        jse.executeScript("scroll(0, 250);");
         driver.findElement(aNFUpload).click();
         TimeUnit.SECONDS.sleep(10);
         assertEquals(" Test.docx", driver.findElement(By.xpath("//*[@id=\"collapseFour\"]/div/div[2]/div/div/div[2]/a/button")).getText());

@@ -80,8 +80,8 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 350);");
-        driver.findElement(oNFirstName).sendKeys("TesttestTesttestTesttestTesttestTesttestTesttestTesttest TesttestTesttestTesttest TesttestTesttest");
-        driver.findElement(oNLastName).sendKeys("tes Testtest Testtest Testtest TesttestTesttestTesttest TesttestTesttest");
+        driver.findElement(oNFirstName).sendKeys("TesttestTesttestTesttestTesttest");
+        driver.findElement(oNLastName).sendKeys("tesTesttestTesttestTesttest");
         driver.findElement(oNMail).sendKeys(regmail);
         driver.findElement(onConfirmMail).sendKeys(regmail);
         driver.findElement(oNPassword).sendKeys(regpass);
