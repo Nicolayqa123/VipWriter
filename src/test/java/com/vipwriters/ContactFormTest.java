@@ -26,6 +26,7 @@ public class ContactFormTest extends WebDriverSettings {
         ContacteUs.phone(driver).sendKeys("0504578965");
         ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
         ContacteUs.send(driver).click();
+        TimeUnit.SECONDS.sleep(4);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
 
     }
@@ -71,6 +72,7 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 900);");
         ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
         ContacteUs.send(driver).click();
+        TimeUnit.SECONDS.sleep(4);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
     }
     @Test

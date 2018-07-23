@@ -20,8 +20,6 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
     public String regpass = "123456";
 
 
-
-
     @Test
     public void RegisteredFormJustRequiredField1() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
@@ -48,7 +46,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(2);
         SignUp.next(driver).click();
 
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(5);
 
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span").click();
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Art");
@@ -73,7 +71,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(7);
         assertEquals("Username", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
 
-        }
+    }
 
     @Test
     public void RegisteredFormAll() throws InterruptedException {
@@ -103,7 +101,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(2);
         SignUp.next(driver).click();
 
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(5);
 
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span").click();
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Art");
@@ -128,6 +126,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(7);
         assertEquals("Username", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
     }
-
-
 }
+
+
+
