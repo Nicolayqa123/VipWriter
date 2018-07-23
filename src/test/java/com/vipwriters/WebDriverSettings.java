@@ -1,6 +1,7 @@
 package com.vipwriters;
 
 import com.PageWriter.Lending;
+import com.PageWriter.SignUp;
 import com.Screenshot;
 
 import com.SeleniumRunner;
@@ -259,7 +260,7 @@ public class WebDriverSettings  {
                     e.printStackTrace();
                 }
     }
-    public void RegisteredFormJustRequiredField1() throws InterruptedException {
+    public void RegisteredWriter() throws InterruptedException {
 
         Random r = new Random();
         int x = r.nextInt(1000) + 1;
@@ -268,144 +269,115 @@ public class WebDriverSettings  {
         String regpass = "Password123";
 
 
-        driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
-        driver.manage().window().maximize();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByCssSelector("div.row-fluid:nth-child(1) > div:nth-child(1) > input:nth-child(2)").sendKeys("Nicoas");
-        driver.findElementByCssSelector("div.col-lg-6:nth-child(2) > input:nth-child(2)").sendKeys("Qa1s");
-        driver.findElementByCssSelector("div.row-fluid:nth-child(2) > div:nth-child(1) > input:nth-child(2)").click();
-        driver.findElementByCssSelector("div.row-fluid:nth-child(2) > div:nth-child(1) > input:nth-child(2)").sendKeys("england");
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[3]/div/span[1]/input").click();
 
+            driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
+
+            SignUp.signUpForm(driver).click();
+            SignUp.firsName(driver).sendKeys("Nicolay");
+            SignUp.lastName(driver).sendKeys("QAtest");
+            SignUp.language(driver).sendKeys("england");
+            SignUp.genderMale(driver).click();
+            JavascriptExecutor jse = (JavascriptExecutor) driver;
+            jse.executeScript("scroll(0, 250);");
+            TimeUnit.SECONDS.sleep(3);
+            SignUp.next(driver).click();
+
+            TimeUnit.SECONDS.sleep(2);
+
+            SignUp.primaryEmail(driver).sendKeys(regmail);
+            SignUp.cityName(driver).sendKeys("Ukraine");
+            driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[2]/div[2]/span").click();
+            driver.findElementByXPath("/html/body/span/span/span[1]/input").sendKeys("Ukraine");
+            driver.findElementByXPath("/html/body/span/span/span[2]").click();
+            SignUp.phone(driver).sendKeys("50124" + x);
+            jse.executeScript("scroll(0, 250);");
+            TimeUnit.SECONDS.sleep(2);
+            SignUp.next(driver).click();
+
+            TimeUnit.SECONDS.sleep(5);
+
+            driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span").click();
+            driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Art");
+            driver.findElementByXPath("/html/body/span/span/span").click();
+            driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Culture");
+            driver.findElementByXPath("/html/body/span/span/span").click();
+            driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Music");
+            driver.findElementByXPath("/html/body/span/span/span").click();
+            SignUp.specialization(driver).sendKeys("Test");
+            SignUp.styles(driver).click();
+            SignUp.academicDegree(driver).click();
+            jse.executeScript("scroll(0, 250);");
+            SignUp.next(driver).click();
+
+            TimeUnit.SECONDS.sleep(2);
+
+            SignUp.newpass(driver).sendKeys(regpass);
+            SignUp.rePassword(driver).sendKeys(regpass);
+            SignUp.iHaveRead(driver).click();
+            jse.executeScript("scroll(0, 250);");
+            SignUp.finish(driver).click();
+            TimeUnit.SECONDS.sleep(7);
+
+
+    }
+    public void RegisteredRefWriter() throws InterruptedException {
+
+        Random r = new Random();
+        int x = r.nextInt(1000) + 1;
+
+        String regmail = x + "test@test.com";
+        String regpass = "Password123";
+
+
+
+        driver.get("https://writer.urgentpapers.org/signUp?writer=10013");
+
+        SignUp.firsName(driver).sendKeys("Nicolay");
+        SignUp.lastName(driver).sendKeys("QAtest");
+        SignUp.language(driver).sendKeys("england");
+        SignUp.genderMale(driver).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 250);");
+        TimeUnit.SECONDS.sleep(3);
+        SignUp.next(driver).click();
 
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByCssSelector("a.btn-red").click();
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByCssSelector("a.btn-red").click();
+        TimeUnit.SECONDS.sleep(2);
 
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        jse.executeScript("window.scrollBy(0,-250)", "");
-
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[1]/div[1]/input").click();
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[1]/div[1]/input").sendKeys(regmail);
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[2]/div[1]/input").sendKeys("Oslo");
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[2]/div[2]/span/input").sendKeys("Ukraine");
-        driver.findElementByXPath("//*[@id=\"primaryPhone\"]").sendKeys("501245478");
+        SignUp.primaryEmail(driver).sendKeys(regmail);
+        SignUp.cityName(driver).sendKeys("Ukraine");
+        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[2]/div[2]/span").click();
+        driver.findElementByXPath("/html/body/span/span/span[1]/input").sendKeys("Ukraine");
+        driver.findElementByXPath("/html/body/span/span/span[2]").click();
+        SignUp.phone(driver).sendKeys("50124" + x);
         jse.executeScript("scroll(0, 250);");
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[4]/div/span/input[1]").click();
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/ul/li[3]/a").click();
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        TimeUnit.SECONDS.sleep(2);
+        SignUp.next(driver).click();
 
-        driver.findElementByXPath("//*[@id=\"s2id_disciplines\"]/ul").click();
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        TimeUnit.SECONDS.sleep(5);
 
-        driver.findElementByXPath("//*[@id=\"select2-drop\"]/ul/li[1]/ul/li[1]").click();
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByXPath("//*[@id=\"s2id_disciplines\"]/ul").click();
-        driver.findElementByXPath("//*[@id=\"select2-drop\"]/ul/li[1]/ul/li[3]").click();
-        //*[@id="select2-drop"]/ul/li[1]/ul/li[1]
+        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span").click();
+        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Art");
+        driver.findElementByXPath("/html/body/span/span/span").click();
+        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Culture");
+        driver.findElementByXPath("/html/body/span/span/span").click();
+        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Music");
+        driver.findElementByXPath("/html/body/span/span/span").click();
+        SignUp.specialization(driver).sendKeys("Test");
+        SignUp.styles(driver).click();
+        SignUp.academicDegree(driver).click();
+        jse.executeScript("scroll(0, 250);");
+        SignUp.next(driver).click();
 
-        //*[@id="select2-result-label-841"]
-        //*[@id="select2-result-label-842"]
-        //*[@id="select2-result-label-843"]
-        driver.findElementByXPath("//*[@id=\"s2id_disciplines\"]/ul").click();
-        driver.findElementByXPath("//*[@id=\"select2-drop\"]/ul/li[1]/ul/li[2]").click();
-        driver.findElementByXPath("//*[@id=\"s2id_disciplines\"]/ul").click();
-        driver.findElementByXPath("//*[@id=\"select2-drop\"]/ul/li[1]/ul/li[4]").click();
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        TimeUnit.SECONDS.sleep(2);
 
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[2]/div/input").sendKeys("Cultura");
+        SignUp.newpass(driver).sendKeys(regpass);
+        SignUp.rePassword(driver).sendKeys(regpass);
+        SignUp.iHaveRead(driver).click();
         jse.executeScript("scroll(0, 350);");
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div[3]/div/div/input[1]").click();
-        driver.findElementByXPath("//*[@id=\"citationStyles\"]/li[1]/input").click();
-        driver.findElementByXPath("//*[@id=\"academicDegree\"]").click();
-        driver.findElementByXPath("//*[@id=\"academicDegree\"]/option[4]").click();
+        SignUp.finish(driver).click();
+        TimeUnit.SECONDS.sleep(7);
 
 
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/ul/li[3]/a").click();
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElementByCssSelector("div.row-fluid:nth-child(1) > div:nth-child(1) > input:nth-child(2)").click();
-        driver.findElementByCssSelector("div.row-fluid:nth-child(1) > div:nth-child(1) > input:nth-child(2)").sendKeys(regmail);
-
-        driver.findElementByName("newpass").click();
-        driver.findElementByName("newpass").sendKeys(regpass);
-        try {
-            TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        driver.findElementByName("rePassword").click();
-        driver.findElementByName("rePassword").sendKeys(regpass);
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div[1]/section/div/div[1]/div[4]/div/input").click();
-
-        driver.findElementByXPath("//*[@id=\"learnedFrom\"]/li[1]/input").click();
-        driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/ul/li[2]/a").click();
-        try {
-            TimeUnit.SECONDS.sleep(4);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        assertEquals("Sign In", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[1]/h3")).getText());
-//*[@id="signinForm"]/div/div[1]/h3
-
-//        selectByVisibleText:Select selectByVisibleText = new Select(driver.findElement(By.id(“id_of_some_element”)));
-//        selectByVisibleText.selectByVisibleText(“some_visible_text”);
     }
     public void LoginPap() throws Exception {
         driver.get("https://client.urgentpapers.org/");
