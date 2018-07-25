@@ -83,6 +83,7 @@ makeScreenshotOnFailure();
     @Override
     public void testAssumptionFailure(Failure failure) {
         System.out.println("Test assumes: " + failure.getException());
+
         makeScreenshotOnFailure();
 
     }
