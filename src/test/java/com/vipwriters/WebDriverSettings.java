@@ -388,6 +388,15 @@ public class WebDriverSettings  {
         driver.findElement(loginClientSubmit).click();
         TimeUnit.SECONDS.sleep(10);
     }
+    public void LoginPapRef() throws Exception {
+        driver.get("https://client.urgentpapers.org/");
+
+        driver.findElement(loginClient).click();
+        driver.findElement(loginClientUserName).sendKeys("asd123asd@ya.ru");
+        driver.findElement(loginClientPassword).sendKeys("123456");
+        driver.findElement(loginClientSubmit).click();
+        TimeUnit.SECONDS.sleep(10);
+    }
     public void RegisteredStep2() throws Exception {
 
         LoginPap();
