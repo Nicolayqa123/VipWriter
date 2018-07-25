@@ -43,22 +43,22 @@ public class SeleniumRunListener extends RunListener {
      * @param description описание теста, который собирается запуститься
      * (обычно имя класса и метода)
      */
-    @Override
+    /*@Override
     public void testStarted(Description description) throws Exception {
         System.out.println("Test starts: " + description);
     }
-
+*/
     /**
      * Вызывается после завершения каждого теста,
      * несмотря на результат выполнения.
      * @param description описание теста, который завершился
      */
-    @Override
+   /* @Override
     public void testFinished(Description description) throws Exception {
         System.out.println("Test finished: " + description);
         System.out.println("--------------------------------------");
     }
-
+*/
     /**
      * Вызывается когда тест завершается неудачей.
      * @param failure описывает тест, который завершился ошибкой
@@ -71,7 +71,7 @@ public class SeleniumRunListener extends RunListener {
 
 makeScreenshotOnFailure();
 
-        driver.quit();
+
     }
 
     /**
@@ -109,6 +109,8 @@ makeScreenshotOnFailure();
     public byte[] makeScreenshotOnFailure() {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
+
+
 
 }
 

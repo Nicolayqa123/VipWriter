@@ -17,10 +17,15 @@ public class MailUSFormTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(8);
         MailUs.mailUs(driver).click();
         MailUs.subjectQuestion(driver).click();
+        for (int i = 1; i <= 5; i++) {
+            MailUs.message(driver).sendKeys("test text mail US");
+            MailUs.message(driver).sendKeys(" ");
+        }
         MailUs.message(driver).sendKeys("test text mail US");
+
         MailUs.sendMessage(driver).click();
         TimeUnit.SECONDS.sleep(8);
-        assertEquals("Message sucessfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
+        assertEquals("Message sucessfully sent!", driver.findElement(By.id("swal2-title")).getText());
 
     }
     @Test
@@ -43,7 +48,10 @@ public class MailUSFormTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(8);
         MailUs.mailUs(driver).click();
         MailUs.subjectQuestion(driver).click();
-        MailUs.message(driver).sendKeys("test test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeesttest test test teeeeeeeest");
+        for (int i = 1; i <= 50; i++) {
+            MailUs.message(driver).sendKeys("test text mail US");
+            MailUs.message(driver).sendKeys(" ");
+        }
         MailUs.sendMessage(driver).click();
         TimeUnit.SECONDS.sleep(8);
         assertEquals("Message sucessfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
@@ -55,7 +63,10 @@ public class MailUSFormTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(8);
         MailUs.mailUs(driver).click();
-        MailUs.message(driver).sendKeys("trdf hfd ghfyg ");
+        for (int i = 1; i <= 5; i++) {
+            MailUs.message(driver).sendKeys("test text mail US");
+            MailUs.message(driver).sendKeys(" ");
+        }
         MailUs.sendMessage(driver).click();
         TimeUnit.SECONDS.sleep(8);
         assertEquals("Form is not valid!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
@@ -68,8 +79,13 @@ public class MailUSFormTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(8);
         MailUs.mailUs(driver).click();
         MailUs.subjectOther(driver).click();
-        MailUs.customSubject(driver).sendKeys("asda asd asd");
-        MailUs.message(driver).sendKeys("test text mail US");
+
+        for (int i = 1; i <= 5; i++) {
+            MailUs.customSubject(driver).sendKeys("asda asd asd");
+            MailUs.customSubject(driver).sendKeys(" ");
+            MailUs.message(driver).sendKeys("test text mail US");
+            MailUs.message(driver).sendKeys(" ");
+        }
         MailUs.sendMessage(driver).click();
         TimeUnit.SECONDS.sleep(8);
         assertEquals("Message sucessfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
