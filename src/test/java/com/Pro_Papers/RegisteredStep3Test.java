@@ -73,7 +73,7 @@ public class RegisteredStep3Test extends WebDriverSettings {
         driver.findElement(oNStep3Pay).click();
     }
     @Test
-    public void Step3OrderWith6hours() throws Exception {
+    public void Step3OrderWith6hoursPay() throws Exception {
 
 
         RegisteredStep2();
@@ -95,11 +95,11 @@ public class RegisteredStep3Test extends WebDriverSettings {
 
         TimeUnit.SECONDS.sleep(15);
         driver.findElementByXPath("//*[@id=\"loginSection\"]/div/div[2]").click();
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(15);
         driver.findElementById("email").sendKeys("paul.shtefan-buyer@gmail.com");
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(15);
         driver.findElementByXPath("//*[@id=\"splitEmail\"]/div[3]").click();
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(15);
         driver.findElementByName("login_password").sendKeys("i2vBBwGuTlfboB9JwspQ");
         driver.findElementByName("btnLogin").click();
         TimeUnit.SECONDS.sleep(15);
