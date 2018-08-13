@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class PageTutorials extends WebDriverSettings {
+public class PageTutorialsTest extends WebDriverSettings {
     @Test
     public void Tutorial () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/tutorials");
