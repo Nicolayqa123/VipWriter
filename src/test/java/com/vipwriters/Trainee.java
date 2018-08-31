@@ -1,5 +1,6 @@
 package com.vipwriters;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebElement;
 
@@ -35,23 +36,19 @@ public class Trainee extends WebDriverSettings {
 
     @Test
     public void asddsa455() throws Exception {
-
-
-
-
-
              driver.get("https://pro-papers.com");
-
-
-
-
-
-
-
     }
 
+    @Test
+    public void LoginPapTest() throws Exception {
+        driver.get("https://client.urgentpapers.org/");
 
-
+        driver.findElement(loginClient).click();
+        driver.findElement(loginClientUserName).sendKeys("nicolaychiuri@gmail.com");
+        driver.findElement(loginClientPassword).sendKeys("nicolay");
+        driver.findElement(loginClientSubmit).click();
+        TimeUnit.SECONDS.sleep(10);
+    }
 
 
 

@@ -25,7 +25,7 @@ public class RegisteredTest extends WebDriverSettings {
     public void Registered1() throws InterruptedException {
         driver.get("https://client.urgentpapers.org");
 
-        TimeUnit.SECONDS.sleep(6);
+        TimeUnit.SECONDS.sleep(2);
       //  driver.findElementByXPath("//*[@id=\"endChat\"]").click();
       //  DetailedOrder.endChat(driver).click();
         driver.findElement(orderNow).click();
@@ -35,12 +35,13 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNFirstName).sendKeys("Testtest");
         driver.findElement(oNLastName).sendKeys("tes");
         driver.findElement(oNMail).sendKeys(regmail);
-        driver.findElement(onConfirmMail).sendKeys(regmail);
+       // driver.findElement(onConfirmMail).sendKeys(regmail);
+        driver.findElementByXPath("//*[@id=\"customer\"]/div[4]/div/input").sendKeys("123456");
         driver.findElement(oNPassword).sendKeys(regpass);
-        driver.findElement(oNComfPassword).sendKeys(regpass);
+        //driver.findElement(oNComfPassword).sendKeys(regpass);
+        driver.findElementByCssSelector("#customer > div.form-group.login-select-phone-code > div > div > input").click();
+        driver.findElementByCssSelector("#customer > div.form-group.login-select-phone-code > div > div > input").sendKeys("654654656546565654");
         driver.findElement(oNPhone).sendKeys("501244" + x);
-        jse.executeScript("scroll(0, 550);");
-        TimeUnit.SECONDS.sleep(10);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());

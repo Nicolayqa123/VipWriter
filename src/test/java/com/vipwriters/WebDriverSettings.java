@@ -120,7 +120,6 @@ public class WebDriverSettings  {
 
         @Before
         public void setup() {
-
             System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
             driver = new FirefoxDriver();
             System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
@@ -138,7 +137,7 @@ public class WebDriverSettings  {
             String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\PNG\\" + screenshot.getName();
+            String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
             FileUtils.copyFile(screenshot, new File(path));
             driver.quit();
         }

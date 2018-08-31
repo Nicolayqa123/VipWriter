@@ -8,6 +8,7 @@ import org.assertj.core.api.Fail;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import java.util.NoSuchElementException;
@@ -56,7 +57,16 @@ public class AppliedSendMessageTest extends WebDriverSettings {
         AppliedOrders.order10354(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
-        DetailedOrder.message(driver).sendKeys("Test ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest ClientTest Client");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 350);");
+        DetailedOrder.message(driver).sendKeys("Dear Writer,\n" +
+                "\n" +
+                "Based on the proposal you have provided me earlier, i would say the first two topics would go.\n" +
+                "But i'm confused here the research topics from 3 to 6 are more concentrating on the purchasing side( which is very good to be precise) , my doubt is if i select those  research topics would the research question change. \n" +
+                "Because I've already submitted the proposal in school and based on that we have to finish the final project where first two topics are more apt.\n" +
+                "I've provided the feedback of the proposal given by my professor.\n" +
+                "Let me know your thoughts.\n" +
+                "Thank you.\n");
         DetailedOrder.sendMessageForm(driver).click();
         assertEquals("Message successfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
