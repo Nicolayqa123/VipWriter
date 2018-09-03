@@ -86,5 +86,14 @@ public class LoginTest extends WebDriverSettings {
 
         }
 
-       
+        @Test
+    public void LoginPaptest1() throws Exception {
+        driver.get("https://client.urgentpapers.org/");
+
+        driver.findElement(loginClient).click();
+        driver.findElement(loginClientUserName).sendKeys("nicolaychiuri@gmail.com");
+        driver.findElement(loginClientPassword).sendKeys("nicolay");
+        driver.findElement(loginClientSubmit).click();
+        TimeUnit.SECONDS.sleep(20);
+    }
 }
