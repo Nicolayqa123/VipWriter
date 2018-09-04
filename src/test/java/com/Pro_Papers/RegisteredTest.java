@@ -26,8 +26,6 @@ public class RegisteredTest extends WebDriverSettings {
         driver.get("https://client.urgentpapers.org");
 
         TimeUnit.SECONDS.sleep(2);
-      //  driver.findElementByXPath("//*[@id=\"endChat\"]").click();
-      //  DetailedOrder.endChat(driver).click();
         driver.findElement(orderNow).click();
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -35,12 +33,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNFirstName).sendKeys("Testtest");
         driver.findElement(oNLastName).sendKeys("tes");
         driver.findElement(oNMail).sendKeys(regmail);
-       // driver.findElement(onConfirmMail).sendKeys(regmail);
         driver.findElementByXPath("//*[@id=\"customer\"]/div[4]/div/input").sendKeys("123456");
-        driver.findElement(oNPassword).sendKeys(regpass);
-        //driver.findElement(oNComfPassword).sendKeys(regpass);
-        driver.findElementByCssSelector("#customer > div.form-group.login-select-phone-code > div > div > input").click();
-        driver.findElementByCssSelector("#customer > div.form-group.login-select-phone-code > div > div > input").sendKeys("654654656546565654");
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
@@ -49,10 +42,9 @@ public class RegisteredTest extends WebDriverSettings {
 
     @Test
     public void RegisteredMin() throws InterruptedException {
-        driver.manage().window().maximize();
         driver.get("https://client.urgentpapers.org");
 
-        TimeUnit.SECONDS.sleep(6);
+        TimeUnit.SECONDS.sleep(2);
         driver.findElement(orderNow).click();
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -60,35 +52,26 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNFirstName).sendKeys("T");
         driver.findElement(oNLastName).sendKeys("t");
         driver.findElement(oNMail).sendKeys(regmail);
-        driver.findElement(onConfirmMail).sendKeys(regmail);
-        driver.findElement(oNPassword).sendKeys(regpass);
-        driver.findElement(oNComfPassword).sendKeys(regpass);
+        driver.findElementByXPath("//*[@id=\"customer\"]/div[4]/div/input").sendKeys("123456");
         driver.findElement(oNPhone).sendKeys("501244" + x);
-        TimeUnit.SECONDS.sleep(5);
-      //  driver.findElementById("endChat").click();
-        Registered.onStep2(driver).click();
-
+        driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
     }
     @Test
     public void RegisteredMax() throws InterruptedException {
-        driver.manage().window().maximize();
         driver.get("https://client.urgentpapers.org");
 
-        TimeUnit.SECONDS.sleep(6);
+        TimeUnit.SECONDS.sleep(2);
         driver.findElement(orderNow).click();
         driver.findElement(oNFirstName).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 350);");
-        driver.findElement(oNFirstName).sendKeys("TesttestTesttestTesttestTesttest");
-        driver.findElement(oNLastName).sendKeys("tesTesttestTesttestTesttest");
+        driver.findElement(oNFirstName).sendKeys("TesttestTesttestTesttestTesttestTesttest");
+        driver.findElement(oNLastName).sendKeys("TesttestTesttestTesttestTesttestTesttest");
         driver.findElement(oNMail).sendKeys(regmail);
-        driver.findElement(onConfirmMail).sendKeys(regmail);
-        driver.findElement(oNPassword).sendKeys(regpass);
-        driver.findElement(oNComfPassword).sendKeys(regpass);
+        driver.findElementByXPath("//*[@id=\"customer\"]/div[4]/div/input").sendKeys("123456");
         driver.findElement(oNPhone).sendKeys("501244" + x);
-        TimeUnit.SECONDS.sleep(5);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
         assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
