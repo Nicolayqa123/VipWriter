@@ -94,7 +94,7 @@
     <session id="-1157364076">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -110,7 +110,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="32" />
           <entry key="surefire15216327041726455477tmp" value="1" />
           <entry key="surefire_02049177606113599082tmp" value="1" />
           <entry key="xml" value="1" />
@@ -118,7 +118,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="32" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -169,6 +169,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/support/MorePayments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/PayToOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1565">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -177,7 +231,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
@@ -187,64 +241,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/DetailedOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/rules/TestWatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2618">
-              <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -358,7 +358,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -417,6 +417,55 @@
             <path>
               <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
               <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+              <item name="CurrentOrders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+              <item name="PreviousOrders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+              <item name="UnpaidOrders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -437,7 +486,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="vipwriter" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539265178128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539268585738" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -675,10 +724,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -688,7 +736,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
@@ -715,12 +763,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/FilterTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/PayToOrder.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ContactUSTest.java" />
-    <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/support/Verification.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageTutorialsTest.java" />
     <entry file="file://$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/PageWhatYouGetTest.java" />
@@ -916,6 +958,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -942,24 +1005,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/support/MorePayments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="-187">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/PayToOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1565">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/PayToOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
