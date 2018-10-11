@@ -490,24 +490,16 @@ public class WebDriverSettings  {
 
     }
     public void LoginSupport()throws Exception{
-        driver.get("https://support.vip-writers.commentality.com/signIn");
+        driver.get("https://support.urgentpapers.org/signIn");
         driver.manage().window().maximize();
-        WebElement login = driver.findElement(By.xpath("/html/body/div/div/form/div/div[2]/input"));
-        WebElement password = driver.findElement(By.xpath("/html/body/div/div/form/div/div[3]/input"));
-        WebElement signIn = driver.findElement(By.xpath("/html/body/div/div/form/div/div[4]/button"));
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        login.sendKeys("support@test.com");
-        password.sendKeys("Password1");
+        WebElement login = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div/div/form/div[1]/div/div/input"));
+        WebElement password = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div/div/form/div[2]/div/div/input"));
+        WebElement signIn = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[1]/div/div/div/div/form/div[4]/div/button"));
+        TimeUnit.SECONDS.sleep(2);
+        login.sendKeys("boosters@test.com");
+        password.sendKeys("Fg7XJz44Nz");
         signIn.click();
-        try {
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        TimeUnit.SECONDS.sleep(5);
     }
     public void DetaileOrderPap  () throws Exception {
         LoginPap();
@@ -528,10 +520,10 @@ public class WebDriverSettings  {
     public By sendMailUs = By.xpath("//*[@id=\"contactUsForm\"]/div[5]/div/button");
 
 
-    public By loginClient = By.cssSelector("button.green:nth-child(2)");
+    public By loginClient = By.cssSelector("button.btn:nth-child(2)");
     public By loginClientUserName = By.id("login-email");
     public By loginClientPassword = By.id("login-password");
-    public By loginClientSubmit = By.id("button-login");
+    public By loginClientSubmit = By.cssSelector(".login-submit");
     public By resetPasswordClient = By.cssSelector("forgotbutton");
     public By resetPasswordCMail = By.id("reset-email");
     public By resetPasswordCSend = By.id("reset-password");
