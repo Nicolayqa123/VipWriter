@@ -76,7 +76,18 @@ public class LoginClientTest extends WebDriverSettings {
         assertEquals("NicolayQA", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]")).getText());
     }
 
+    @Test
+    public void LoginTest() throws InterruptedException {
+        driver.get("https://client.urgentpapers.org/");
+        driver.findElementByXPath("/html/body/footer/div[1]/div/p/button").click();
+      //  driver.findElementByXPath("/html/body").findElement(By.id("tawkchat-chat-bubble-close")).click();
+        driver.findElementById("tawkchat-chat-bubble-close").findElement(By.id("OiSap9l-1540478851475")).click();
+       // String buttonClose = driver.findElementById("tawkchat-chat-bubble-close").getText();
+       // System.out.println(buttonClose);
 
+
+
+    }
 
 
 
