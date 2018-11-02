@@ -17,10 +17,10 @@ public class PaymentsReasonTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(3);
         Transactions.transactions(driver).click();
         Transactions.reasonEarn(driver).click();
-        assertEquals("Earn", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]")).getText());
+        assertEquals("Cancell", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]")).getText());
 
         Transactions.reasonCancell(driver).click();
-        assertEquals("Cancell", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]")).getText());
+        assertEquals("Bonus", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]")).getText());
 
 
 

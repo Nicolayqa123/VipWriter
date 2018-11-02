@@ -33,11 +33,11 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNFirstName).sendKeys("Testtest");
         driver.findElement(oNLastName).sendKeys("tes");
         driver.findElement(oNMail).sendKeys(regmail);
-        driver.findElementByXPath("//*[@id=\"customer\"]/div[4]/div/input").sendKeys("123456");
+        driver.findElementById("order-input-4").sendKeys("123456");
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
-        assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
+        assertEquals("There's no unpaid orders.", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/div/div")).getText());
     }
 
     @Test
@@ -56,7 +56,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
-        assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
+        assertEquals("There's no unpaid orders.", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/div/div")).getText());
     }
     @Test
     public void RegisteredMax() throws InterruptedException {
@@ -74,7 +74,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
-        assertEquals("ORDER FORM", driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/h3")).getText());
+        assertEquals("There's no unpaid orders.", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/div/div")).getText());
     }
 
     public void RegisteredNoValid() throws InterruptedException {

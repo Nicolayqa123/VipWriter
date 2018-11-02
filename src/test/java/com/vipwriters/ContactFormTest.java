@@ -25,6 +25,7 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 900);");
         ContacteUs.phone(driver).sendKeys("0504578965");
         ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
+        jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(4);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
@@ -41,6 +42,7 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 900);");
         ContacteUs.phone(driver).sendKeys("5");
         ContacteUs.messageText(driver).sendKeys("e");
+        jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(2);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
@@ -57,6 +59,7 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 900);");
         ContacteUs.phone(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
         ContacteUs.messageText(driver).sendKeys("1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890");
+        jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(2);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
@@ -71,6 +74,7 @@ public class ContactFormTest extends WebDriverSettings {
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 900);");
         ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
+        jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(4);
         assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
@@ -85,6 +89,7 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 900);");
         ContacteUs.phone(driver).sendKeys("");
         ContacteUs.messageText(driver).sendKeys("");
+        jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
 
 

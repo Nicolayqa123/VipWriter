@@ -24,7 +24,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
     public void RegisteredFormJustRequiredField1() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
 
-        SignUp.signUpForm(driver).click();
+
         SignUp.firsName(driver).sendKeys("Nicolay");
         SignUp.lastName(driver).sendKeys("QAtest");
         SignUp.language(driver).sendKeys("england");
@@ -76,7 +76,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
     @Test
     public void RegisteredFormAll() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
-        SignUp.signUpForm(driver).click();
+
         SignUp.firsName(driver).sendKeys("Nicolay");
         SignUp.lastName(driver).sendKeys("QAtest");
         SignUp.language(driver).sendKeys("england");
