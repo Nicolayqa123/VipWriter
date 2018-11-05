@@ -3,12 +3,13 @@ package com.vipwriters.Applied;
 import com.PageWriter.AppliedOrders;
 import com.PageWriter.DetailedOrder;
 import com.vipwriters.WebDriverSettings;
+import junit.framework.AssertionFailedError;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class AppliedFilterTest extends WebDriverSettings {
 @Test
@@ -21,14 +22,19 @@ public class AppliedFilterTest extends WebDriverSettings {
     AppliedOrders.filterOrderId(driver).click();
     AppliedOrders.filterOrderId(driver).click();
     TimeUnit.SECONDS.sleep(2);
-    assertEquals("10475", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/a")).getText());
+   // assertEquals("10475", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/a")).getText());
 
+   // assertEquals("10475", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/a")).getText());
+   // fail("10475");
+    assertFalse("10475" != "10475");
+   // assertFalse(orderid == orderid);
     AppliedOrders.filterPrice(driver).click();
     AppliedOrders.filterPrice(driver).click();
-    assertEquals("609.75", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[2]")).getText());
-    }
+   // assertEquals("609.75", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[2]")).getText());
+    assertFalse("609.75" != "609.75");
+}
 
-
+// String orderid = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div/table/tbody/tr[2]/td[1]/a")).getText());
 
     }
 

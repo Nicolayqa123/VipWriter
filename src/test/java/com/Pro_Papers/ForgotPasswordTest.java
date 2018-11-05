@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
@@ -45,7 +46,10 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.mail(driver).sendKeys("test@@@.ru");
         Lending.resetpassword(driver).click();
         TimeUnit.SECONDS.sleep(3);
-        assertFalse( driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div/div[2]/div/div/div[3]/p[1]")).getText().contains("We’ve sent you an email containing a link that will allow you to reset your password for the next 24 hours."));
+        assertEquals("User not found!", driver.findElement(By.id("toast-container")).getText());
+      //  assertFalse( driver.findElement(By.id("toast-container")).getText().contains("User not found!"));
+
+
 
     }
 }

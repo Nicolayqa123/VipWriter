@@ -58,7 +58,7 @@ public class AppliedSendMessageTest extends WebDriverSettings {
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("scroll(0, 350);");
+        jse.executeScript("scroll(0, 650);");
         DetailedOrder.message(driver).sendKeys("Dear Writer,\n" +
                 "\n" +
                 "Based on the proposal you have provided me earlier, i would say the first two topics would go.\n" +

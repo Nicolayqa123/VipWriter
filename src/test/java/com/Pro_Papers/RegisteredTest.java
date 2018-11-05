@@ -52,7 +52,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNFirstName).sendKeys("T");
         driver.findElement(oNLastName).sendKeys("t");
         driver.findElement(oNMail).sendKeys(regmail);
-        driver.findElementByXPath("//*[@id=\"customer\"]/div[4]/div/input").sendKeys("123456");
+        driver.findElementById("order-input-4").sendKeys("123456");
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
         TimeUnit.SECONDS.sleep(5);
@@ -70,10 +70,11 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElement(oNFirstName).sendKeys("TesttestTesttestTesttestTesttestTesttest");
         driver.findElement(oNLastName).sendKeys("TesttestTesttestTesttestTesttestTesttest");
         driver.findElement(oNMail).sendKeys(regmail);
-        driver.findElementByXPath("//*[@id=\"customer\"]/div[4]/div/input").sendKeys("123456");
+       // driver.findElement(oNPassword).sendKeys("123456");
+        driver.findElementById("order-input-4").sendKeys("123456");
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(10);
         assertEquals("There's no unpaid orders.", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/div/div")).getText());
     }
 

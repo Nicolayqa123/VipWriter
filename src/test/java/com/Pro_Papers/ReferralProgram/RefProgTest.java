@@ -1,5 +1,6 @@
 package com.Pro_Papers.ReferralProgram;
 
+import com.PageClient.Lending;
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;

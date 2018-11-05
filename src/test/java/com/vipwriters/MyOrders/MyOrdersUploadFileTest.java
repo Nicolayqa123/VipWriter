@@ -36,8 +36,8 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         DetailedOrder.drop(driver).click();
         TestFileDrop();
         DetailedOrder.confirm(driver).click();
-        TimeUnit.SECONDS.sleep(10);
-        driver.findElementById("2261").click();
+       // TimeUnit.SECONDS.sleep(10);
+      //  driver.findElementById("2261").click();
      //   driver.findElementByXPath("/html/body/div[2]/div/div[3]/button[1]").click();
       //  assertEquals("File successfully upload!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 

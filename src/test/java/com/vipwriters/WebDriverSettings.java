@@ -520,7 +520,7 @@ public class WebDriverSettings  {
     public By sendMailUs = By.xpath("//*[@id=\"contactUsForm\"]/div[5]/div/button");
 
 
-    public By loginClient = By.cssSelector("button.btn:nth-child(2)");
+    public By loginClient = By.cssSelector("#navbar > div > div.desktop-nav > ul > li.nav-item.nav-right-buttons > button");
     public By loginClientUserName = By.id("login-email");
     public By loginClientPassword = By.id("login-password");
     public By loginClientSubmit = By.cssSelector(".login-submit");

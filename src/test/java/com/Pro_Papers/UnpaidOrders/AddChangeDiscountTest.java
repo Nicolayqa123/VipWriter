@@ -21,7 +21,7 @@ public class AddChangeDiscountTest extends WebDriverSettings {
     driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div/div/div[2]/button").click();
     driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div/form/div/div[2]/input").sendKeys("test");
     driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div/form/div/button").click();
-    TimeUnit.SECONDS.sleep(2);
+    TimeUnit.SECONDS.sleep(4);
     assertEquals("Discount not found", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div/form/div/p")).getText());
 
 

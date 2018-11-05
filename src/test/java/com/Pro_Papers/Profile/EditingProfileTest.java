@@ -117,7 +117,7 @@ public class EditingProfileTest extends WebDriverSettings {
         driver.findElementByXPath("//*[@id=\"collapseFive\"]/div/table/tbody/tr[11]/td[2]/button").click();
 
     }
-    @Test
+
     public void AlternativeMailAndPhoneMax () throws Exception {
         LoginPap();
         driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[2]/li[1]/a").click();

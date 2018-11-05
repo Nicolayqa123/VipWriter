@@ -6,6 +6,7 @@ import com.PageWriter.MyOrders;
 import com.vipwriters.WebDriverSettings;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
@@ -36,6 +37,8 @@ public class MyOrderSendMessageTest extends WebDriverSettings {
         MyOrders.Order10015(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 650);");
         DetailedOrder.message(driver).sendKeys("Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message Test message ");
         DetailedOrder.sendMessageForm(driver).click();
         assertEquals("Message successfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());

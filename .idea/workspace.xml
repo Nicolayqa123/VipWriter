@@ -3,12 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsReasonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsReasonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
@@ -118,13 +126,14 @@
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="62" />
+          <entry key="java" value="83" />
           <entry key="surefire15216327041726455477tmp" value="1" />
           <entry key="surefire_02049177606113599082tmp" value="1" />
           <entry key="xml" value="2" />
@@ -132,19 +141,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="62" />
+          <entry key="JAVA" value="83" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="930" />
+          <entry key="java" value="1335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="930" />
+          <entry key="JAVA" value="1335" />
         </counts>
       </usages-collector>
     </session>
@@ -157,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="141">
+              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -166,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="568" column="52" selection-start-line="568" selection-start-column="52" selection-end-line="568" selection-end-column="52" />
+            <state relative-caret-position="141">
+              <caret line="522" column="121" selection-start-line="522" selection-start-column="121" selection-end-line="522" selection-end-column="121" />
               <folding>
                 <element signature="e#5124#5424#0" />
               </folding>
@@ -178,71 +187,77 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="238">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
+              <folding>
+                <element signature="method#EditProfile#0;class#EditingProfileTest#0" />
+                <element signature="method#EditProfileEmtyField#0;class#EditingProfileTest#0" />
+                <element signature="method#AlternativeMailAndPhone#0;class#EditingProfileTest#0" />
+                <element signature="method#AlternativeMailAndPhoneMin#0;class#EditingProfileTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="238">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -289,14 +304,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/SeleniumRunListener.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/TestWatcher1.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/MailUSFormTest.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/LoginTest.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/WebDriverSettings.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ReferralProgram/RefProg.java" />
-        <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java" />
         <option value="$PROJECT_DIR$/VipWriter/src/test/java/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.java" />
@@ -323,23 +330,31 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PageWriter/Transactions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/PageWriter/Lending.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsReasonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/ContactFormTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java" />
       </list>
     </option>
   </component>
@@ -372,7 +387,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,16 +452,6 @@
             <path>
               <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
               <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
-              <item name="ReferralProgram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -465,7 +470,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,8 +478,8 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="vipwriter" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541166281577" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestWriter/TestWriter" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541425599567" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -509,65 +514,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginClientTest.Login1">
+  <component name="RunManager" selected="JUnit.ForgotPasswordTest.forgotPasswordNoValid">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AffiliateStatisticsTest.Statistics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddChangeDiscountTest.discountFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vip_Writerss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vipwriters.Affiliate.*" />
+          <option name="PATTERN" value="com.Pro_Papers.UnpaidOrders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.vipwriters.Affiliate" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.Affiliate.AffiliateStatisticsTest" />
-      <option name="METHOD_NAME" value="Statistics" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers.UnpaidOrders" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.UnpaidOrders.AddChangeDiscountTest" />
+      <option name="METHOD_NAME" value="discountFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppliedUploadFilesTest.download" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditingProfileTest.AlternativeMailAndPhoneMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vip_Writerss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vipwriters.Applied.*" />
+          <option name="PATTERN" value="com.Pro_Papers.Profile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.vipwriters.Applied" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.Applied.AppliedUploadFilesTest" />
-      <option name="METHOD_NAME" value="download" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers.Profile" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.Profile.EditingProfileTest" />
+      <option name="METHOD_NAME" value="AlternativeMailAndPhoneMax" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactFormTest.ContactForm1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vip_Writerss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.ContactFormTest" />
-      <option name="METHOD_NAME" value="ContactForm1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginClientTest.Login1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgotPasswordTest.forgotPasswordNoValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vip_Writerss" />
       <extension name="coverage">
         <pattern>
@@ -576,15 +564,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Pro_Papers" />
-      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.LoginClientTest" />
-      <option name="METHOD_NAME" value="Login1" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.ForgotPasswordTest" />
+      <option name="METHOD_NAME" value="forgotPasswordNoValid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisteredTest.Registered1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisteredTest.RegisteredMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vip_Writerss" />
       <extension name="coverage">
         <pattern>
@@ -594,7 +582,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.Pro_Papers" />
       <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.RegisteredTest" />
-      <option name="METHOD_NAME" value="Registered1" />
+      <option name="METHOD_NAME" value="RegisteredMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaveFilesTest.sf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vip_Writerss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Pro_Papers.PreviousOrders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Pro_Papers.PreviousOrders" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.PreviousOrders.SaveFilesTest" />
+      <option name="METHOD_NAME" value="sf" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -642,19 +647,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ContactFormTest.ContactForm1" />
-      <item itemvalue="JUnit.AppliedUploadFilesTest.download" />
-      <item itemvalue="JUnit.AffiliateStatisticsTest.Statistics" />
-      <item itemvalue="JUnit.RegisteredTest.Registered1" />
-      <item itemvalue="JUnit.LoginClientTest.Login1" />
+      <item itemvalue="JUnit.AddChangeDiscountTest.discountFalse" />
+      <item itemvalue="JUnit.RegisteredTest.RegisteredMax" />
+      <item itemvalue="JUnit.EditingProfileTest.AlternativeMailAndPhoneMax" />
+      <item itemvalue="JUnit.SaveFilesTest.sf" />
+      <item itemvalue="JUnit.ForgotPasswordTest.forgotPasswordNoValid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginClientTest.Login1" />
-        <item itemvalue="JUnit.RegisteredTest.Registered1" />
-        <item itemvalue="JUnit.AffiliateStatisticsTest.Statistics" />
-        <item itemvalue="JUnit.AppliedUploadFilesTest.download" />
-        <item itemvalue="JUnit.ContactFormTest.ContactForm1" />
+        <item itemvalue="JUnit.ForgotPasswordTest.forgotPasswordNoValid" />
+        <item itemvalue="JUnit.SaveFilesTest.sf" />
+        <item itemvalue="JUnit.EditingProfileTest.AlternativeMailAndPhoneMax" />
+        <item itemvalue="JUnit.RegisteredTest.RegisteredMax" />
+        <item itemvalue="JUnit.AddChangeDiscountTest.discountFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -672,35 +677,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AffiliateStatisticsTest_Statistics - 2018.11.02 at 15h 13m 11s.xml">
-      <configuration name="AffiliateStatisticsTest.Statistics" configurationId="JUnit" />
+    <history-entry file="RegisteredTest_RegisteredMax - 2018.11.05 at 15h 11m 33s.xml">
+      <configuration name="RegisteredTest.RegisteredMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AffiliateStatisticsTest_Statistics - 2018.11.02 at 15h 15m 47s.xml">
-      <configuration name="AffiliateStatisticsTest.Statistics" configurationId="JUnit" />
+    <history-entry file="RegisteredTest_RegisteredMax - 2018.11.05 at 15h 14m 57s.xml">
+      <configuration name="RegisteredTest.RegisteredMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AffiliateStatisticsTest_Statistics - 2018.11.02 at 15h 18m 44s.xml">
-      <configuration name="AffiliateStatisticsTest.Statistics" configurationId="JUnit" />
+    <history-entry file="RegisteredTest_RegisteredMax - 2018.11.05 at 15h 16m 07s.xml">
+      <configuration name="RegisteredTest.RegisteredMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AffiliateStatisticsTest_Statistics - 2018.11.02 at 15h 21m 17s.xml">
-      <configuration name="AffiliateStatisticsTest.Statistics" configurationId="JUnit" />
+    <history-entry file="RegisteredTest_RegisteredMax - 2018.11.05 at 15h 17m 17s.xml">
+      <configuration name="RegisteredTest.RegisteredMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AffiliateStatisticsTest_Statistics - 2018.11.02 at 15h 26m 45s.xml">
-      <configuration name="AffiliateStatisticsTest.Statistics" configurationId="JUnit" />
+    <history-entry file="EditingProfileTest_AlternativeMailAndPhoneMax - 2018.11.05 at 15h 27m 08s.xml">
+      <configuration name="EditingProfileTest.AlternativeMailAndPhoneMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AffiliateStatisticsTest_Statistics - 2018.11.02 at 15h 29m 41s.xml">
-      <configuration name="AffiliateStatisticsTest.Statistics" configurationId="JUnit" />
+    <history-entry file="SaveFilesTest_sf - 2018.11.05 at 15h 29m 33s.xml">
+      <configuration name="SaveFilesTest.sf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisteredTest_Registered1 - 2018.11.02 at 15h 31m 39s.xml">
-      <configuration name="RegisteredTest.Registered1" configurationId="JUnit" />
+    <history-entry file="ForgotPasswordTest_forgotPasswordNoValid - 2018.11.05 at 15h 32m 07s.xml">
+      <configuration name="ForgotPasswordTest.forgotPasswordNoValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisteredTest_Registered1 - 2018.11.02 at 15h 33m 42s.xml">
-      <configuration name="RegisteredTest.Registered1" configurationId="JUnit" />
+    <history-entry file="ForgotPasswordTest_forgotPasswordNoValid - 2018.11.05 at 15h 36m 14s.xml">
+      <configuration name="ForgotPasswordTest.forgotPasswordNoValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisteredTest_Registered1 - 2018.11.02 at 15h 39m 56s.xml">
-      <configuration name="RegisteredTest.Registered1" configurationId="JUnit" />
+    <history-entry file="ForgotPasswordTest_forgotPasswordNoValid - 2018.11.05 at 15h 38m 05s.xml">
+      <configuration name="ForgotPasswordTest.forgotPasswordNoValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginClientTest_Login1 - 2018.11.02 at 15h 44m 39s.xml">
-      <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
+    <history-entry file="ForgotPasswordTest_forgotPasswordNoValid - 2018.11.05 at 15h 40m 21s.xml">
+      <configuration name="ForgotPasswordTest.forgotPasswordNoValid" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -713,10 +718,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.32214764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.32684565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -725,7 +730,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -753,78 +758,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Screenshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="1" selection-start-line="14" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitchingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDetailedOrderViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDetailedOrderViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.825/Screenshoter.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.899/AutoItScreenshoter.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire/surefire15216327041726455477tmp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -835,13 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2618">
           <caret line="163" column="19" selection-start-line="163" selection-start-column="19" selection-end-line="163" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/DetailedOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -856,13 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -919,13 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -1020,24 +932,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/SeleniumRunListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1055,41 +953,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableDownloadFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderSendMessageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedUploadFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDownloadFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Affiliate/AffiliateStatisticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/UnpaidOrders/AddChangeDiscountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
           <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/DetailedOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="568" column="52" selection-start-line="568" selection-start-column="52" selection-end-line="568" selection-end-column="52" />
+        <state relative-caret-position="141">
+          <caret line="522" column="121" selection-start-line="522" selection-start-column="121" selection-end-line="522" selection-end-column="121" />
           <folding>
             <element signature="e#5124#5424#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/Profile/EditingProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="method#EditProfile#0;class#EditingProfileTest#0" />
+            <element signature="method#EditProfileEmtyField#0;class#EditingProfileTest#0" />
+            <element signature="method#AlternativeMailAndPhone#0;class#EditingProfileTest#0" />
+            <element signature="method#AlternativeMailAndPhoneMin#0;class#EditingProfileTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/PreviousOrders/SaveFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="374">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ContactUSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/ForgotPasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
