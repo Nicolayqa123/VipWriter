@@ -63,6 +63,7 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 4350);");
         driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[1]/li[2]/a").click();
         jse.executeScript("scroll(0, 1050);");
+        TimeUnit.SECONDS.sleep(4);
         driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/table/tbody/tr[1]/td[1]/a").click();
 
 
@@ -73,6 +74,7 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         driver.findElement(addNewMessage).click();
         driver.findElement(aNMWriter).click();
         driver.findElement(aNMText).sendKeys("1");
+        TimeUnit.SECONDS.sleep(4);
         driver.findElement(aNMSendMessage).click();
 
     }

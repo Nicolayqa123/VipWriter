@@ -31,9 +31,10 @@ public class SaveFilesTest extends WebDriverSettings {
         DetailedOrder.addNewFile(driver).click();
         TimeUnit.SECONDS.sleep(2);
         TestFileDrop();
-     //   TimeUnit.SECONDS.sleep(10);
-     //   driver.findElementByCssSelector("#collapseFour > div > div.box-white.for-circle-loader > div.box-white > button").click();
-       // driver.findElement(aNFUpload).click();
+        TimeUnit.SECONDS.sleep(10);
+        driver.findElementByCssSelector("#collapseFour > div > div.box-white.for-circle-loader > div.box-white > button").click();
+        jse.executeScript("scroll(0, 950);");
+        // driver.findElement(aNFUpload).click();
      //   TimeUnit.SECONDS.sleep(10);
      //   assertEquals(" Test.docx", driver.findElement(By.xpath("//*[@id=\"collapseFour\"]/div/div[2]/div/div/div[2]/a/button")).getText());
     }

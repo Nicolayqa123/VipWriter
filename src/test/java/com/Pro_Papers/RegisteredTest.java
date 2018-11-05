@@ -36,7 +36,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElementById("order-input-4").sendKeys("123456");
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(10);
         assertEquals("There's no unpaid orders.", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/div/div")).getText());
     }
 
@@ -55,7 +55,7 @@ public class RegisteredTest extends WebDriverSettings {
         driver.findElementById("order-input-4").sendKeys("123456");
         driver.findElement(oNPhone).sendKeys("501244" + x);
         driver.findElement(oNStep2).click();
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(10);
         assertEquals("There's no unpaid orders.", driver.findElement(By.xpath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/div/div")).getText());
     }
     @Test

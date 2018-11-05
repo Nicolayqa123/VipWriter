@@ -30,7 +30,10 @@ public class SaveFilesTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(2);
         TestFileDrop();
         TimeUnit.SECONDS.sleep(10);
-        driver.findElement(aNFUpload).click();
+        driver.findElementByCssSelector("#collapseFour > div > div.box-white.for-circle-loader > div.box-white > button").click();
+        jse.executeScript("scroll(0, 950);");
+      //  TimeUnit.SECONDS.sleep(10);
+      //  driver.findElement(aNFUpload).click();
 
     }
 }
