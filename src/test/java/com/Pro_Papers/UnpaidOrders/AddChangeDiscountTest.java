@@ -16,7 +16,8 @@ public class AddChangeDiscountTest extends WebDriverSettings {
     JavascriptExecutor jse = (JavascriptExecutor) driver;
     jse.executeScript("scroll(0, 4350);");
     driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[1]/li[2]/a").click();
-    jse.executeScript("scroll(0, 1050);");
+    jse.executeScript("scroll(0, -1050);");
+    TimeUnit.SECONDS.sleep(4);
     driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/table/tbody/tr[1]/td[1]/a").click();
     driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div/div/div[2]/button").click();
     driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div/form/div/div[2]/input").sendKeys("test");

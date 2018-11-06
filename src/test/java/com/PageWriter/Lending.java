@@ -13,7 +13,7 @@ public class Lending {
         return element;
     }
     public static WebElement userName (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input"));
+        element = driver.findElement(By.id("username"));
         return element;
     }
     public static WebElement password (WebDriver driver){
