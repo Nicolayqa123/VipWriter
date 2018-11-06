@@ -32,7 +32,7 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         driver.findElement(aNMSendMessage).click();
 
     }
-    @Test
+    
     public void SendMessageInOrderMax () throws Exception {
         LoginPap();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
