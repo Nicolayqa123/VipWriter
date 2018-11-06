@@ -30,9 +30,10 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         driver.findElement(aNMWriter).click();
         driver.findElement(aNMText).sendKeys("test");
         driver.findElement(aNMSendMessage).click();
+        TimeUnit.SECONDS.sleep(4);
 
     }
-    
+
     public void SendMessageInOrderMax () throws Exception {
         LoginPap();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
