@@ -132,7 +132,7 @@ public class WebDriverSettings  {
             driver.manage().window().setSize(new Dimension(1500, 810));
         }
 
-       /* @After
+        @After
         public void close() throws Exception {
             String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
@@ -140,17 +140,9 @@ public class WebDriverSettings  {
             String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
             FileUtils.copyFile(screenshot, new File(path));
             driver.quit();
-        }*/
+        }
 
-    @After
-    public void close() throws Exception {
-        String newAutoTest = "newAutoTest" + x;
-        File screenshot = ((TakesScreenshot) driver).
-                getScreenshotAs(OutputType.FILE);
-        String path = "\target\\surefire-reports"  + getClass() +  ".png";
-        FileUtils.copyFile(screenshot, new File(path));
-        driver.quit();
-    }
+
 
 
 
