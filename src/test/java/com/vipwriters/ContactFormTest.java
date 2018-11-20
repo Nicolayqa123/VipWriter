@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class ContactFormTest extends WebDriverSettings {
 
@@ -45,7 +47,8 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(2);
-        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
+      //  assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
+        assertTrue( driver.findElement(By.xpath("//*[@id=\"toast-container\"]")).getText().contains("Your message has been sent succesfully!"));
 
   }
 
@@ -62,7 +65,8 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(2);
-        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
+        assertTrue( driver.findElement(By.xpath("//*[@id=\"toast-container\"]")).getText().contains("Your message has been sent succesfully!"));
+
 
 
           }
@@ -77,7 +81,7 @@ public class ContactFormTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
         TimeUnit.SECONDS.sleep(4);
-        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
+        assertTrue( driver.findElement(By.xpath("//*[@id=\"toast-container\"]")).getText().contains("Your message has been sent succesfully!"));
     }
     @Test
     public void UnContactFormEmptyFields() throws InterruptedException {
