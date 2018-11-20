@@ -10,10 +10,7 @@ import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 
 import org.apache.commons.io.FileUtils;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Rule;
+import org.junit.*;
 import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
@@ -126,9 +123,9 @@ public class WebDriverSettings  {
             //  driver = new ChromeDriver();
             System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
             driver.manage().window().setSize(new Dimension(1500, 810));
         }
 
@@ -589,7 +586,7 @@ public class WebDriverSettings  {
         else if(!title)
             System.out.println(tie + url);
     }
-    public void CheckTitle_ca () {
+   /* public void CheckTitle_cu() {
         String url = driver.getCurrentUrl();
         String tie = driver.getTitle();
         boolean title = driver.getTitle().contains("Pro-Papers Canada");
@@ -597,7 +594,7 @@ public class WebDriverSettings  {
             System.out.println("Good");
         else if(!title)
             System.out.println(tie + url);
-    }
+    }*/
     public void CheckTitle_au () {
         String url = driver.getCurrentUrl();
         String tie = driver.getTitle();
