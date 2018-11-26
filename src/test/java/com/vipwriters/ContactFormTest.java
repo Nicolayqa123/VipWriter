@@ -18,7 +18,7 @@ public class ContactFormTest extends WebDriverSettings {
     public void ContactForm1 () throws InterruptedException  {
 
         driver.get("https://writer.urgentpapers.org/contacts");
-        TimeUnit.SECONDS.sleep(4);
+        TimeUnit.SECONDS.sleep(5);
 
         ContacteUs.subjectOther(driver).sendKeys("Test1");
         ContacteUs.senderEmail(driver).sendKeys("12as23da@gmail.com");
@@ -29,8 +29,8 @@ public class ContactFormTest extends WebDriverSettings {
         ContacteUs.messageText(driver).sendKeys("Testeeeeeeeee");
         jse.executeScript("scroll(0, 1900);");
         ContacteUs.send(driver).click();
-        TimeUnit.SECONDS.sleep(4);
-        assertEquals("Message sucessfully sent", driver.findElement(By.id("success-sent-message")).getText());
+        TimeUnit.SECONDS.sleep(5);
+        assertTrue( driver.findElement(By.xpath("//*[@id=\"toast-container\"]")).getText().contains("Your message has been sent succesfully!"));
 
     }
 
