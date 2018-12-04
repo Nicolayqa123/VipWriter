@@ -13,10 +13,13 @@ import static org.junit.Assert.assertEquals;
 public class PaymentsReasonTest extends WebDriverSettings {
     @Test
     public void reaso () throws Exception {
+       // WritersLogin();
         WritersLogin();
         TimeUnit.SECONDS.sleep(3);
         Transactions.transactions(driver).click();
+        TimeUnit.SECONDS.sleep(3);
         Transactions.reasonEarn(driver).click();
+        TimeUnit.SECONDS.sleep(3);
         assertEquals("Cancell", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]")).getText());
 
         Transactions.reasonCancell(driver).click();

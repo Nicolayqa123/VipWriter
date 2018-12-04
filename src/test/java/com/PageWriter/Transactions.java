@@ -31,12 +31,12 @@ public class Transactions {
     }
 
     public static WebElement reasonEarn(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[2]/select/option[5]"));
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[2]/select/option[6]"));
         return element;
     }
 
     public static WebElement reasonCancell(WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[2]/select/option[6]"));
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[1]/div[2]/select/option[5]"));
         return element;
     }
     public static WebElement search(WebDriver driver){
