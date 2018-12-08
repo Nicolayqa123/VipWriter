@@ -134,8 +134,11 @@ public class WebDriverSettings  {
             String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\PNG\\"  + getClass() +  ".png";
+            // String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
+            String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
+            saveAllureScreenshot();
+            makeScreenshot();
             driver.quit();
         }
 
@@ -187,6 +190,17 @@ public class WebDriverSettings  {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+    private byte[] saveScreenshot(byte[] screenShot) {
+        return screenShot;
+    }
+
+    @Attachment(type = "image/png")
+    public byte[] makeScreenshot() {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
+
     @Attachment
     public static byte[] getBytes(String resourceName) throws IOException {
         return Files.readAllBytes(Paths.get("src/main/resources", resourceName));
@@ -195,13 +209,13 @@ public class WebDriverSettings  {
 
 
 
-    public void WritersLogin() throws Exception {
+    public void WritersLogin() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/");
         Lending.loginForm(driver).click();
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);
         Lending.loginButton(driver).click();
-        TimeUnit.SECONDS.sleep(10);
+        TimeUnit.SECONDS.sleep(15);
 
     }
     public void TestFileDrop() throws Exception {

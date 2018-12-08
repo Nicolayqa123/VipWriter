@@ -13,10 +13,11 @@ public class AppliedDetailedOrderViewTest extends WebDriverSettings {
     @Test
     public void order () throws Exception {
 
+       // WritersLogin();
         WritersLogin();
-            TimeUnit.SECONDS.sleep(8);
+        TimeUnit.SECONDS.sleep(8);
         AppliedOrders.appliedOrders(driver).click();
-        AppliedOrders.order10354(driver).click();
+        AppliedOrders.order10005(driver).click();
         TimeUnit.SECONDS.sleep(2);
         assertEquals("Writer applied", driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/h2/span")).getText());
 

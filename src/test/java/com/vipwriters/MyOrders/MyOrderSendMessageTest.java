@@ -47,7 +47,9 @@ public class MyOrderSendMessageTest extends WebDriverSettings {
     @Test
     public void SendMessageToClientMin() throws Exception {
 
+//        WritersLogin();
         WritersLogin();
+
         TimeUnit.SECONDS.sleep(4);
         MyOrders.myOrders(driver).click();
         MyOrders.Order10015(driver).click();

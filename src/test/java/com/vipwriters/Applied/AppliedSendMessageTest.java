@@ -24,7 +24,7 @@ public class AppliedSendMessageTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         AppliedOrders.appliedOrders(driver).click();
-        AppliedOrders.order10354(driver).click();
+        AppliedOrders.order10005(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         DetailedOrder.message(driver).sendKeys("Test Client");
@@ -39,7 +39,7 @@ public class AppliedSendMessageTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         AppliedOrders.appliedOrders(driver).click();
-        AppliedOrders.order10354(driver).click();
+        AppliedOrders.order10005(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         DetailedOrder.message(driver).sendKeys("Test");
@@ -54,7 +54,7 @@ public class AppliedSendMessageTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         AppliedOrders.appliedOrders(driver).click();
-        AppliedOrders.order10354(driver).click();
+        AppliedOrders.order10005(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -78,10 +78,12 @@ public class AppliedSendMessageTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         AppliedOrders.appliedOrders(driver).click();
-        AppliedOrders.order10354(driver).click();
+        AppliedOrders.order10005(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         DetailedOrder.message(driver).sendKeys("");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 350);");
         DetailedOrder.sendMessageForm(driver).click();
         
     }
