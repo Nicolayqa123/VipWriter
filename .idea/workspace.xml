@@ -2,74 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Vip_Writerss.iml" afterPath="$PROJECT_DIR$/Vip_Writerss.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/target/Test.docx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.ContactUSTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.FilterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.FilterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.PayToOrderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.PayToOrderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.SaveFilesTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.SendMessageInOrderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.SendMessageInOrderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.ForgotPasswordTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.ForgotPasswordTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.LoginClientTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.LoginClientTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.DetailedOrderView1Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.DetailedOrderView1Test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.FilterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.FilterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.PayToOrderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.PayToOrderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.SaveFilesTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.SendMessageInOrderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.SendMessageInOrderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.Profile.ChangesPasswordTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.Profile.ChangesPasswordTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.Profile.EditingProfileTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.Profile.EditingProfileTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredStep2Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredStep2Test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredStep3Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredStep3Test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDetailedOrderViewTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDetailedOrderViewTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDownloadFilesTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDownloadFilesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedFilterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedFilterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedUploadFilesTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedUploadFilesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.ContactUSTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.FilterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.FilterTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.PayToOrderTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.PayToOrderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.SaveFilesTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.SendMessageInOrderTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.SendMessageInOrderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.ForgotPasswordTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.ForgotPasswordTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.LoginClientTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.LoginClientTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.DetailedOrderView1Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.DetailedOrderView1Test.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.FilterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.FilterTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.PayToOrderTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.PayToOrderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.SaveFilesTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.SendMessageInOrderTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.SendMessageInOrderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.Profile.ChangesPasswordTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.Profile.ChangesPasswordTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.Profile.EditingProfileTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.Profile.EditingProfileTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredStep2Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredStep2Test.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredStep3Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredStep3Test.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDetailedOrderViewTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDetailedOrderViewTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDownloadFilesTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDownloadFilesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedFilterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedFilterTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedUploadFilesTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedUploadFilesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3511618633285671144.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8439335546364115206.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9495699349759103396.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reportsscreenshot4134583178669736450.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire15216327041726455477tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire_02049177606113599082tmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter11461497754327491371.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2835189559521296451.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClientTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClientTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3Test.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3Test.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -236,26 +169,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckTitle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Regression/CheckTitle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trainee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="28" column="98" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegisteredFormJustRequiredFieldTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -286,11 +199,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="192" column="34" lean-forward="false" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyOrderDetailedOrderViewTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -316,11 +249,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="815" column="0" lean-forward="false" selection-start-line="815" selection-start-column="0" selection-end-line="815" selection-end-column="0" />
+            <state relative-caret-position="509">
+              <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -434,11 +367,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedDetailedOrderViewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/RegisteredFormJustRequiredFieldTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClientTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/Trainee.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Pro_Papers/ReferralProgram/RefProgTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
       </list>
     </option>
   </component>
@@ -468,7 +401,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="226" />
     <option name="width" value="1750" />
     <option name="height" value="1250" />
@@ -533,7 +466,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
+              <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
@@ -543,6 +476,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
+              <item name="MyOrders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
@@ -569,7 +503,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="vipwriter" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545319001816" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.6.2/resources/app/git/cmd/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -606,7 +540,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginClientTest.Login1">
+  <component name="RunManager" selected="JUnit.MyOrderDetailedOrderViewTest.orderView">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -637,6 +571,31 @@
       <option name="PACKAGE_NAME" value="Regression" />
       <option name="MAIN_CLASS_NAME" value="Regression.CheckTitle" />
       <option name="METHOD_NAME" value="CheckTitlegb" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FilterTest.Filter1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.Pro_Papers.CurrentOrders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Vip_Writerss" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Pro_Papers.CurrentOrders" />
+      <option name="MAIN_CLASS_NAME" value="com.Pro_Papers.CurrentOrders.FilterTest" />
+      <option name="METHOD_NAME" value="Filter1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -699,44 +658,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RegisteredFormJustRequiredFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="MyOrderDetailedOrderViewTest.orderView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
+          <option name="PATTERN" value="com.vipwriters.MyOrders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Vip_Writerss" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.RegisteredFormJustRequiredFieldTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Trainee.LoginPapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.vipwriters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Vip_Writerss" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.vipwriters" />
-      <option name="MAIN_CLASS_NAME" value="com.vipwriters.Trainee" />
-      <option name="METHOD_NAME" value="LoginPapTest" />
+      <option name="PACKAGE_NAME" value="com.vipwriters.MyOrders" />
+      <option name="MAIN_CLASS_NAME" value="com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest" />
+      <option name="METHOD_NAME" value="orderView" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -827,19 +761,19 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RegisteredFormJustRequiredFieldTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Trainee.LoginPapTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckTitle.CheckTitlegb" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginClientTest.Login1" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckTitle.CheckTitlegb" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginClientTest.Login1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FilterTest.Filter1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyOrderDetailedOrderViewTest.orderView" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginClientTest.Login1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckTitle.CheckTitlegb" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Trainee.LoginPapTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RegisteredFormJustRequiredFieldTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyOrderDetailedOrderViewTest.orderView" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FilterTest.Filter1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginClientTest.Login1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckTitle.CheckTitlegb" />
       </list>
     </recent_temporary>
   </component>
@@ -859,22 +793,22 @@
       <workItem from="1548422384207" duration="217000" />
       <workItem from="1548836480171" duration="138000" />
       <workItem from="1549973888144" duration="1552000" />
-      <workItem from="1550828876464" duration="1723000" />
+      <workItem from="1550828876464" duration="3641000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="FilterTest_Filter1 - 2019.02.22 at 15h 43m 12s.xml">
+      <configuration name="FilterTest.Filter1" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="LoginClientTest_Login1 - 2019.02.22 at 11h 52m 47s.xml">
       <configuration name="LoginClientTest.Login1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LoginTest - 2019.02.22 at 11h 51m 29s.xml">
       <configuration name="LoginTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisteredFormJustRequiredFieldTest - 2018.12.18 at 14h 47m 14s.xml">
-      <configuration name="RegisteredFormJustRequiredFieldTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisteredFormJustRequiredFieldTest_RegisteredFormJustRequiredField1 - 2018.12.18 at 14h 37m 10s.xml">
-      <configuration name="RegisteredFormJustRequiredFieldTest.RegisteredFormJustRequiredField1" configurationId="JUnit" />
+    <history-entry file="MyOrderDetailedOrderViewTest_orderView - 2019.02.22 at 15h 47m 40s.xml">
+      <configuration name="MyOrderDetailedOrderViewTest.orderView" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RegisteredStep3Test_Step3Pay - 2018.12.15 at 15h 08m 43s.xml">
       <configuration name="RegisteredStep3Test.Step3Pay" configurationId="JUnit" />
@@ -896,7 +830,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3630000" />
+    <option name="totallyTimeSpent" value="5548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,7 +842,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -922,7 +856,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295302" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3148358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3148358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.49932885" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1006,13 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1187,13 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/PayToOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1280,16 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="815" column="0" lean-forward="false" selection-start-line="815" selection-start-column="0" selection-end-line="815" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-882">
@@ -1311,6 +1221,32 @@
         <state relative-caret-position="300">
           <caret line="192" column="34" lean-forward="false" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/FilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

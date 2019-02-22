@@ -15,6 +15,7 @@ import org.junit.rules.TestRule;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.junit.runner.RunWith;
+import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -132,15 +133,17 @@ public class WebDriverSettings  {
         }
 
         @After
-        public void close() throws Exception {
-            String newAutoTest = "newAutoTest" + x;
+        public void close(Failure failure) throws Exception {
+           /* String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
             // String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
             String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
             saveAllureScreenshot();
-            makeScreenshot();
+            makeScreenshot();*/
+            System.out.println("Test failed with: "
+                    + failure.getException());
             driver.quit();
         }
 
