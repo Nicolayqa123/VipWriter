@@ -9,6 +9,8 @@ import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 
+import io.qameta.allure.model.TestRunResult;
+import junit.framework.TestResult;
 import org.apache.commons.io.FileUtils;
 import org.junit.*;
 import org.junit.rules.TestRule;
@@ -133,7 +135,7 @@ public class WebDriverSettings  {
         }
 
         @After
-        public void close(Failure failure) throws Exception {
+        public void close() throws Exception {
            /* String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
@@ -142,8 +144,7 @@ public class WebDriverSettings  {
             FileUtils.copyFile(screenshot, new File(path));
             saveAllureScreenshot();
             makeScreenshot();*/
-            System.out.println("Test failed with: "
-                    + failure.getException());
+                       
             driver.quit();
         }
 
