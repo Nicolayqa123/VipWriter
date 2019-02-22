@@ -16,6 +16,7 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
+        <aspectj.version>1.9.1</aspectj.version>
     </properties>
 
 
@@ -146,7 +147,7 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                    <outputDirectory>${basedir}/target/newsite</outputDirectory>
+                    <outputDirectory>${basedir}/target/</outputDirectory>
                 </configuration>
             </plugin>
 
@@ -154,7 +155,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
-
+                <configuration>
+                <argLine>
+                    -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                </argLine>
+                </configuration>
             </plugin>
 
             <plugin>
@@ -164,6 +169,7 @@
                 <configuration>
                     <outputDirectory>${basedir}/target/site/surefire-report.html</outputDirectory>
                     <outputDirectory>${basedir}/target/allure-results</outputDirectory>
+
                 </configuration>
             </plugin>
             <plugin>
@@ -176,6 +182,18 @@
 
     <build>
         <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12.3</version>
+                <configuration>
+                    <parallel>classes</parallel>
+                    <perCoreThreadCount>true</perCoreThreadCount>
+                    <threadCount>5</threadCount>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>ru.yandex.qatools.allure</groupId>
                 <artifactId>allure-maven-plugin</artifactId>

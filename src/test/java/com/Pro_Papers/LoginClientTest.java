@@ -16,8 +16,8 @@ public class LoginClientTest extends WebDriverSettings {
         driver.get("https://client.urgentpapers.org/");
 
         driver.findElement(loginClient).click();
-        driver.findElement(loginClientUserName).sendKeys("nicolaychiuri@gmail.com");
-        driver.findElement(loginClientPassword).sendKeys("nicolay");
+        driver.findElement(loginClientUserName).sendKeys(mail);
+        driver.findElement(loginClientPassword).sendKeys(pass);
         driver.findElement(loginClientSubmit).click();
         TimeUnit.SECONDS.sleep(10);
         Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]").getText()));

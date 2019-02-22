@@ -2,8 +2,13 @@ package com.vipwriters;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class Trainee extends WebDriverSettings {
@@ -12,27 +17,33 @@ public class Trainee extends WebDriverSettings {
 
 
 
-    private WebElement signUp = driver.findElementByXPath("/html/body/div/div/div/div[1]/header/div/div[2]/nav/ul/li[11]/a");
+    /*private WebElement signUp = driver.findElementByXPath("/html/body/div/div/div/div[1]/header/div/div[2]/nav/ul/li[11]/a");
     private WebElement firstName = driver.findElementByName("firstName");
     private WebElement lastName = driver.findElementByName("lastName");
     private WebElement language = driver.findElementByName("languageSpoken");
     private WebElement gender = driver.findElementByCssSelector("div.row-fluid:nth-child(3) > div:nth-child(1) > span:nth-child(2) > label:nth-child(1) > input:nth-child(1)");
     private WebElement next = driver.findElementByClassName("btn btn-red");
 
+*/
+    /*DesiredCapabilities capability = DesiredCapabilities.firefox();
+    WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);*/
 
-    @Test
+    public Trainee() throws MalformedURLException {
+    }
+
+   /* @Test
     public void Te4st () throws Exception{
 
         driver.get("https://writer.urgentpapers.org");
         TimeUnit.SECONDS.sleep(5);
         signUp.click();
-        firstName.sendKeys("test1");
+        firstName.sendKeys(letter + "");
         lastName.sendKeys("test2");
         language.sendKeys("Russian");
         gender.click();
         next.click();
     }
-
+*/
 
     @Test
     public void asddsa455() throws Exception {

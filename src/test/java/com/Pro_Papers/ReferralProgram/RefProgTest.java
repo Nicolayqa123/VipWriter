@@ -24,7 +24,7 @@ public class RefProgTest extends WebDriverSettings {
         int z = r.nextInt(20) + 1;
         int a = r.nextInt(20) + 1;
         int s = r.nextInt(9) + 1;
-           LoginPap();
+        LoginPap();
         String originalWindow = driver.getWindowHandle();
        driver.get("https://client.urgentpapers.org/my/referrals");
         TimeUnit.SECONDS.sleep(2);

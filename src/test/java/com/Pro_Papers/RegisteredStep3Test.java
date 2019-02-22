@@ -28,10 +28,10 @@ public class RegisteredStep3Test extends WebDriverSettings {
         RegisteredStep2();
         Select level = new Select(driver.findElement(By.name("academic_level")));
         level.selectByIndex(2);
-        driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "2");
-        driver.findElement(oNSteps3NumberOfProblem).sendKeys(y+"4");
-        driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "1");
-        driver.findElement(oNSteps3NumberOfSlides).sendKeys(a+"3");
+        driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "");
+        driver.findElement(oNSteps3NumberOfProblem).sendKeys(y+"");
+        driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "");
+        driver.findElement(oNSteps3NumberOfSlides).sendKeys(a+"");
         Select deadlines = new Select(driver.findElement(By.name("deadline")));
         deadlines.selectByIndex(s);
         driver.findElementByCssSelector("#payment-radio-2").click();
@@ -53,6 +53,7 @@ public class RegisteredStep3Test extends WebDriverSettings {
         driver.findElementByName("btnLogin").click();
         TimeUnit.SECONDS.sleep(15);
         driver.findElementById("confirmButtonTop").click();
+        TimeUnit.SECONDS.sleep(5);
 
     }
     @Test
@@ -62,10 +63,10 @@ public class RegisteredStep3Test extends WebDriverSettings {
         RegisteredStep2();
         Select level = new Select(driver.findElement(By.name("academic_level")));
         level.selectByIndex(2);
-        driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "2");
-        driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "4");
-        driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "1");
-        driver.findElement(oNSteps3NumberOfSlides).sendKeys(a + "3");
+        driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "");
+        driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "");
+        driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "");
+        driver.findElement(oNSteps3NumberOfSlides).sendKeys(a + "");
         Select deadlines = new Select(driver.findElement(By.name("deadline")));
         deadlines.selectByIndex(s);
         driver.findElementByCssSelector("#payment-radio-2").click();

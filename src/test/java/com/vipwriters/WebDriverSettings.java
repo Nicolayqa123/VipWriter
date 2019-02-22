@@ -55,8 +55,10 @@ public class WebDriverSettings  {
     // String mail = "nicolayqa@gmail.com";
     // String pass = "nicolayqa";
 
-    public String mail = "gennadii2@test.com";
+    public String mail = "Nicolayqa@gmail.com";
     public String pass = "123456";
+
+
 
 
 
@@ -123,9 +125,9 @@ public class WebDriverSettings  {
             //  driver = new ChromeDriver();
             System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
             driver.manage().window().setSize(new Dimension(1500, 810));
         }
 
@@ -178,7 +180,8 @@ public class WebDriverSettings  {
 
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
-
+    String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    char letter = abc.charAt(r.nextInt(abc.length()));
     public void Screen() throws Exception {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 // Now you can do whatever you need to do with it, for example copy somewhere
@@ -393,8 +396,8 @@ public class WebDriverSettings  {
         driver.get("https://client.urgentpapers.org/");
 
         driver.findElement(loginClient).click();
-        driver.findElement(loginClientUserName).sendKeys("nicolaychiuri@gmail.com");
-        driver.findElement(loginClientPassword).sendKeys("nicolay");
+        driver.findElement(loginClientUserName).sendKeys(mail);
+        driver.findElement(loginClientPassword).sendKeys(pass);
         driver.findElement(loginClientSubmit).click();
         TimeUnit.SECONDS.sleep(10);
     }
@@ -801,7 +804,12 @@ public class WebDriverSettings  {
     }
 
 
-
+    int z = r.nextInt(43) + 1;
+    int b = r.nextInt(9) + 1;
+    String [] AmerName = {"Liam","Emma","Noah","Olivia","Mason","Ava","Ethan","Sophia","Logan","Isabella","Lucas","Mia","Jackson","Charlotte","Aiden","Amelia","Oliver","Emily","Jacob","Madison","Elijah","Harper","Alexander","Abigail" ,"James","Avery","Benjamin","Lily" ,"Jack","Ella","Luke","Chloe" ,"William","Evelyn","Michael","Sofia" ,"Owen","Aria","Daniel","Ellie" ,"Carter","Aubreyn","Gabriel","Scarlett"};
+    String [] AmerLastName = {"Smith","Johnson","Williams","Brown","Jones","Davis","Taylor","Wilson","Robinson","Wright"};
+    String names = AmerName[z];
+    String lastName = AmerLastName[b];
 
 
 

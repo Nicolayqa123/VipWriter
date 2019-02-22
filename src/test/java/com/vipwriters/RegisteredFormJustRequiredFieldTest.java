@@ -6,6 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -15,18 +18,23 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
 
     Random r = new Random();
     int x = r.nextInt(10000) + 1;
+    String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    char letter = abc.charAt(r.nextInt(abc.length()));
 
     public String regmail = x + "test@test.com";
     public String regpass = "123456";
 
 
+
+
     @Test
     public void RegisteredFormJustRequiredField1() throws InterruptedException {
-        driver.get("https://writer.urgentpapers.org/signUp/aboutMe");
+        driver.get("https://writer.urgentpapers.org/signUp");
+        TimeUnit.SECONDS.sleep(3);
 
 
-        SignUp.firsName(driver).sendKeys("Nicolay");
-        SignUp.lastName(driver).sendKeys("QAtest");
+        SignUp.firsName(driver).sendKeys(names);
+        SignUp.lastName(driver).sendKeys(lastName);
         SignUp.language(driver).sendKeys("england");
         SignUp.genderMale(driver).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
