@@ -144,7 +144,7 @@ public class WebDriverSettings  {
             FileUtils.copyFile(screenshot, new File(path));
             saveAllureScreenshot();
             makeScreenshot();*/
-                       
+
             driver.quit();
         }
 
