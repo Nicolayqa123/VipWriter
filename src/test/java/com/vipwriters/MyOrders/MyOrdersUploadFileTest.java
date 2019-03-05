@@ -29,7 +29,7 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         MyOrders.myOrders(driver).click();
-        MyOrders.Order10015(driver).click();
+        MyOrders.OrderInProgress(driver).click();
         DetailedOrder.uploadFile(driver).click();
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeAditiMater(driver).click();

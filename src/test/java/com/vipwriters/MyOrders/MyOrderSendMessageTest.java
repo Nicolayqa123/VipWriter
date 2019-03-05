@@ -20,7 +20,7 @@ public class MyOrderSendMessageTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         MyOrders.myOrders(driver).click();
-        MyOrders.Order10015(driver).click();
+        MyOrders.OrderInProgress(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         DetailedOrder.message(driver).sendKeys("Test message");
@@ -34,7 +34,7 @@ public class MyOrderSendMessageTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         MyOrders.myOrders(driver).click();
-        MyOrders.Order10015(driver).click();
+        MyOrders.OrderInProgress(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -52,7 +52,7 @@ public class MyOrderSendMessageTest extends WebDriverSettings {
 
         TimeUnit.SECONDS.sleep(4);
         MyOrders.myOrders(driver).click();
-        MyOrders.Order10015(driver).click();
+        MyOrders.OrderInProgress(driver).click();
         DetailedOrder.openMessageForm(driver).click();
         DetailedOrder.messageRecipientClient(driver).click();
         DetailedOrder.message(driver).sendKeys("Test");

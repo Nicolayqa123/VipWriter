@@ -14,7 +14,7 @@ public class MyOrdersDownloadFilesTest extends WebDriverSettings {
         WritersLogin();
         TimeUnit.SECONDS.sleep(4);
         MyOrders.myOrders(driver).click();
-        MyOrders.Order10015(driver).click();
+        MyOrders.OrderInProgress(driver).click();
         TimeUnit.SECONDS.sleep(2);
         DetailedOrder.downloadFile(driver).click();
 

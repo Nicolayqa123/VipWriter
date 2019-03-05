@@ -17,7 +17,7 @@ public class AppliedUploadFilesTest extends WebDriverSettings {
     WritersLogin();
     TimeUnit.SECONDS.sleep(4);
     AppliedOrders.appliedOrders(driver).click();
-    AppliedOrders.order10005(driver).click();
+    AppliedOrders.orderApplied(driver).click();
     TimeUnit.SECONDS.sleep(2);
     JavascriptExecutor jse = (JavascriptExecutor) driver;
     jse.executeScript("scroll(0, 650);");
