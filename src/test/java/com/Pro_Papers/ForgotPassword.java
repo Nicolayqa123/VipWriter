@@ -12,7 +12,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-public class ForgotPasswordTest extends WebDriverSettings {
+public class ForgotPassword extends WebDriverSettings {
     @Test
     public void forgotPassword1() throws InterruptedException {
         driver.get("https://client.urgentpapers.org/");

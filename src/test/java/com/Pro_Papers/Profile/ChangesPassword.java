@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class ChangesPasswordTest extends WebDriverSettings {
+public class ChangesPassword extends WebDriverSettings {
     @Test
     public void ChangePassNic() throws Exception {
         LoginPap();

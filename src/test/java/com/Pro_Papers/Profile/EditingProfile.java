@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class EditingProfileTest extends WebDriverSettings {
+public class EditingProfile extends WebDriverSettings {
 
     public void EditProfile() throws Exception {
 

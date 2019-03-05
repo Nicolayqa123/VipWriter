@@ -1,15 +1,12 @@
-package com.Pro_Papers.UnpaidOrders;
+package com.Pro_Papers.PreviousOrders;
 
 import com.vipwriters.WebDriverSettings;
-import com.vipwriters.WebDriverSettingsChrome;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
-public class SendMessageInOrderTest extends WebDriverSettings {
+public class SendMessageInOrder extends WebDriverSettings {
 
     @Test
     public void SendMessageInOrder1 () throws Exception {
@@ -17,10 +14,9 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         LoginPap();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 4350);");
-        driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[1]/li[2]/a").click();
+        driver.findElement(previousOrders).click();
         jse.executeScript("scroll(0, 1050);");
-        driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/table/tbody/tr[1]/td[1]/a").click();
-
+        driver.findElement(order10272).click();
 
 
 
@@ -30,18 +26,16 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         driver.findElement(aNMWriter).click();
         driver.findElement(aNMText).sendKeys("test");
         driver.findElement(aNMSendMessage).click();
-        TimeUnit.SECONDS.sleep(4);
 
     }
-
+    @Test
     public void SendMessageInOrderMax () throws Exception {
         LoginPap();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 4350);");
-        driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[1]/li[2]/a").click();
+        driver.findElement(previousOrders).click();
         jse.executeScript("scroll(0, 1050);");
-        driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/table/tbody/tr[1]/td[1]/a").click();
-
+        driver.findElement(order10272).click();
 
         ;
 
@@ -62,11 +56,9 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         LoginPap();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 4350);");
-        driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[2]/ul[1]/li[2]/a").click();
+        driver.findElement(previousOrders).click();
         jse.executeScript("scroll(0, 1050);");
-        TimeUnit.SECONDS.sleep(4);
-        driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[2]/div/div/table/tbody/tr[1]/td[1]/a").click();
-
+        driver.findElement(order10272).click();
 
 
         ;
@@ -75,7 +67,6 @@ public class SendMessageInOrderTest extends WebDriverSettings {
         driver.findElement(addNewMessage).click();
         driver.findElement(aNMWriter).click();
         driver.findElement(aNMText).sendKeys("1");
-        TimeUnit.SECONDS.sleep(4);
         driver.findElement(aNMSendMessage).click();
 
     }

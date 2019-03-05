@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class AddChangeDiscountTest extends WebDriverSettings {
+public class AddChangeDiscount extends WebDriverSettings {
 @Test
     public void discountFalse() throws Exception {
     LoginPap();

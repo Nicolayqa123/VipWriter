@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import static org.junit.Assert.assertEquals;
 
-public class ContactUSTest extends WebDriverSettings {
+public class ContactUS extends WebDriverSettings {
 
     public void ContacteusCallback () throws Exception {
         LoginPap();

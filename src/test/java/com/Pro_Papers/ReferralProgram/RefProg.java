@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
 
-public class RefProgTest extends WebDriverSettings {
+public class RefProg extends WebDriverSettings {
 
     @Test
     public void Ref () throws Exception {

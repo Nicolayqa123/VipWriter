@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.concurrent.TimeUnit;
 
-public class SendMessageInOrderTest extends WebDriverSettings {
+public class SendMessageInOrder extends WebDriverSettings {
 
 
     @Test
