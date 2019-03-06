@@ -69,6 +69,7 @@ public class AppliedSendMessageTest extends WebDriverSettings {
                 "Let me know your thoughts.\n" +
                 "Thank you.\n");
         DetailedOrder.sendMessageForm(driver).click();
+        TimeUnit.SECONDS.sleep(1);
         assertEquals("Message successfully sent!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }
