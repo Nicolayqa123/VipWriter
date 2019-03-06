@@ -19,7 +19,7 @@ public class PaymentsPageSwitching extends WebDriverSettings {
         Transactions.page2(driver).click();
         Transactions.page3(driver).click();
     }
-    
+    /*
     public void ppswitching25 () throws Exception {
         WritersLogin();
         TimeUnit.SECONDS.sleep(3);
@@ -27,5 +27,5 @@ public class PaymentsPageSwitching extends WebDriverSettings {
         Transactions.showEntries25(driver).click();
         Transactions.page2(driver).click();
 
-    }
+    }*/
 }

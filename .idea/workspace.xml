@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedSendMessageTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitching.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitching.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDownloadFilesTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -205,8 +202,8 @@
       <file leaf-file-name="PaymentsPageSwitching.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="481">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -832,7 +829,7 @@
       <workItem from="1551449657823" duration="1398000" />
       <workItem from="1551689754120" duration="1299000" />
       <workItem from="1551770659400" duration="10963000" />
-      <workItem from="1551861020182" duration="2174000" />
+      <workItem from="1551861020182" duration="2797000" />
     </task>
     <servers />
   </component>
@@ -869,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25098000" />
+    <option name="totallyTimeSpent" value="25721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1296,8 +1293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/Payments/PaymentsPageSwitching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="481">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
