@@ -20,7 +20,9 @@ import org.junit.runner.RunWith;
 import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -122,6 +124,12 @@ public class WebDriverSettings  {
 
         @Before
         public void setup() {
+
+            File pathToBinary = new File("src/geckodriver.exe");
+            FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
+            FirefoxProfile firefoxProfile = new FirefoxProfile();
+          //  FirefoxDriver driver = new FirefoxDriver(ffBinary,firefoxProfile);
+
             System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
             driver = new FirefoxDriver();
             System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
