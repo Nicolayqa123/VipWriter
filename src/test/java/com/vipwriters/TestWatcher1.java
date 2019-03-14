@@ -21,7 +21,7 @@ public class TestWatcher1 extends WebDriverSettings{
         @Override
         protected void starting(Description description) {
             System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-            driver = new FirefoxDriver();
+           // driver = new FirefoxDriver();
             System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
             //  driver = new ChromeDriver();
             System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
