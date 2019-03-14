@@ -173,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="127" column="75" lean-forward="false" selection-start-line="127" selection-start-column="75" selection-end-line="127" selection-end-column="75" />
+              <caret line="127" column="77" lean-forward="false" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -822,7 +822,7 @@
       <workItem from="1551770659400" duration="10963000" />
       <workItem from="1551861020182" duration="3392000" />
       <workItem from="1552384510592" duration="1716000" />
-      <workItem from="1552557256592" duration="4647000" />
+      <workItem from="1552557256592" duration="4806000" />
     </task>
     <servers />
   </component>
@@ -859,7 +859,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32679000" />
+    <option name="totallyTimeSpent" value="32838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1276,7 +1276,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="127" column="75" lean-forward="false" selection-start-line="127" selection-start-column="75" selection-end-line="127" selection-end-column="75" />
+          <caret line="127" column="77" lean-forward="false" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
           <folding />
         </state>
       </provider>
