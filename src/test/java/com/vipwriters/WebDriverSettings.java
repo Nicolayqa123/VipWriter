@@ -20,6 +20,7 @@ import org.junit.runner.RunWith;
 import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -46,8 +47,8 @@ import static org.junit.Assert.assertEquals;
 public class WebDriverSettings  {
 
 
-    public FirefoxDriver driver;
-
+   // public FirefoxDriver driver;
+    public ChromeDriver driver;
     //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
@@ -124,16 +125,17 @@ public class WebDriverSettings  {
 
         @Before
         public void setup() {
+/*
 
             File pathToBinary = new File("C://Program Files (x86)/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
-            FirefoxProfile firefoxProfile = new FirefoxProfile();
-          //  FirefoxDriver driver = new FirefoxDriver(ffBinary,firefoxProfile);
+            FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver = new FirefoxDriver(ffBinary,firefoxProfile);
+*/
 
-            System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
-            driver = new FirefoxDriver();
-            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-            //  driver = new ChromeDriver();
+     //       System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
+     //       driver = new FirefoxDriver();
+            System.setProperty("webdriver.chrome.driver", "src/chromedriver.exe");
+              driver = new ChromeDriver();
             System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
