@@ -122,7 +122,7 @@ public class WebDriverSettings  {
 
         @Before
         public void setup() {
-            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
             driver = new FirefoxDriver();
             System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
             //  driver = new ChromeDriver();
