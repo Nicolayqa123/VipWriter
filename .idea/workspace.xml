@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-    </list>
+    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -402,7 +400,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="226" />
     <option name="width" value="1750" />
     <option name="height" value="1250" />
@@ -822,7 +820,7 @@
       <workItem from="1551770659400" duration="10963000" />
       <workItem from="1551861020182" duration="3392000" />
       <workItem from="1552384510592" duration="1716000" />
-      <workItem from="1552557256592" duration="2453000" />
+      <workItem from="1552557256592" duration="3036000" />
     </task>
     <servers />
   </component>
@@ -859,7 +857,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30485000" />
+    <option name="totallyTimeSpent" value="31068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,7 +869,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
