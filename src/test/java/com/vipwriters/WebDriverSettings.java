@@ -125,7 +125,7 @@ public class WebDriverSettings  {
         @Before
         public void setup() {
 
-            File pathToBinary = new File("src/geckodriver.exe");
+            File pathToBinary = new File("C://Program Files (x86)/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();
           //  FirefoxDriver driver = new FirefoxDriver(ffBinary,firefoxProfile);

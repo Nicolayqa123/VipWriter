@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/dmytr.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
@@ -174,8 +172,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="139" column="78" lean-forward="true" selection-start-line="139" selection-start-column="78" selection-end-line="139" selection-end-column="78" />
+            <state relative-caret-position="420">
+              <caret line="129" column="65" lean-forward="true" selection-start-line="129" selection-start-column="65" selection-end-line="129" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -824,7 +822,7 @@
       <workItem from="1551770659400" duration="10963000" />
       <workItem from="1551861020182" duration="3392000" />
       <workItem from="1552384510592" duration="1716000" />
-      <workItem from="1552557256592" duration="4182000" />
+      <workItem from="1552557256592" duration="4417000" />
     </task>
     <servers />
   </component>
@@ -861,7 +859,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32214000" />
+    <option name="totallyTimeSpent" value="32449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1277,8 +1275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="139" column="78" lean-forward="true" selection-start-line="139" selection-start-column="78" selection-end-line="139" selection-end-column="78" />
+        <state relative-caret-position="420">
+          <caret line="129" column="65" lean-forward="true" selection-start-line="129" selection-start-column="65" selection-end-line="129" selection-end-column="65" />
           <folding />
         </state>
       </provider>
