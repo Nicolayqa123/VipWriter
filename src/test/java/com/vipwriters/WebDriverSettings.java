@@ -24,6 +24,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,8 +48,7 @@ import static org.junit.Assert.assertEquals;
 public class WebDriverSettings  {
 
 
-   // public FirefoxDriver driver;
-    public ChromeDriver driver;
+    public FirefoxDriver driver;
     //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
@@ -125,7 +125,17 @@ public class WebDriverSettings  {
 
         @Before
         public void setup() {
-/*
+
+
+            System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+            DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+            capabilities.setCapability("marionette", true);
+            driver = new FirefoxDriver(capabilities);
+
+
+
+
+            /*
 
             File pathToBinary = new File("C://Program Files (x86)/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
@@ -134,8 +144,8 @@ public class WebDriverSettings  {
 
      //       System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
      //       driver = new FirefoxDriver();
-            System.setProperty("webdriver.chrome.driver", "src/chromedriver.exe");
-              driver = new ChromeDriver();
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        //      driver = new ChromeDriver();
             System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
