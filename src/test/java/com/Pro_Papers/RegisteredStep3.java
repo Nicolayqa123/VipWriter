@@ -12,12 +12,12 @@ import java.util.concurrent.TimeUnit;
 
 public class RegisteredStep3 extends WebDriverSettings {
 
-    Random r = new Random();
-    int x = r.nextInt(20) + 1;
-    int y = r.nextInt(20) + 1;
-    int z = r.nextInt(20) + 1;
-    int a = r.nextInt(20) + 1;
-    int s = r.nextInt(9) + 1;
+    private Random r = new Random();
+    private int x = r.nextInt(20) + 1;
+    private int y = r.nextInt(20) + 1;
+    private int z = r.nextInt(20) + 1;
+    private int a = r.nextInt(20) + 1;
+    private int s = r.nextInt(9) + 1;
 
 
 
@@ -39,8 +39,9 @@ public class RegisteredStep3 extends WebDriverSettings {
         driver.findElement(oNStep3Pay).click();
 
         TimeUnit.SECONDS.sleep(20);
-        ArrayList tabs2 = new ArrayList(driver.getWindowHandles());
-        driver.switchTo().window((String) tabs2.get(1));
+      //  ArrayList tabs2 = new ArrayList(driver.getWindowHandles());
+        ArrayList<String> tabs2 = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs2.get(1));
 
         TimeUnit.SECONDS.sleep(15);
         driver.findElementByXPath("//*[@id=\"loginSection\"]/div/div[2]").click();
@@ -91,8 +92,8 @@ public class RegisteredStep3 extends WebDriverSettings {
         driver.findElement(oNStep3Pay).click();
 
         TimeUnit.SECONDS.sleep(20);
-        ArrayList tabs2 = new ArrayList(driver.getWindowHandles());
-        driver.switchTo().window((String) tabs2.get(1));
+        ArrayList<String> tabs2 = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs2.get(1));
 
         TimeUnit.SECONDS.sleep(15);
         driver.findElementByXPath("//*[@id=\"loginSection\"]/div/div[2]").click();
