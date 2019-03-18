@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class PaymentsReason extends WebDriverSettings {
+public class PaymentsReasonTest extends WebDriverSettings {
     @Test
     public void reaso () throws Exception {
        // WritersLogin();
