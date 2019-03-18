@@ -6,21 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDownloadFiles.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFiles.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsPageSwitching.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsReason.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsSearch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDownloadFiles.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" />
-    </list>
+    <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1410,7 +1396,7 @@
       <workItem from="1552557262965" duration="1842000" />
       <workItem from="1552636023364" duration="3401000" />
       <workItem from="1552894735582" duration="1126000" />
-      <workItem from="1552919643541" duration="610000" />
+      <workItem from="1552919643541" duration="638000" />
     </task>
     <servers />
   </component>
@@ -1447,7 +1433,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65333000" />
+    <option name="totallyTimeSpent" value="65361000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
