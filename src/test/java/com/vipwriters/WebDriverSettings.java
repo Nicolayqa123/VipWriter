@@ -126,11 +126,13 @@ public class WebDriverSettings  {
         @Before
         public void setup() {
 
+/*
 
             System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             DesiredCapabilities capabilities = DesiredCapabilities.firefox();
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
+*/
 
 
 
@@ -142,11 +144,13 @@ public class WebDriverSettings  {
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver = new FirefoxDriver(ffBinary,firefoxProfile);
 */
 
-     //       System.setProperty("webdriver.gecko.driver", "src/geckodriver.exe");
-     //       driver = new FirefoxDriver();
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+            System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+            DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+            capabilities.setCapability("marionette", true);
+            driver = new FirefoxDriver();
+      //      System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         //      driver = new ChromeDriver();
-            System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
+        //    System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);

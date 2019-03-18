@@ -2,7 +2,282 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.FilterTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.PayToOrderTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.CurrentOrders.SendMessageInOrderTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.ForgotPasswordTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.LoginClientTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.DetailedOrderView1Test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.FilterTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.PayToOrderTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.PreviousOrders.SendMessageInOrderTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.Profile.ChangesPasswordTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.Profile.EditingProfileTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.ReferralProgram.RefProgTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredStep2Test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredStep3Test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.RegisteredTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.UnpaidOrders.AddChangeDiscountTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.UnpaidOrders.DetailedOrderView1Test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.UnpaidOrders.FilterTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Pro_Papers.UnpaidOrders.SendMessageInOrderTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Affiliate.AffiliateStatisticsTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDetailedOrderViewTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDownloadFilesTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedFilterTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedSendMessageTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedUploadFilesTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.ContactFormTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.ForgotPasswordTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MailUSFormTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderSendMessageTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersDownloadFilesTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersUploadFileTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsPageSwitchingTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsReasonTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsSearchTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.RegisteredFormJustRequiredFieldTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableDetailedOrderViewTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableDownloadFilesTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableFilterTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailablePageSwitchingTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableSearchTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableSendMessageInOrderTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableShowOnlyOrdersWithinMyProficiencyTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.FilterTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.PayToOrderTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.CurrentOrders.SendMessageInOrderTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.ForgotPasswordTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.LoginClientTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.DetailedOrderView1Test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.FilterTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.PayToOrderTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.PreviousOrders.SendMessageInOrderTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.Profile.ChangesPasswordTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.Profile.EditingProfileTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.ReferralProgram.RefProgTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredStep2Test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredStep3Test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.RegisteredTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.UnpaidOrders.AddChangeDiscountTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.UnpaidOrders.DetailedOrderView1Test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.UnpaidOrders.FilterTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Pro_Papers.UnpaidOrders.SendMessageInOrderTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Affiliate.AffiliateStatisticsTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDetailedOrderViewTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDownloadFilesTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedFilterTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedSendMessageTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedUploadFilesTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.ContactFormTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.ForgotPasswordTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MailUSFormTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderSendMessageTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersDownloadFilesTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersUploadFileTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsPageSwitchingTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsReasonTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsSearchTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.RegisteredFormJustRequiredFieldTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableDetailedOrderViewTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableDownloadFilesTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableFilterTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailablePageSwitchingTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableSearchTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableSendMessageInOrderTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableShowOnlyOrdersWithinMyProficiencyTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10071292105270414390.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10250187415467987150.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10256084216033608979.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10314962678505754429.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10426581139875569436.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1045614593998028929.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10564352833683487581.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10792657637174045209.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10873645545620748348.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10878616150624431696.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10943539914610331650.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot10951041150094118917.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11125125399067376165.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11240468013829194956.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11296440034009649794.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11764656040699294034.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11765878884975078713.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11869638578403711266.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11910383721260035849.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11915032975836929714.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot11925610192319540755.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12022428135829310000.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12157415840817523626.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1218662473650477366.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1228434341885986229.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12317554038009248520.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12456861857241033790.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12509960808208318728.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12514543733809942915.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1251982068819991249.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12776748239744865106.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12776825857188632091.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12889973064487763481.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot12978046862377805094.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1301419839909100896.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot13185798311404926931.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot13344361639122425527.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1337549095474892405.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1343584504866833303.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot13468697745841384280.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot13537662051731787068.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot13651450377717950827.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot13806763732026397186.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14198885918931502684.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1425855802326929619.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14271652840914618236.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14372940335339550513.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1451112203326750730.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14590366021367405406.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14641779537852981256.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14689487241963042881.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14783149942271592965.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14802510509937279688.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14874260088635804399.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14918761381964116241.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14956847657976567407.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot14968539837699283896.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15101059996951003800.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15171926836201053758.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15178820206773439561.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15306326024000188036.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15381777588552533558.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15601962133014705473.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15713951935072302312.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15758010051843658421.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot15975390316385327336.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1599031230852268502.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1626318488490702754.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16285397266462723568.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16521598028216096695.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16544506563555771516.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16600205342062416310.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1662153520457727257.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16631077136391661282.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16734785027118322178.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16757562499265770121.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16770792797659123981.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16969024304020345634.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot16986944186390317068.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17095312417931215938.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17138534954572571333.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17164449922358018864.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17203563016775172351.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17210500240096082745.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17323750958672527196.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17453385544626838137.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17494941799122035694.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17496274673028392239.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17516006310570974756.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot17921398596062296942.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot18028226888908541016.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot18134118643627443542.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1829425222834981196.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot1947031749348205889.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot2099132921970251269.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot2233268215475394445.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot2265587848310015640.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot2338951977811600559.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot2852340001533186060.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot287844687988389792.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot307205083969267782.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3120665404215831601.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3240539525509218217.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3270790149962019408.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3292575418244854430.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3300838282970732146.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3412693561173975690.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3774265807210884472.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3869182796734417634.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3873489417423673817.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3878439340156640309.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3890457668310759898.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot3986935455067639298.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot4033587904565691485.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot4134749420637547745.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot4499239731752068729.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot4683340025053960376.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot475763155564656609.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot4802600114516072150.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5003565270491120433.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5190918372430309380.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5367332443844566708.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5398153943164083451.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5564894590560542876.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5578195537607788762.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5631409999140870092.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5696233201909795495.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5719818121655440362.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5724237237303330188.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5754836990485213880.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5800813396404540107.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot580710613046971339.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5845258611784148445.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot5870602573886122613.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6133510927339935188.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6191222010551516994.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6233200005964341264.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6493637689164455843.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6611008342616419467.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot684717241822114448.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6871952041268718334.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6887440438918305727.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6905346377111723801.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot6945191696774247149.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7031929808896995452.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot705741499066837916.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7112389553522725056.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7146798465634600881.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7348539528905786133.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7373196287063469442.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot758569400889494299.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7642307872609669809.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7865557019081790185.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7949413741815578937.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot7991197878489773877.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8015440771248032813.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8236334753416017664.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8283426887514828718.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8292878647393821039.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8355402607329674573.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8417290523547872649.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8444405935519157333.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8621788903284233389.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8831079395578446002.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8952291629526426226.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot8958140860437345096.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9030230157832033985.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9168302621991984247.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9208622478727083618.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot927554757775702184.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9341092956908066965.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9362739155485123308.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot940860492796271014.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9446913060647547112.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9768153648298033189.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9814897802062430745.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9841544653613867527.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot984781568647643342.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9904320477047025964.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9912691127831214659.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9920868421385209560.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/screenshot9953489548841829347.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/VipWriter/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -172,8 +447,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="144" column="82" lean-forward="true" selection-start-line="144" selection-start-column="82" selection-end-line="144" selection-end-column="82" />
+            <state relative-caret-position="168">
+              <caret line="152" column="10" lean-forward="false" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -403,7 +678,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="226" />
     <option name="width" value="1750" />
     <option name="height" value="1250" />
@@ -424,7 +699,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -478,44 +754,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Pro_Papers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
-              <item name="Affiliate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vipwriters" type="462c0819:PsiDirectoryNode" />
-              <item name="available" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Regression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
@@ -526,9 +765,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -838,7 +1076,8 @@
       <workItem from="1551861020182" duration="3392000" />
       <workItem from="1552384510592" duration="1716000" />
       <workItem from="1552557256592" duration="5998000" />
-      <workItem from="1552636029481" duration="2154000" />
+      <workItem from="1552636029481" duration="3475000" />
+      <workItem from="1552894758081" duration="1731000" />
     </task>
     <servers />
   </component>
@@ -875,7 +1114,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36184000" />
+    <option name="totallyTimeSpent" value="39236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -887,7 +1126,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -896,16 +1135,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.50067115" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.5026853" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295302" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3148358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.49932885" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32616082" sideWeight="0.49731472" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27228788" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27604726" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342282" sideWeight="0.5031056" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1212,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,8 +1528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="144" column="82" lean-forward="true" selection-start-line="144" selection-start-column="82" selection-end-line="144" selection-end-column="82" />
+        <state relative-caret-position="168">
+          <caret line="152" column="10" lean-forward="false" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
           <folding />
         </state>
       </provider>
