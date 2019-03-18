@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.MailUSFormTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 216.194 s <<< FAILURE! - in com.vipwriters.MailUSFormTest
+mailUsmin(com.vipwriters.MailUSFormTest)  Time elapsed: 50.957 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15544, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78384e80-7b4b-4233-89e0-d73e75004487
+*** Element info: {Using=xpath, value=//*[@id="root"]/div/div/div[1]/ul/li[9]/a}
+	at com.vipwriters.MailUSFormTest.mailUsmin(MailUSFormTest.java:36)
+
+mailUsmin(com.vipwriters.MailUSFormTest)  Time elapsed: 50.958 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15544, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78384e80-7b4b-4233-89e0-d73e75004487
+
+mailUsOther(com.vipwriters.MailUSFormTest)  Time elapsed: 12.741 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+mailUsOther(com.vipwriters.MailUSFormTest)  Time elapsed: 12.741 s  <<< ERROR!
+java.lang.NullPointerException
+
+mailUsEmptySubject(com.vipwriters.MailUSFormTest)  Time elapsed: 16.797 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+mailUsEmptySubject(com.vipwriters.MailUSFormTest)  Time elapsed: 16.798 s  <<< ERROR!
+java.lang.NullPointerException
+

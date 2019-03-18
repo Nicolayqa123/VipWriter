@@ -5,6 +5,7 @@ import com.PageWriter.SignUp;
 import com.Screenshot;
 
 import com.SeleniumRunner;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
@@ -126,8 +127,11 @@ public class WebDriverSettings  {
         @Before
         public void setup() {
 
-/*
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
 
+
+/*
             System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             DesiredCapabilities capabilities = DesiredCapabilities.firefox();
             capabilities.setCapability("marionette", true);
@@ -144,10 +148,10 @@ public class WebDriverSettings  {
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver = new FirefoxDriver(ffBinary,firefoxProfile);
 */
 
-            System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+           /* System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
             DesiredCapabilities capabilities = DesiredCapabilities.firefox();
             capabilities.setCapability("marionette", true);
-            driver = new FirefoxDriver();
+            driver = new FirefoxDriver();*/
       //      System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         //      driver = new ChromeDriver();
         //    System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
