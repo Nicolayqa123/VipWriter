@@ -24,6 +24,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
@@ -143,18 +144,22 @@ public class WebDriverSettings  {
 */
 
 
+            File pathBinary = new File("C://Program Files (x86)/Mozilla Firefox/firefox.exe");
+            FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);
+            DesiredCapabilities desired = DesiredCapabilities.firefox();
+            FirefoxOptions options = new FirefoxOptions();
+            desired.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options.setBinary(firefoxBinary));
 
-
-
+            System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;*/
-            driver = new FirefoxDriver();
+            /*driver = new FirefoxDriver();
             System.setProperty("webdriver.firefox.bin","C://Program Files (x86)/Mozilla Firefox/firefox.exe");
 
 
-                  System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+
       //      DesiredCapabilities capabilities = DesiredCapabilities.firefox();
       //      capabilities.setCapability("marionette", true);
       //      driver = new FirefoxDriver();
