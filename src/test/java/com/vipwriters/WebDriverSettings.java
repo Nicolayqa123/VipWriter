@@ -127,8 +127,8 @@ public class WebDriverSettings  {
         @Before
         public void setup() {
 
-            WebDriverManager.firefoxdriver().setup();
-            driver = new FirefoxDriver();
+            /*WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();*/
 
 
 /*
@@ -141,14 +141,15 @@ public class WebDriverSettings  {
 
 
 
-            /*
 
-            File pathToBinary = new File("C://Program Files (x86)/Mozilla Firefox/firefox.exe");
+
+            File pathToBinary = new File("//src/main/resources/geckodriver.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
-            FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver = new FirefoxDriver(ffBinary,firefoxProfile);
-*/
+            FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;
+            driver = new FirefoxDriver();
 
-      //      System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+
+            //      System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
       //      DesiredCapabilities capabilities = DesiredCapabilities.firefox();
       //      capabilities.setCapability("marionette", true);
       //      driver = new FirefoxDriver();
