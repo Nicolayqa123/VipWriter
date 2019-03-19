@@ -128,8 +128,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state relative-caret-position="441">
+              <caret line="153" column="107" lean-forward="false" selection-start-line="153" selection-start-column="107" selection-end-line="153" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -1418,7 +1418,7 @@
       <workItem from="1552636023364" duration="3401000" />
       <workItem from="1552894735582" duration="1126000" />
       <workItem from="1552919643541" duration="1646000" />
-      <workItem from="1552981694285" duration="1406000" />
+      <workItem from="1552981694285" duration="2092000" />
     </task>
     <servers />
   </component>
@@ -1455,7 +1455,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67775000" />
+    <option name="totallyTimeSpent" value="68461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1743,8 +1743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="148" column="0" lean-forward="true" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        <state relative-caret-position="441">
+          <caret line="153" column="107" lean-forward="false" selection-start-line="153" selection-start-column="107" selection-end-line="153" selection-end-column="107" />
           <folding />
         </state>
       </provider>
