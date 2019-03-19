@@ -121,7 +121,11 @@ public class WebDriverSettings  {
 
 
 
-
+    private static WebDriver getFirefoxDriver(){
+        System.setProperty("webdriver.gecko.driver",
+                "//src/main/resources/geckodriver");
+        return new FirefoxDriver();
+    }
 
 
         @Before
@@ -139,13 +143,14 @@ public class WebDriverSettings  {
 */
 
 
+            System.setProperty("webdriver.gecko.driver",
+                    "//src/main/resources/geckodriver");
 
 
 
-
-            File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
+          /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
-            FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;
+            FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;*/
             driver = new FirefoxDriver();
 
 
