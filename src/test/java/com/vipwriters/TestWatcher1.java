@@ -15,12 +15,12 @@ import java.util.concurrent.TimeUnit;
 
 public class TestWatcher1 extends WebDriverSettings{
 
-    @Rule
+   @Rule
     public TestWatcher watcher = new TestWatcher() {
 
         @Override
         protected void starting(Description description) {
-            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
+           /* System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
             driver = new FirefoxDriver();
             System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
             //  driver = new ChromeDriver();
@@ -29,7 +29,7 @@ public class TestWatcher1 extends WebDriverSettings{
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
+            driver.manage().window().maximize();*/
 
         }
 
