@@ -143,7 +143,7 @@ public class WebDriverSettings  {
 
 
 
-            File pathToBinary = new File("//src/main/resources/geckodriver.exe");
+            File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;
             driver = new FirefoxDriver();
