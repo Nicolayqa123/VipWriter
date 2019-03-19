@@ -142,21 +142,13 @@ public class WebDriverSettings  {
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
 */
-
-
-            File pathBinary = new File("C://Program Files (x86)/Mozilla Firefox/firefox.exe");
-            FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);
-            DesiredCapabilities desired = DesiredCapabilities.firefox();
-            FirefoxOptions options = new FirefoxOptions();
-            desired.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options.setBinary(firefoxBinary));
-
+            System.setProperty("webdriver.firefox.bin","C://Program Files/Mozilla Firefox/firefox.exe");
             System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
-
+            driver = new FirefoxDriver();
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;*/
-            /*driver = new FirefoxDriver();
-            System.setProperty("webdriver.firefox.bin","C://Program Files (x86)/Mozilla Firefox/firefox.exe");
+            
 
 
 
