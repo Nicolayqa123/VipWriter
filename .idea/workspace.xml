@@ -2,6 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf34aac-99cb-4242-b32b-bccc4ccee278" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/application.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/VisualElements/VisualElements_150.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/VisualElements/VisualElements_70.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/blocklist.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/chrome.manifest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/crashreporter-override.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/features/formautofill@mozilla.org.xpi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/features/screenshots@mozilla.org.xpi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/features/webcompat-reporter@mozilla.org.xpi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/features/webcompat@mozilla.org.xpi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/browser/omni.ja" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/chrome.manifest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/crashreporter.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/defaults/pref/channel-prefs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/dependentlibs.list" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/distribution/distribution.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/distribution/extensions/sovetnik-yandex@yandex.ru.xpi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/distribution/extensions/vb@yandex.ru.xpi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/distribution/searchplugins/common/yasearch.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/distribution/utf8fix" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/firefox.VisualElementsManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/firefox.exe.sig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/fonts/TwemojiMozilla.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/gmp-clearkey/0.1/clearkey.dll.sig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/gmp-clearkey/0.1/manifest.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/omni.ja" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/platform.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/plugin-container.exe.sig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/precomplete" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/removed-files" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/uninstall/shortcuts_log.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/uninstall/uninstall.update" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/update-settings.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/updater.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Mozilla Firefox/xul.dll.sig" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +63,11 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="1008">
+              <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
               <folding>
-                <marker date="1553262894951" expanded="true" signature="24346:24388" ph="..." />
-                <marker date="1553262894951" expanded="true" signature="24346:24419" ph="..." />
+                <marker date="1553263747943" expanded="true" signature="27459:27501" ph="..." />
+                <marker date="1553263747943" expanded="true" signature="27459:27532" ph="..." />
               </folding>
             </state>
           </provider>
@@ -41,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="144" column="93" lean-forward="false" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
+              <caret line="144" column="59" lean-forward="false" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -121,25 +157,6 @@
               <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Mozilla Firefox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -330,7 +347,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553251987010</updated>
-      <workItem from="1553251997657" duration="2443000" />
+      <workItem from="1553251997657" duration="3538000" />
     </task>
     <servers />
   </component>
@@ -343,7 +360,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2443000" />
+    <option name="totallyTimeSpent" value="3538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -394,11 +411,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="1008">
+          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding>
-            <marker date="1553262894951" expanded="true" signature="24346:24388" ph="..." />
-            <marker date="1553262894951" expanded="true" signature="24346:24419" ph="..." />
+            <marker date="1553263747943" expanded="true" signature="27459:27501" ph="..." />
+            <marker date="1553263747943" expanded="true" signature="27459:27532" ph="..." />
           </folding>
         </state>
       </provider>
@@ -414,7 +431,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="144" column="93" lean-forward="false" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
+          <caret line="144" column="59" lean-forward="false" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
           <folding />
         </state>
       </provider>
