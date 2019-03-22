@@ -142,7 +142,7 @@ public class WebDriverSettings  {
             driver = new FirefoxDriver(capabilities);
 */
             System.setProperty("webdriver.firefox.bin","C:/Program Files (x86)/Mozilla Firefox/firefox.exe");
-            System.setProperty("webdriver.gecko.driver", "//geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             driver = new FirefoxDriver();
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
