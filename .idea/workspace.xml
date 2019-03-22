@@ -7,8 +7,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45bbdfe1-e632-41cf-b6aa-6b5374e927e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/DetailedOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/OrderStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/Orders.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AppliedOrders.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/AvailableOrders.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/ConfirmationNeeded.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/ContacteUs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/DetailedOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Lending.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MailUs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/MyOrders.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/SignUp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/Transactions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ContactUS.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/Filter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/PayToOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SaveFiles.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SendMessageInOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ForgotPassword.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/DetailedOrderView1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/Filter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/PayToOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SaveFiles.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SendMessageInOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/ChangesPassword.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/EditingProfile.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ReferralProgram/RefProg.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/AddChangeDiscount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/DetailedOrderView1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/Filter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/PayToOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SaveFiles.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SendMessageInOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Screenshot.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/SeleniumRunner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/AssignAndNoAssignWriter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupport.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/MorePayments.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/Verification.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Affiliate/AffiliateStatisticsTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDetailedOrderViewTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDownloadFilesTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedFilterTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedSendMessageTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedUploadFilesTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ContactFormTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ForgotPasswordTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSFormTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderSendMessageTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersUploadFileTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/OnlineForm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageFactore.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTutorials.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageWhatYouGet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsPageSwitchingTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsReasonTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsSearchTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileEnterAlternativeEmail.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileResetChanges.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/TestWatcher1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettingsChrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettingsIE.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDetailedOrderViewTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDownloadFilesTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableFilterTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailablePageSwitchingTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSendMessageInOrderTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,7 +206,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="3318">
               <caret line="205" column="19" lean-forward="false" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
               <folding>
                 <element signature="n#properties#0;n#project#0;n#!!top" expanded="false" />
@@ -126,18 +216,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="150" column="12" lean-forward="false" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
+            <state relative-caret-position="945">
+              <caret line="163" column="10" lean-forward="false" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
               <folding>
-                <element signature="e#7315#7316#0" expanded="true" />
-                <element signature="e#7398#7399#0" expanded="true" />
-                <element signature="e#7518#7519#0" expanded="true" />
-                <element signature="e#7551#7552#0" expanded="true" />
-                <element signature="e#7625#7626#0" expanded="true" />
-                <element signature="e#7708#7709#0" expanded="true" />
+                <element signature="e#7301#7302#0" expanded="true" />
+                <element signature="e#7384#7385#0" expanded="true" />
+                <element signature="e#7504#7505#0" expanded="true" />
+                <element signature="e#7537#7538#0" expanded="true" />
+                <element signature="e#7611#7612#0" expanded="true" />
+                <element signature="e#7694#7695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="458" column="67" lean-forward="false" selection-start-line="458" selection-start-column="67" selection-end-line="458" selection-end-column="67" />
+              <folding>
+                <element signature="e#19932#19936#0" expanded="true" />
+                <element signature="e#19936#19940#0" expanded="true" />
+                <element signature="e#19940#19944#0" expanded="true" />
+                <element signature="e#19944#19948#0" expanded="true" />
+                <element signature="e#19948#19952#0" expanded="true" />
+                <element signature="e#19952#19956#0" expanded="true" />
+                <element signature="e#19956#19960#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +254,8 @@
       <file leaf-file-name="TestWatcher1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="126">
+              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -191,6 +299,7 @@
       <find>Test</find>
       <find>TestNG</find>
       <find>test</find>
+      <find>git</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -258,9 +367,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="226" />
-    <option name="width" value="1750" />
-    <option name="height" value="1250" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,15 +388,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
               <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VipWriter" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VipWriter" type="b2602c69:ProjectViewProjectNode" />
@@ -345,12 +460,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545319001990" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.6.5/resources/app/git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -1426,7 +1541,9 @@
       <workItem from="1552636023364" duration="3401000" />
       <workItem from="1552894735582" duration="1126000" />
       <workItem from="1552919643541" duration="1646000" />
-      <workItem from="1552981694285" duration="3421000" />
+      <workItem from="1552981694285" duration="4011000" />
+      <workItem from="1553177422431" duration="37000" />
+      <workItem from="1553184298671" duration="406000" />
     </task>
     <servers />
   </component>
@@ -1463,7 +1580,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69790000" />
+    <option name="totallyTimeSpent" value="70823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1494,7 +1611,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46432617" sideWeight="0.49798658" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239527" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16004297" sideWeight="0.49689442" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2342282" sideWeight="0.5031056" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24966443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1694,14 +1811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1724,7 +1833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="3318">
           <caret line="205" column="19" lean-forward="false" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
           <folding>
             <element signature="n#properties#0;n#project#0;n#!!top" expanded="false" />
@@ -1735,8 +1844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/TestWatcher1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="126">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1751,15 +1860,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="150" column="12" lean-forward="false" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
+        <state relative-caret-position="945">
+          <caret line="163" column="10" lean-forward="false" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
           <folding>
-            <element signature="e#7315#7316#0" expanded="true" />
-            <element signature="e#7398#7399#0" expanded="true" />
-            <element signature="e#7518#7519#0" expanded="true" />
-            <element signature="e#7551#7552#0" expanded="true" />
-            <element signature="e#7625#7626#0" expanded="true" />
-            <element signature="e#7708#7709#0" expanded="true" />
+            <element signature="e#7301#7302#0" expanded="true" />
+            <element signature="e#7384#7385#0" expanded="true" />
+            <element signature="e#7504#7505#0" expanded="true" />
+            <element signature="e#7537#7538#0" expanded="true" />
+            <element signature="e#7611#7612#0" expanded="true" />
+            <element signature="e#7694#7695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="458" column="67" lean-forward="false" selection-start-line="458" selection-start-column="67" selection-end-line="458" selection-end-column="67" />
+          <folding>
+            <element signature="e#19932#19936#0" expanded="true" />
+            <element signature="e#19936#19940#0" expanded="true" />
+            <element signature="e#19940#19944#0" expanded="true" />
+            <element signature="e#19944#19948#0" expanded="true" />
+            <element signature="e#19948#19952#0" expanded="true" />
+            <element signature="e#19952#19956#0" expanded="true" />
+            <element signature="e#19956#19960#0" expanded="true" />
           </folding>
         </state>
       </provider>

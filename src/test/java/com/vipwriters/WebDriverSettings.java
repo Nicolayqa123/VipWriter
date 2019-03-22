@@ -123,8 +123,7 @@ public class WebDriverSettings  {
 
 
     private static WebDriver getFirefoxDriver(){
-        System.setProperty("webdriver.gecko.driver",
-                "//src/main/resources/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "//src/main/resources/geckodriver");
         return new FirefoxDriver();
     }
 
@@ -162,7 +161,7 @@ public class WebDriverSettings  {
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1500, 810));
+        //    driver.manage().window().setSize(new Dimension(1500, 810));
         }
 
         @After
