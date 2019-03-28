@@ -141,7 +141,8 @@ public class WebDriverSettings  {
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
 */
-           // System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/firefox.exe");
+
+            System.setProperty("webdriver.firefox.bin","//geckodriver.exe");
             System.setProperty("webdriver.gecko.driver", "//geckodriver.exe");
             driver = new FirefoxDriver();
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
