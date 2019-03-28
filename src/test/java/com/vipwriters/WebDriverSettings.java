@@ -134,14 +134,14 @@ public class WebDriverSettings  {
             /*WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();*/
 
-
+WebDriverManager.firefoxdriver().setup();
 /*
             System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             DesiredCapabilities capabilities = DesiredCapabilities.firefox();
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
 */
-            System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/firefox.exe");
+           // System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/firefox.exe");
             System.setProperty("webdriver.gecko.driver", "/var/jenkins_home/workspace/Tests/geckodriver.exe");
             driver = new FirefoxDriver();
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
@@ -175,7 +175,9 @@ public class WebDriverSettings  {
             saveAllureScreenshot();
             makeScreenshot();*/
 
-            driver.quit();
+            if (driver != null) {
+                driver.quit();
+            }
         }
 
 
