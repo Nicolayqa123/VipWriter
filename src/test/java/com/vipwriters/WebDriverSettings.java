@@ -26,6 +26,7 @@ import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
@@ -49,8 +50,9 @@ import static org.junit.Assert.assertEquals;
 
 public class WebDriverSettings  {
 
+    public PhantomJSDriver driver;
 
-    public FirefoxDriver driver;
+   // public FirefoxDriver driver;
     //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
@@ -122,10 +124,10 @@ public class WebDriverSettings  {
 
 
 
-    private static WebDriver getFirefoxDriver(){
+   /* private static WebDriver getFirefoxDriver(){
         System.setProperty("webdriver.gecko.driver", "//src/main/resources/geckodriver");
         return new FirefoxDriver();
-    }
+    }*/
 
 
         @Before
@@ -141,9 +143,15 @@ public class WebDriverSettings  {
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
 */
-            System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/");
+
+            File path=new File("C:\\Programms\\GitHub\\TestWriter\\TestWriter\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
+            System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
+            driver = new PhantomJSDriver();
+
+
+          /*  System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/");
             System.setProperty("webdriver.gecko.driver", "/var/jenkins_home/workspace/Tests/");
-            driver = new FirefoxDriver();
+            driver = new FirefoxDriver();*/
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;*/
