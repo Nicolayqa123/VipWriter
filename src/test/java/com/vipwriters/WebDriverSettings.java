@@ -153,6 +153,7 @@ public class WebDriverSettings  {
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
 */
+<<<<<<< HEAD
 
           //  File path=new File("C:\\Programms\\GitHub\\TestWriter\\TestWriter\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
           //  System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
@@ -162,6 +163,11 @@ public class WebDriverSettings  {
           /*  System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/");
             System.setProperty("webdriver.gecko.driver", "/var/jenkins_home/workspace/Tests/");
             driver = new FirefoxDriver();*/
+=======
+            System.setProperty("webdriver.firefox.bin","C:/Program Files (x86)/Mozilla Firefox/firefox.exe");
+            System.setProperty("webdriver.gecko.driver", "src/Mozilla Firefox/geckodriver.exe");
+            driver = new FirefoxDriver();
+>>>>>>> parent of 871b740... jgvkhg
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;*/
