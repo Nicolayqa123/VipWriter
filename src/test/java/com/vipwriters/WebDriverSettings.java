@@ -22,6 +22,7 @@ import org.junit.runner.notification.Failure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -50,10 +51,10 @@ import static org.junit.Assert.assertEquals;
 
 public class WebDriverSettings  {
 
-    public PhantomJSDriver driver;
+   // public PhantomJSDriver driver;
 
    // public FirefoxDriver driver;
-    //  public ChromeDriver driver;
+      public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
     //  public WebElement password;
@@ -133,6 +134,15 @@ public class WebDriverSettings  {
         @Before
         public void setup() {
 
+
+            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
+           // ChromeOptions options = new ChromeOptions();
+           // options.addArguments("--headless");
+           // DesiredCapabilities capabilities = new DesiredCapabilities();
+           // capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+           // options.merge(capabilities);
+            driver = new ChromeDriver();
+
             /*WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();*/
 
@@ -144,9 +154,9 @@ public class WebDriverSettings  {
             driver = new FirefoxDriver(capabilities);
 */
 
-            File path=new File("C:\\Programms\\GitHub\\TestWriter\\TestWriter\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
-            System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
-            driver = new PhantomJSDriver();
+          //  File path=new File("C:\\Programms\\GitHub\\TestWriter\\TestWriter\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
+          //  System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
+          //  driver = new PhantomJSDriver();
 
 
           /*  System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/");
