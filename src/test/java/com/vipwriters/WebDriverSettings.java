@@ -138,8 +138,8 @@ public class WebDriverSettings  {
         public void setup() throws MalformedURLException {
 
             System.setProperty("webdriver.gecko.driver", "/geckodriver.exe");
-            DesiredCapabilities capability = DesiredCapabilities.firefox();
-            capability.setBrowserName("firefox" );
+            DesiredCapabilities capability = DesiredCapabilities.chrome();
+            capability.setBrowserName("chrome");
             capability.setPlatform(Platform.WIN10);
             capability.setVersion("3.12.0");
             WebDriver driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
