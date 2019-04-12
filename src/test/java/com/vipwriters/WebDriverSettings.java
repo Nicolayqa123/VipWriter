@@ -137,7 +137,7 @@ public class WebDriverSettings  {
         @Before
         public void setup() throws MalformedURLException {
 
-
+            System.setProperty("webdriver.gecko.driver", "/geckodriver.exe");
             DesiredCapabilities capability = DesiredCapabilities.firefox();
             capability.setBrowserName("firefox" );
             capability.setPlatform(Platform.WIN10);
@@ -150,7 +150,7 @@ public class WebDriverSettings  {
 
     //      WebDriverManager.firefoxdriver().setup();
 /*
-            System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+
             DesiredCapabilities capabilities = DesiredCapabilities.firefox();
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
