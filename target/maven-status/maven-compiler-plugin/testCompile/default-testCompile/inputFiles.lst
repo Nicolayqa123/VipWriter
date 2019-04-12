@@ -2,8 +2,8 @@ C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\PageWhatYouGet.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\PageWriter\Transactions.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\RegisteredStep3.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\PreviousOrders\SendMessageInOrder.java
+C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Payments\PaymentsPageSwitchingTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\WebDriverSettingsIE.java
-C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Applied\AppliedDownloadFiles.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\OnlineForm.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Profile\ProfileEnterAlternativeEmail.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\available\AvailableSearchTest.java
@@ -12,12 +12,13 @@ C:\Programms\GitHub\VipWriter\src\test\java\Regression\asdsadasd.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\PageSupport\Orders.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\UnpaidOrders\AddChangeDiscount.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\SeleniumRunListener.java
+C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\available\AvailableDownloadFilesTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\RegisteredStep2.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\CurrentOrders\SaveFiles.java
+C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Payments\PaymentsReasonTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\WebDriverSettingsChrome.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Trainee.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Applied\AppliedFilterTest.java
-C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Payments\PaymentsReason.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\ReferralProgram\RefProg.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\CurrentOrders\Filter.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\available\AvailableDetailedOrderViewTest.java
@@ -38,8 +39,7 @@ C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\RegisteredStep1.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\UnpaidOrders\SendMessageInOrder.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\MailUSFormTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\PageWriter\MyOrders.java
-C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\MyOrders\MyOrdersDownloadFiles.java
-C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Payments\PaymentsSearch.java
+C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Applied\AppliedDownloadFilesTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\CurrentOrders\PayToOrder.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\PageFactore.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\RegisteredFormJustRequiredFieldTest.java
@@ -47,6 +47,7 @@ C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\available\AvailablePa
 C:\Programms\GitHub\VipWriter\src\test\java\com\support\Verification.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\PageClient\Lending.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\PreviousOrders\DetailedOrderView1.java
+C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\MyOrders\MyOrdersDownloadFilesTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\support\CheckStepsOfSupport.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\PreviousOrders\SaveFiles.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\PageWriter\AppliedOrders.java
@@ -59,14 +60,12 @@ C:\Programms\GitHub\VipWriter\src\test\java\com\PageClient\Registered.java
 C:\Programms\GitHub\VipWriter\src\test\java\Regression\MailUS.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\PageTutorials.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\PageWriter\SignUp.java
-C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Payments\PaymentsPageSwitching.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Affiliate\AffiliateStatisticsTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\UnpaidOrders\DetailedOrderView1.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\CurrentOrders\SendMessageInOrder.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\available\AvailableFilterTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Screenshot.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Applied\AppliedUploadFilesTest.java
-C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\available\AvailableDownloadFiles.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\ContactFormTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\PageTERMSOFUSE.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\PreviousOrders\PayToOrder.java
@@ -77,6 +76,7 @@ C:\Programms\GitHub\VipWriter\src\test\java\com\support\AssignAndNoAssignWriter.
 C:\Programms\GitHub\VipWriter\src\test\java\com\PageWriter\DetailedOrder.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\Pro_Papers\Profile\EditingProfile.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\LoginTest.java
+C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Payments\PaymentsSearchTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\ForgotPasswordTest.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\MyOrders\MyOrderFilter.java
 C:\Programms\GitHub\VipWriter\src\test\java\com\vipwriters\Profile\ProfileResetChanges.java

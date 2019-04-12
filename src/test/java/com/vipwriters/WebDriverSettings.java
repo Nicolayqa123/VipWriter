@@ -27,8 +27,8 @@ import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -41,6 +41,8 @@ import java.beans.Statement;
 import java.io.File;
 import java.io.IOException;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Random;
@@ -52,9 +54,10 @@ import static org.junit.Assert.assertEquals;
 public class WebDriverSettings  {
 
    // public PhantomJSDriver driver;
+   public  RemoteWebDriver driver;
 
    // public FirefoxDriver driver;
-      public ChromeDriver driver;
+    //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
     //  public WebElement password;
@@ -132,16 +135,15 @@ public class WebDriverSettings  {
 
 
         @Before
-        public void setup() {
+        public void setup() throws MalformedURLException {
 
 
-            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-           // ChromeOptions options = new ChromeOptions();
-           // options.addArguments("--headless");
-           // DesiredCapabilities capabilities = new DesiredCapabilities();
-           // capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-           // options.merge(capabilities);
-            driver = new ChromeDriver();
+            DesiredCapabilities capability = DesiredCapabilities.firefox();
+            capability.setBrowserName("firefox" );
+            capability.setPlatform(Platform.WIN10);
+            capability.setVersion("3.12.0");
+            WebDriver driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
+
 
             /*WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();*/
@@ -153,21 +155,7 @@ public class WebDriverSettings  {
             capabilities.setCapability("marionette", true);
             driver = new FirefoxDriver(capabilities);
 */
-<<<<<<< HEAD
 
-          //  File path=new File("C:\\Programms\\GitHub\\TestWriter\\TestWriter\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
-          //  System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
-          //  driver = new PhantomJSDriver();
-
-
-          /*  System.setProperty("webdriver.firefox.bin","/var/jenkins_home/workspace/Tests/");
-            System.setProperty("webdriver.gecko.driver", "/var/jenkins_home/workspace/Tests/");
-            driver = new FirefoxDriver();*/
-=======
-            System.setProperty("webdriver.firefox.bin","C:/Program Files (x86)/Mozilla Firefox/firefox.exe");
-            System.setProperty("webdriver.gecko.driver", "src/Mozilla Firefox/geckodriver.exe");
-            driver = new FirefoxDriver();
->>>>>>> parent of 871b740... jgvkhg
           /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;*/
