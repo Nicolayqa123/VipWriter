@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.Applied.AppliedSendMessageTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in com.vipwriters.Applied.AppliedSendMessageTest
+SendMessageToClientEmptyField(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+SendMessageToClientEmptyField(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+
+sendMessageMax(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+sendMessageMax(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+
+sendMessageMin(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+sendMessageMin(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+sendMessage(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+sendMessage(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+

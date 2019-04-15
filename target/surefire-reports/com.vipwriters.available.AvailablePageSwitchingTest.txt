@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.available.AvailablePageSwitchingTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in com.vipwriters.available.AvailablePageSwitchingTest
+pageSwitch10(com.vipwriters.available.AvailablePageSwitchingTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+pageSwitch10(com.vipwriters.available.AvailablePageSwitchingTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

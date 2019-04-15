@@ -198,5 +198,6 @@
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:3.14.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.14.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:3.14.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.codeborne:phantomjsdriver:1.4.0" level="project" />
   </component>
 </module>

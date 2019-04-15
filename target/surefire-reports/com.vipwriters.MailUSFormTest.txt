@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.MailUSFormTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.vipwriters.MailUSFormTest
+mailUs(com.vipwriters.MailUSFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+mailUs(com.vipwriters.MailUSFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+mailUsmax(com.vipwriters.MailUSFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+mailUsmax(com.vipwriters.MailUSFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+mailUsmin(com.vipwriters.MailUSFormTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+mailUsmin(com.vipwriters.MailUSFormTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+
+mailUsOther(com.vipwriters.MailUSFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+mailUsOther(com.vipwriters.MailUSFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+mailUsEmptySubject(com.vipwriters.MailUSFormTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+mailUsEmptySubject(com.vipwriters.MailUSFormTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+

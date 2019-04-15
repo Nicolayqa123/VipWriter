@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.ContactFormTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.vipwriters.ContactFormTest
+ContactFormMax(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+ContactFormMax(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+ContactFormMin(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+ContactFormMin(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+ContactForm1(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+ContactForm1(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+UnContactFormEmptyFields(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+UnContactFormEmptyFields(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+ContactFormRequiredField(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+ContactFormRequiredField(com.vipwriters.ContactFormTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+

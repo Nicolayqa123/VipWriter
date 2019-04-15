@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.RegisteredFormJustRequiredFieldTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.vipwriters.RegisteredFormJustRequiredFieldTest
+RegisteredFormAll(com.vipwriters.RegisteredFormJustRequiredFieldTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+RegisteredFormAll(com.vipwriters.RegisteredFormJustRequiredFieldTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+RegisteredFormJustRequiredField1(com.vipwriters.RegisteredFormJustRequiredFieldTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+RegisteredFormJustRequiredField1(com.vipwriters.RegisteredFormJustRequiredFieldTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

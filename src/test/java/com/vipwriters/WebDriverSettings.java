@@ -27,6 +27,7 @@ import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -53,8 +54,8 @@ import static org.junit.Assert.assertEquals;
 
 public class WebDriverSettings  {
 
-   // public PhantomJSDriver driver;
-   public  RemoteWebDriver driver;
+    public PhantomJSDriver driver;
+  // public  RemoteWebDriver driver;
 
    // public FirefoxDriver driver;
     //  public ChromeDriver driver;
@@ -137,12 +138,22 @@ public class WebDriverSettings  {
         @Before
         public void setup() throws MalformedURLException {
 
-            System.setProperty("webdriver.gecko.driver", "/geckodriver.exe");
+
+
+             System.setProperty("phantomjs.binary.path", "phantomjs.exe");
+             driver = new PhantomJSDriver();
+
+
+           /* WebDriverManager.chromedriver().setup();
+            String asd =  WebDriverManager.chromedriver().getBinaryPath();
+            System.out.println(asd);
+            System.setProperty("webdriver.chrome.driver", "//.m2/repository/webdriver/chromedriver/win32/2.46/chromedriver.exe");
+            System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             DesiredCapabilities capability = DesiredCapabilities.chrome();
             capability.setBrowserName("chrome");
             capability.setPlatform(Platform.WIN10);
             capability.setVersion("3.12.0");
-            WebDriver driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
+            WebDriver driver = new RemoteWebDriver(new URL("http://192.168.137.1:50000/wd/hub"), capability);*/
 
 
             /*WebDriverManager.firefoxdriver().setup();
@@ -173,19 +184,19 @@ public class WebDriverSettings  {
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-        //    driver.manage().window().setSize(new Dimension(1500, 810));
+            driver.manage().window().setSize(new Dimension(1024, 810));
         }
 
         @After
         public void close() throws Exception {
-           /* String newAutoTest = "newAutoTest" + x;
+            String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            // String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
-            String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
+             String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
+           // String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
             saveAllureScreenshot();
-            makeScreenshot();*/
+            makeScreenshot();
 
             if (driver != null) {
                 driver.quit();

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.available.AvailableSendMessageInOrderTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in com.vipwriters.available.AvailableSendMessageInOrderTest
+SendMessageToClient(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+SendMessageToClient(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+SendMessageToClientMax(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+SendMessageToClientMax(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+
+SendMessageToClientMin(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+SendMessageToClientMin(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

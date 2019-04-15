@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.available.AvailableFilterTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.vipwriters.available.AvailableFilterTest
+Filter(com.vipwriters.available.AvailableFilterTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+Filter(com.vipwriters.available.AvailableFilterTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+

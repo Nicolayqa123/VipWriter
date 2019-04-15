@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.vipwriters.LoginTest
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+Loginuser(com.vipwriters.LoginTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+LoginPaptest1(com.vipwriters.LoginTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+LoginPaptest1(com.vipwriters.LoginTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

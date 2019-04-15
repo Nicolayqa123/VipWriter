@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.Payments.PaymentsPageSwitchingTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in com.vipwriters.Payments.PaymentsPageSwitchingTest
+ppswitching10(com.vipwriters.Payments.PaymentsPageSwitchingTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+ppswitching10(com.vipwriters.Payments.PaymentsPageSwitchingTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

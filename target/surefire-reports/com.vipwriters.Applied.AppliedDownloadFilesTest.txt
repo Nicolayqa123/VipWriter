@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.Applied.AppliedDownloadFilesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.711 s <<< FAILURE! - in com.vipwriters.Applied.AppliedDownloadFilesTest
+download(com.vipwriters.Applied.AppliedDownloadFilesTest)  Time elapsed: 27.705 s  <<< ERROR!
+org.openqa.selenium.ElementNotVisibleException: 
+{"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"32","Content-Type":"application/json; charset=utf-8","Host":"localhost:11740","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"id\": \":wdc:1555336632273\"\n}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/5582e990-5f86-11e9-a05f-9f685447bc4c/element/:wdc:1555336632273/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.vipwriters.Applied.AppliedDownloadFilesTest.download(AppliedDownloadFilesTest.java:15)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at com.vipwriters.Applied.AppliedDownloadFilesTest.download(AppliedDownloadFilesTest.java:15)
+Caused by: org.openqa.selenium.ElementNotVisibleException: 
+{"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"32","Content-Type":"application/json; charset=utf-8","Host":"localhost:11740","User-Agent":"selenium/3.14.0 (java windows)"},"httpVersion":"1.1","method":"POST","post":"{\n  \"id\": \":wdc:1555336632273\"\n}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/5582e990-5f86-11e9-a05f-9f685447bc4c/element/:wdc:1555336632273/click"}}
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
+

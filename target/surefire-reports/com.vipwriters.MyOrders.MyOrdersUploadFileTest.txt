@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vipwriters.MyOrders.MyOrdersUploadFileTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in com.vipwriters.MyOrders.MyOrdersUploadFileTest
+dropfiles1(com.vipwriters.MyOrders.MyOrdersUploadFileTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
+
+dropfiles1(com.vipwriters.MyOrders.MyOrdersUploadFileTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
