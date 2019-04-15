@@ -139,8 +139,11 @@ public class WebDriverSettings  {
         public void setup() throws MalformedURLException {
 
 
-
-             System.setProperty("phantomjs.binary.path", "phantomjs.exe");
+            WebDriverManager.phantomjs().setup();
+           String driverPath = WebDriverManager.phantomjs().getBinaryPath();
+           System.out.println(driverPath);
+            System.setProperty("phantomjs.binary.path", driverPath);
+            // System.setProperty("phantomjs.binary.path", "/var/jenkins_home/workspace/Tests/phantomjs.exe");
              driver = new PhantomJSDriver();
 
 
