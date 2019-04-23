@@ -156,7 +156,7 @@ public class WebDriverSettings  {
             capability.setBrowserName("firefox");
            // capability.setPlatform(Platform.LINUX);
            // capability.setVersion("3.12.0");
-            driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
+            driver = new RemoteWebDriver(new URL("http://localhost:8081/wd/hub"), capability);
 
 
             /*WebDriverManager.firefoxdriver().setup();
