@@ -1,10 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.Payments.PaymentsReasonTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.vipwriters.Payments.PaymentsReasonTest
-reaso(com.vipwriters.Payments.PaymentsReasonTest)  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
-
-reaso(com.vipwriters.Payments.PaymentsReasonTest)  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in com.vipwriters.Payments.PaymentsReasonTest
+reaso(com.vipwriters.Payments.PaymentsReasonTest)  Time elapsed: 0.015 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
+Command duration or timeout: 46 milliseconds
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 

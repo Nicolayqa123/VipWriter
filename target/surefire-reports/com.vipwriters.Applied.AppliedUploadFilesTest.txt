@@ -1,10 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.Applied.AppliedUploadFilesTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in com.vipwriters.Applied.AppliedUploadFilesTest
-download(com.vipwriters.Applied.AppliedUploadFilesTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: \\src\test\java\com\vipwriters\phantomjs.exe
-
-download(com.vipwriters.Applied.AppliedUploadFilesTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.221 s <<< FAILURE! - in com.vipwriters.Applied.AppliedUploadFilesTest
+download(com.vipwriters.Applied.AppliedUploadFilesTest)  Time elapsed: 0.214 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
+Command duration or timeout: 31 milliseconds
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: driver.version: unknown
 

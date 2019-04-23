@@ -154,7 +154,7 @@ public class WebDriverSettings  {
            // System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             DesiredCapabilities capability = DesiredCapabilities.chrome();
             capability.setBrowserName("firefox");
-            capability.setPlatform(Platform.LINUX);
+           // capability.setPlatform(Platform.LINUX);
            // capability.setVersion("3.12.0");
             driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
 
