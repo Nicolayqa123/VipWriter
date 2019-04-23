@@ -54,8 +54,8 @@ import static org.junit.Assert.assertEquals;
 
 public class WebDriverSettings  {
 
-    public PhantomJSDriver driver;
-  // public  RemoteWebDriver driver;
+   // public PhantomJSDriver driver;
+   public  RemoteWebDriver driver;
 
    // public FirefoxDriver driver;
     //  public ChromeDriver driver;
@@ -139,24 +139,24 @@ public class WebDriverSettings  {
         public void setup() throws MalformedURLException {
 
 
-            WebDriverManager.phantomjs().setup();
+           /* WebDriverManager.phantomjs().setup();
            String driverPath = WebDriverManager.phantomjs().getBinaryPath();
            System.out.println(driverPath);
             System.setProperty("phantomjs.binary.path", driverPath);
             // System.setProperty("phantomjs.binary.path", "/var/jenkins_home/workspace/Tests/phantomjs.exe");
              driver = new PhantomJSDriver();
+*/
 
-
-           /* WebDriverManager.chromedriver().setup();
-            String asd =  WebDriverManager.chromedriver().getBinaryPath();
-            System.out.println(asd);
-            System.setProperty("webdriver.chrome.driver", "//.m2/repository/webdriver/chromedriver/win32/2.46/chromedriver.exe");
-            System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+           // WebDriverManager.chromedriver().setup();
+           // String asd =  WebDriverManager.chromedriver().getBinaryPath();
+           // System.out.println(asd);
+           // System.setProperty("webdriver.chrome.driver", "//.m2/repository/webdriver/chromedriver/win32/2.46/chromedriver.exe");
+           // System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             DesiredCapabilities capability = DesiredCapabilities.chrome();
-            capability.setBrowserName("chrome");
-            capability.setPlatform(Platform.WIN10);
-            capability.setVersion("3.12.0");
-            WebDriver driver = new RemoteWebDriver(new URL("http://192.168.137.1:50000/wd/hub"), capability);*/
+            capability.setBrowserName("firefox");
+            capability.setPlatform(Platform.LINUX);
+           // capability.setVersion("3.12.0");
+            driver = new RemoteWebDriver(new URL("http://ec2-54-204-214-95.compute-1.amazonaws.com:4444/wd/hub"), capability);
 
 
             /*WebDriverManager.firefoxdriver().setup();
@@ -192,14 +192,14 @@ public class WebDriverSettings  {
 
         @After
         public void close() throws Exception {
-            String newAutoTest = "newAutoTest" + x;
+            /*String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
              String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
            // String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
             saveAllureScreenshot();
-            makeScreenshot();
+            makeScreenshot();*/
 
             if (driver != null) {
                 driver.quit();
