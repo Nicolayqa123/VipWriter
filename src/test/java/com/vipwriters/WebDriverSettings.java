@@ -55,9 +55,9 @@ import static org.junit.Assert.assertEquals;
 public class WebDriverSettings  {
 
    // public PhantomJSDriver driver;
-   public  RemoteWebDriver driver;
+  // public  RemoteWebDriver driver;
 
-   // public FirefoxDriver driver;
+    public FirefoxDriver driver;
     //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
@@ -152,11 +152,11 @@ public class WebDriverSettings  {
            // System.out.println(asd);
            // System.setProperty("webdriver.chrome.driver", "//.m2/repository/webdriver/chromedriver/win32/2.46/chromedriver.exe");
            // System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-            DesiredCapabilities capability = DesiredCapabilities.chrome();
-            capability.setBrowserName("firefox");
+         //   DesiredCapabilities capability = DesiredCapabilities.chrome();
+         //   capability.setBrowserName("firefox");
            // capability.setPlatform(Platform.LINUX);
            // capability.setVersion("3.12.0");
-            driver = new RemoteWebDriver(new URL("http://localhost:8081/wd/hub"), capability);
+           // driver = new RemoteWebDriver(new URL("http://localhost:8081/wd/hub"), capability);
 
 
             /*WebDriverManager.firefoxdriver().setup();
@@ -179,7 +179,8 @@ public class WebDriverSettings  {
 
       //      DesiredCapabilities capabilities = DesiredCapabilities.firefox();
       //      capabilities.setCapability("marionette", true);
-      //      driver = new FirefoxDriver();
+            driver = new FirefoxDriver();
+            System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
       //      System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         //      driver = new ChromeDriver();
         //    System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
