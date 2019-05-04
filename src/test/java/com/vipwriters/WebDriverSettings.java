@@ -152,12 +152,12 @@ public class WebDriverSettings  {
            // System.out.println(asd);
            // System.setProperty("webdriver.chrome.driver", "//.m2/repository/webdriver/chromedriver/win32/2.46/chromedriver.exe");
            // System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-           /* DesiredCapabilities capability = DesiredCapabilities.firefox();
+            DesiredCapabilities capability = DesiredCapabilities.firefox();
             capability.setBrowserName("firefox");
             capability.setPlatform(Platform.LINUX);
             capability.setVersion("");
-            System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
-            capability.setCapability("webdriver.gecko.driver", "driver/geckodriver");*/
+          //  System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
+           // capability.setCapability("webdriver.gecko.driver", "driver/geckodriver");
            // driver = new RemoteWebDriver(new URL("http://localhost:8081/wd/hub"), capability);
 
 
@@ -180,7 +180,7 @@ public class WebDriverSettings  {
 
 
 
-            driver = new FirefoxDriver();
+            driver = new FirefoxDriver(capability);
           //  System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             // For Linux
             System.setProperty("webdriver.gecko.driver", "/var/jenkins_home/workspace/Tests/driver/geckodriver");
