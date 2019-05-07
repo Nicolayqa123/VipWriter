@@ -178,12 +178,13 @@ public class WebDriverSettings  {
             
 
 
-
-
+          WebDriverManager.firefoxdriver().setup();
+         String Path = WebDriverManager.firefoxdriver().getBinaryPath();
+            System.setProperty(Path, "geckodriver");
             driver = new FirefoxDriver();
           //  System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             // For Linux
-            System.setProperty("webdriver.gecko.driver", "//test2/driver/geckodriver");
+         //   System.setProperty("webdriver.gecko.driver", "//test2/driver/geckodriver");
       //      System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         //      driver = new ChromeDriver();
         //    System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
