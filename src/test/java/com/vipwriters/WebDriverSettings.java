@@ -308,7 +308,7 @@ public class WebDriverSettings  {
 
 
 
-    public void WritersLogin() throws InterruptedException {
+    public void WritersLogin() throws Exception {
         TimeUnit.SECONDS.sleep(15);
         driver.get("https://writer.urgentpapers.org");
         Lending.loginForm(driver).click();
