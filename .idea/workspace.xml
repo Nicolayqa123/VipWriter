@@ -2,124 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c96775-281d-413e-9fd3-048df4ed83b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Applied/AppliedFilterTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Affiliate.AffiliateStatisticsTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Affiliate.AffiliateStatisticsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDetailedOrderViewTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDetailedOrderViewTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDownloadFilesTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedDownloadFilesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedFilterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedFilterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedSendMessageTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedSendMessageTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedUploadFilesTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Applied.AppliedUploadFilesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.ContactFormTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.ContactFormTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.ForgotPasswordTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.ForgotPasswordTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.LoginTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MailUSFormTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MailUSFormTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderSendMessageTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderSendMessageTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersDownloadFilesTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersDownloadFilesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersUploadFileTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersUploadFileTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsPageSwitchingTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsPageSwitchingTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsReasonTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsReasonTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsSearchTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsSearchTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.RegisteredFormJustRequiredFieldTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.RegisteredFormJustRequiredFieldTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableDetailedOrderViewTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableDetailedOrderViewTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableDownloadFilesTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableDownloadFilesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableFilterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableFilterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailablePageSwitchingTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailablePageSwitchingTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableSendMessageInOrderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableSendMessageInOrderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableShowOnlyOrdersWithinMyProficiencyTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.available.AvailableShowOnlyOrdersWithinMyProficiencyTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Affiliate.AffiliateStatisticsTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Affiliate.AffiliateStatisticsTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDetailedOrderViewTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDetailedOrderViewTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDownloadFilesTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedDownloadFilesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedFilterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedFilterTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedSendMessageTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedSendMessageTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedUploadFilesTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Applied.AppliedUploadFilesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.ContactFormTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.ContactFormTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.ForgotPasswordTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.ForgotPasswordTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.LoginTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MailUSFormTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MailUSFormTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderSendMessageTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderSendMessageTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersDownloadFilesTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersDownloadFilesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersUploadFileTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersUploadFileTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsPageSwitchingTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsPageSwitchingTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsReasonTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsReasonTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsSearchTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsSearchTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.RegisteredFormJustRequiredFieldTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.RegisteredFormJustRequiredFieldTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableDetailedOrderViewTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableDetailedOrderViewTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableDownloadFilesTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableDownloadFilesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableFilterTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableFilterTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailablePageSwitchingTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailablePageSwitchingTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableSendMessageInOrderTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableSendMessageInOrderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableShowOnlyOrdersWithinMyProficiencyTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.available.AvailableShowOnlyOrdersWithinMyProficiencyTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/Available.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/CheckTitle.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/LogIn.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/MailUS.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" afterPath="$PROJECT_DIR$/target/test-classes/Regression/asdsadasd.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ContactUS.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ContactUS.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/Filter.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/Filter.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/PayToOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/PayToOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SaveFiles.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SaveFiles.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SendMessageInOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SendMessageInOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ForgotPassword.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ForgotPassword.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClient.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClient.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/DetailedOrderView1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/DetailedOrderView1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/Filter.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/Filter.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/PayToOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/PayToOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SaveFiles.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SaveFiles.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SendMessageInOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/PreviousOrders/SendMessageInOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/ChangesPassword.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/ChangesPassword.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/EditingProfile.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/Profile/EditingProfile.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ReferralProgram/RefProg.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/ReferralProgram/RefProg.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/AddChangeDiscount.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/AddChangeDiscount.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/DetailedOrderView1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/DetailedOrderView1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/Filter.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/Filter.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/PayToOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/PayToOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SaveFiles.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SaveFiles.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SendMessageInOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/UnpaidOrders/SendMessageInOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/AssignAndNoAssignWriter.class" afterPath="$PROJECT_DIR$/target/test-classes/com/support/AssignAndNoAssignWriter.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupport.class" afterPath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupport.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/MorePayments.class" afterPath="$PROJECT_DIR$/target/test-classes/com/support/MorePayments.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/Verification.class" afterPath="$PROJECT_DIR$/target/test-classes/com/support/Verification.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Affiliate/AffiliateStatisticsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Affiliate/AffiliateStatisticsTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDetailedOrderViewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDetailedOrderViewTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDownloadFilesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedDownloadFilesTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedFilterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedFilterTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedSendMessageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedSendMessageTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedUploadFilesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Applied/AppliedUploadFilesTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ContactFormTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ContactFormTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ForgotPasswordTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/ForgotPasswordTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSFormTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MailUSFormTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderDetailedOrderViewTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderFilter.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderFilter.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderSendMessageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrderSendMessageTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersDownloadFilesTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersUploadFileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/MyOrders/MyOrdersUploadFileTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/OnlineForm.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/OnlineForm.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTERMSOFUSE.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTutorials.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageTutorials.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageWhatYouGet.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/PageWhatYouGet.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsPageSwitchingTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsPageSwitchingTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsReasonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsReasonTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsSearchTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Payments/PaymentsSearchTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileEnterAlternativeEmail.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileEnterAlternativeEmail.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileResetChanges.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileResetChanges.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/RegisteredFormJustRequiredFieldTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Trainee.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDetailedOrderViewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDetailedOrderViewTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDownloadFilesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableDownloadFilesTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableFilterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableFilterTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailablePageSwitchingTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailablePageSwitchingTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSendMessageInOrderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSendMessageInOrderTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableShowOnlyOrdersWithinMyProficiencyTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -164,18 +47,18 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="143" column="80" lean-forward="false" selection-start-line="143" selection-start-column="80" selection-end-line="143" selection-end-column="80" />
+            <state relative-caret-position="252">
+              <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -634,7 +517,7 @@
       <workItem from="1557236329476" duration="5102000" />
       <workItem from="1557309114302" duration="539000" />
       <workItem from="1557927758806" duration="3220000" />
-      <workItem from="1558001069092" duration="1294000" />
+      <workItem from="1558001069092" duration="1351000" />
     </task>
     <servers />
   </component>
@@ -671,7 +554,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39167000" />
+    <option name="totallyTimeSpent" value="39224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1066,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="105">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1112,18 +995,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="143" column="80" lean-forward="false" selection-start-line="143" selection-start-column="80" selection-end-line="143" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -218,10 +218,10 @@ public class WebDriverSettings  {
         //      driver = new ChromeDriver();
         //    System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
-//            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-//            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
-//            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-//            driver.manage().window().setSize(new Dimension(1024, 810));
+            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+            driver.manage().window().setSize(new Dimension(1024, 810));
         }
 
         @After
