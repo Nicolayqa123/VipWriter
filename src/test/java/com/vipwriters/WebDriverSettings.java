@@ -221,7 +221,7 @@ public class WebDriverSettings  {
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1024, 810));
+         //   driver.manage().window().setSize(new Dimension(1024, 810));
         }
 
         @After
@@ -308,14 +308,14 @@ public class WebDriverSettings  {
 
 
 
-    public void WritersLogin() {
-       // TimeUnit.SECONDS.sleep(15);
+    public void WritersLogin() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(15);
         driver.get("https://writer.urgentpapers.org");
         Lending.loginForm(driver).click();
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);
         Lending.loginButton(driver).click();
-       // TimeUnit.SECONDS.sleep(15);
+        TimeUnit.SECONDS.sleep(15);
 
     }
     public void TestFileDrop() throws Exception {
