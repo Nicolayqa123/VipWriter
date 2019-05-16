@@ -1,14 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.available.AvailableFilterTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in com.vipwriters.available.AvailableFilterTest
-Filter(com.vipwriters.available.AvailableFilterTest)  Time elapsed: 0.043 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 48 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.764 s <<< FAILURE! - in com.vipwriters.available.AvailableFilterTest
+Filter(com.vipwriters.available.AvailableFilterTest)  Time elapsed: 11.751 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.available.AvailableFilterTest.Filter(AvailableFilterTest.java:20)
 

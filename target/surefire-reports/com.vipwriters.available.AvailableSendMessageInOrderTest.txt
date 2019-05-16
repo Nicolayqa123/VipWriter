@@ -1,34 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.available.AvailableSendMessageInOrderTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.246 s <<< FAILURE! - in com.vipwriters.available.AvailableSendMessageInOrderTest
-SendMessageToClient(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0.045 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 23 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 44.56 s <<< FAILURE! - in com.vipwriters.available.AvailableSendMessageInOrderTest
+SendMessageToClient(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 13.334 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.available.AvailableSendMessageInOrderTest.SendMessageToClient(AvailableSendMessageInOrderTest.java:17)
 
-SendMessageToClientMax(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0.051 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 34 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+SendMessageToClientMax(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 13.331 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.available.AvailableSendMessageInOrderTest.SendMessageToClientMax(AvailableSendMessageInOrderTest.java:29)
 
-SendMessageToClientMin(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 0.054 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 54 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+SendMessageToClientMin(com.vipwriters.available.AvailableSendMessageInOrderTest)  Time elapsed: 17.84 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.available.AvailableSendMessageInOrderTest.SendMessageToClientMin(AvailableSendMessageInOrderTest.java:41)
 

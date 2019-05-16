@@ -1,14 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.available.AvailableDetailedOrderViewTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.223 s <<< FAILURE! - in com.vipwriters.available.AvailableDetailedOrderViewTest
-orderView(com.vipwriters.available.AvailableDetailedOrderViewTest)  Time elapsed: 0.216 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 36 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 19.852 s <<< FAILURE! - in com.vipwriters.available.AvailableDetailedOrderViewTest
+orderView(com.vipwriters.available.AvailableDetailedOrderViewTest)  Time elapsed: 19.753 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.available.AvailableDetailedOrderViewTest.orderView(AvailableDetailedOrderViewTest.java:17)
 

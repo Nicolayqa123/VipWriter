@@ -1,54 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.ContactFormTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.509 s <<< FAILURE! - in com.vipwriters.ContactFormTest
-ContactFormMax(com.vipwriters.ContactFormTest)  Time elapsed: 0.038 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 62 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.vipwriters.ContactFormTest
+ContactFormMax(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
 
-ContactFormMin(com.vipwriters.ContactFormTest)  Time elapsed: 0.064 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 59 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+ContactFormMin(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
 
-ContactForm1(com.vipwriters.ContactFormTest)  Time elapsed: 0.165 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 40 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+ContactForm1(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
 
-UnContactFormEmptyFields(com.vipwriters.ContactFormTest)  Time elapsed: 0.083 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 56 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+UnContactFormEmptyFields(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
 
-ContactFormRequiredField(com.vipwriters.ContactFormTest)  Time elapsed: 0.127 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 47 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+ContactFormRequiredField(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
 

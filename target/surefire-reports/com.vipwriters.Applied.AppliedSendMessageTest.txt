@@ -1,44 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.Applied.AppliedSendMessageTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.209 s <<< FAILURE! - in com.vipwriters.Applied.AppliedSendMessageTest
-SendMessageToClientEmptyField(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.013 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 39 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 44.293 s <<< FAILURE! - in com.vipwriters.Applied.AppliedSendMessageTest
+SendMessageToClientEmptyField(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 9.111 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.Applied.AppliedSendMessageTest.SendMessageToClientEmptyField(AppliedSendMessageTest.java:80)
 
-sendMessageMax(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.067 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 29 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+sendMessageMax(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 12.777 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.Applied.AppliedSendMessageTest.sendMessageMax(AppliedSendMessageTest.java:54)
 
-sendMessageMin(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.037 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 51 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+sendMessageMin(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 10.129 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.Applied.AppliedSendMessageTest.sendMessageMin(AppliedSendMessageTest.java:39)
 
-sendMessage(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 0.085 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Command duration or timeout: 27 milliseconds
-Caused by: org.openqa.selenium.WebDriverException: 
-Error forwarding the new session cannot find : Capabilities {browserName: firefox, platform: LINUX, version: }
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: unknown
+sendMessage(com.vipwriters.Applied.AppliedSendMessageTest)  Time elapsed: 12.266 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.Applied.AppliedSendMessageTest.sendMessage(AppliedSendMessageTest.java:24)
 

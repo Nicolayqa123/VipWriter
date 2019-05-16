@@ -1,14 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.Affiliate.AffiliateStatisticsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 163.309 s <<< FAILURE! - in com.vipwriters.Affiliate.AffiliateStatisticsTest
-Statistics(com.vipwriters.Affiliate.AffiliateStatisticsTest)  Time elapsed: 162.742 s  <<< ERROR!
-org.openqa.selenium.ElementClickInterceptedException: 
-Element <a class="btn btn-red"> is not clickable at point (727,721) because another element <li class="{{ $current === 'plagiarism' ? 'active-footer-link' : ''}}"> obscures it
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-6L7S93F', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 6304, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: a1656fcf-3bd2-4082-aafc-3f3...}
-Session ID: a1656fcf-3bd2-4082-aafc-3f3d0ae42129
-	at com.vipwriters.Affiliate.AffiliateStatisticsTest.Statistics(AffiliateStatisticsTest.java:40)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.34 s <<< FAILURE! - in com.vipwriters.Affiliate.AffiliateStatisticsTest
+Statistics(com.vipwriters.Affiliate.AffiliateStatisticsTest)  Time elapsed: 14.953 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.vipwriters.Affiliate.AffiliateStatisticsTest.Statistics(AffiliateStatisticsTest.java:33)
 

@@ -6,6 +6,7 @@ import com.vipwriters.WebDriverSettings;
 import junit.framework.AssertionFailedError;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -14,7 +15,7 @@ import static org.junit.Assert.*;
 public class AppliedFilterTest extends WebDriverSettings {
 @Test
     public void Filter () throws Exception {
-
+//driver = new FirefoxDriver();
     WritersLogin();
     TimeUnit.SECONDS.sleep(8);
     AppliedOrders.appliedOrders(driver).click();

@@ -72,7 +72,7 @@ public class WebDriverSettings  {
 
     public String mail = "Nicolayqa@gmail.com";
     public String pass = "123456";
-
+    public String WriterUrl = "https://writer.urgentpapers.org";
 
 
 
@@ -135,8 +135,37 @@ public class WebDriverSettings  {
     }*/
 
 
+
+
         @Before
         public void setup() throws MalformedURLException {
+
+
+            System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
+            driver = new FirefoxDriver();
+
+            /*File path=new File("C:\\Programms\\GitHub\\VipWriter\\phantomjs.exe");
+            System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
+            driver = new PhantomJSDriver();*/
+
+
+
+
+
+            /*System.setProperty("webdriver.gecko.driver", "/var/jenkins_home/workspace/test2/driver/geckodriver");
+            DesiredCapabilities dc = DesiredCapabilities.firefox();
+            dc.setCapability("marionette", true);
+            driver = new FirefoxDriver();*/
+
+
+            /*FirefoxBinary firefoxBinary = new FirefoxBinary();
+           // firefoxBinary.addCommandLineOptions("--headless");
+            System.setProperty("webdriver.gecko.driver", "C:\\Programms\\GitHub\\VipWriter\\driver\\geckodriver.exe");
+            FirefoxOptions firefoxOptions = new FirefoxOptions();
+            firefoxOptions.setBinary(firefoxBinary);
+            FirefoxDriver driver = new FirefoxDriver(firefoxOptions);*/
+
+
 
 
            /* WebDriverManager.phantomjs().setup();
@@ -152,8 +181,8 @@ public class WebDriverSettings  {
            // System.out.println(asd);
            // System.setProperty("webdriver.chrome.driver", "//.m2/repository/webdriver/chromedriver/win32/2.46/chromedriver.exe");
            // System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-            DesiredCapabilities capability = DesiredCapabilities.firefox();
-            capability.setBrowserName("firefox");
+           /* DesiredCapabilities capability = DesiredCapabilities.firefox();
+            capability.setBrowserName("firefox");*/
            // capability.setPlatform(Platform.LINUX);
           //  capability.setVersion("");
           //  System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
@@ -178,10 +207,10 @@ public class WebDriverSettings  {
             
 
 
-          WebDriverManager.firefoxdriver().setup();
+          /*WebDriverManager.firefoxdriver().setup();
          String Path = WebDriverManager.firefoxdriver().getBinaryPath();
             System.setProperty(Path, "geckodriver");
-            driver = new FirefoxDriver();
+            driver = new FirefoxDriver();*/
           //  System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             // For Linux
          //   System.setProperty("webdriver.gecko.driver", "//test2/driver/geckodriver");
@@ -189,10 +218,10 @@ public class WebDriverSettings  {
         //      driver = new ChromeDriver();
         //    System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
             // driver = new InternetExplorerDriver();
-            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1024, 810));
+//            driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+//            driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
+//            driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+//            driver.manage().window().setSize(new Dimension(1024, 810));
         }
 
         @After
@@ -279,13 +308,14 @@ public class WebDriverSettings  {
 
 
 
-    public void WritersLogin() throws InterruptedException {
-        driver.get("https://writer.urgentpapers.org/");
+    public void WritersLogin() {
+       // TimeUnit.SECONDS.sleep(15);
+        driver.get("https://writer.urgentpapers.org");
         Lending.loginForm(driver).click();
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);
         Lending.loginButton(driver).click();
-        TimeUnit.SECONDS.sleep(15);
+       // TimeUnit.SECONDS.sleep(15);
 
     }
     public void TestFileDrop() throws Exception {
