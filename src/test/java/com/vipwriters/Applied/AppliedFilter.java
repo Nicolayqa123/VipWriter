@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.*;
 
-public class AppliedFilterTest extends WebDriverSettings {
+public class AppliedFilter extends WebDriverSettings {
 @Test
     public void Filter () throws Exception {
 //driver = new FirefoxDriver();

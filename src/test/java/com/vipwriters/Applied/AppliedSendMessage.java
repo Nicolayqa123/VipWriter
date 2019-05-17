@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class AppliedSendMessageTest extends WebDriverSettings {
+public class AppliedSendMessage extends WebDriverSettings {
     @Test
     public void sendMessage() throws Exception {
 
