@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.available.AvailablePageSwitchingTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.7 s <<< FAILURE! - in com.vipwriters.available.AvailablePageSwitchingTest
-pageSwitch10(com.vipwriters.available.AvailablePageSwitchingTest)  Time elapsed: 12.659 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.vipwriters.available.AvailablePageSwitchingTest.pageSwitch10(AvailablePageSwitchingTest.java:15)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 75.684 s - in com.vipwriters.available.AvailablePageSwitchingTest

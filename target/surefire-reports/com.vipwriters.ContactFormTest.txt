@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.ContactFormTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.vipwriters.ContactFormTest
-ContactFormMax(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
-
-ContactFormMin(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
-
-ContactForm1(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
-
-UnContactFormEmptyFields(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
-
-ContactFormRequiredField(com.vipwriters.ContactFormTest)  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: The driver executable does not exist: C:\var\jenkins_home\workspace\test2\driver\geckodriver
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 162.304 s - in com.vipwriters.ContactFormTest

@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.available.AvailableDetailedOrderViewTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 19.852 s <<< FAILURE! - in com.vipwriters.available.AvailableDetailedOrderViewTest
-orderView(com.vipwriters.available.AvailableDetailedOrderViewTest)  Time elapsed: 19.753 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.vipwriters.available.AvailableDetailedOrderViewTest.orderView(AvailableDetailedOrderViewTest.java:17)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.299 s - in com.vipwriters.available.AvailableDetailedOrderViewTest
