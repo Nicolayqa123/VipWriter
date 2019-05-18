@@ -73,6 +73,7 @@ public class ContactFormTest extends WebDriverSettings {
     @Test
     public void ContactFormRequiredField () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/contacts");
+        TimeUnit.SECONDS.sleep(4);
         ContacteUs.subjectOther(driver).sendKeys("Test1");
         ContacteUs.senderEmail(driver).sendKeys("12as23da@gmail.com");
         JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -86,6 +87,7 @@ public class ContactFormTest extends WebDriverSettings {
     @Test
     public void UnContactFormEmptyFields() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/contacts");
+        TimeUnit.SECONDS.sleep(4);
         ContacteUs.subjectOther(driver).sendKeys("");
         ContacteUs.senderEmail(driver).sendKeys("");
         ContacteUs.name(driver).sendKeys("");

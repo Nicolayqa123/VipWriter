@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class MyOrdersDownloadFilesTest extends WebDriverSettings {
+public class MyOrdersDownloadFiles extends WebDriverSettings {
     @Test
     public void Download () throws Exception {
         WritersLogin();

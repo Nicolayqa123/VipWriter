@@ -52,12 +52,13 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
 
-public class WebDriverSettings  {
+public class WebDriverSettings   {
 
    // public PhantomJSDriver driver;
   // public  RemoteWebDriver driver;
 
     public FirefoxDriver driver;
+
     //  public ChromeDriver driver;
 //  public InternetExplorerDriver driver;
     //  @FindBy(xpath = ("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a"))
@@ -309,8 +310,8 @@ public class WebDriverSettings  {
 
 
     public void WritersLogin() throws Exception {
-        TimeUnit.SECONDS.sleep(15);
-        driver.get("https://writer.urgentpapers.org");
+     //   TimeUnit.SECONDS.sleep(15);
+        driver.get(WriterUrl);
         Lending.loginForm(driver).click();
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);
@@ -624,11 +625,15 @@ public class WebDriverSettings  {
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
     }
 
+
+
     public By login1 = By.xpath("//*[@id=\"wrapper\"]/header/div/div[2]/nav/ul/li[10]/a");
     public By username1 = By.xpath("//*[@id=\"signinForm\"]/div/div[2]/input");
     public By passworf1 = By.xpath("//*[@id=\"signinForm\"]/div/div[3]/input");
     public By loginButton1 = By.xpath("//*[@id=\"signinForm\"]/div/div[4]/input");
     public By sendMailUs = By.xpath("//*[@id=\"contactUsForm\"]/div[5]/div/button");
+
+
 
 
     public By loginClient = By.cssSelector("#navbar > div > div.desktop-nav > ul > li.nav-item.nav-right-buttons > button");
