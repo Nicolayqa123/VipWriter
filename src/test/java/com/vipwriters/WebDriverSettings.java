@@ -145,80 +145,6 @@ public class WebDriverSettings   {
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
 
-            /*File path=new File("C:\\Programms\\GitHub\\VipWriter\\phantomjs.exe");
-            System.setProperty("phantomjs.binary.path",path.getAbsolutePath());
-            driver = new PhantomJSDriver();*/
-
-
-
-
-
-            /*System.setProperty("webdriver.gecko.driver", "/var/jenkins_home/workspace/test2/driver/geckodriver");
-            DesiredCapabilities dc = DesiredCapabilities.firefox();
-            dc.setCapability("marionette", true);
-            driver = new FirefoxDriver();*/
-
-
-            /*FirefoxBinary firefoxBinary = new FirefoxBinary();
-           // firefoxBinary.addCommandLineOptions("--headless");
-            System.setProperty("webdriver.gecko.driver", "C:\\Programms\\GitHub\\VipWriter\\driver\\geckodriver.exe");
-            FirefoxOptions firefoxOptions = new FirefoxOptions();
-            firefoxOptions.setBinary(firefoxBinary);
-            FirefoxDriver driver = new FirefoxDriver(firefoxOptions);*/
-
-
-
-
-           /* WebDriverManager.phantomjs().setup();
-           String driverPath = WebDriverManager.phantomjs().getBinaryPath();
-           System.out.println(driverPath);
-            System.setProperty("phantomjs.binary.path", driverPath);
-            // System.setProperty("phantomjs.binary.path", "/var/jenkins_home/workspace/Tests/phantomjs.exe");
-             driver = new PhantomJSDriver();
-*/
-
-           // WebDriverManager.chromedriver().setup();
-           // String asd =  WebDriverManager.chromedriver().getBinaryPath();
-           // System.out.println(asd);
-           // System.setProperty("webdriver.chrome.driver", "//.m2/repository/webdriver/chromedriver/win32/2.46/chromedriver.exe");
-           // System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-           /* DesiredCapabilities capability = DesiredCapabilities.firefox();
-            capability.setBrowserName("firefox");*/
-           // capability.setPlatform(Platform.LINUX);
-          //  capability.setVersion("");
-          //  System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
-           // capability.setCapability("webdriver.gecko.driver", "driver/geckodriver");
-           // driver = new RemoteWebDriver(new URL("http://localhost:8081/wd/hub"), capability);
-
-
-            /*WebDriverManager.firefoxdriver().setup();
-            driver = new FirefoxDriver();*/
-
-    //      WebDriverManager.firefoxdriver().setup();
-/*
-
-            DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-            capabilities.setCapability("marionette", true);
-            driver = new FirefoxDriver(capabilities);
-*/
-
-          /*  File pathToBinary = new File("//src/Mozilla Firefox/firefox.exe");
-            FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
-            FirefoxProfile firefoxProfile = new FirefoxProfile();FirefoxDriver driver;*/
-            
-
-
-          /*WebDriverManager.firefoxdriver().setup();
-         String Path = WebDriverManager.firefoxdriver().getBinaryPath();
-            System.setProperty(Path, "geckodriver");
-            driver = new FirefoxDriver();*/
-          //  System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-            // For Linux
-         //   System.setProperty("webdriver.gecko.driver", "//test2/driver/geckodriver");
-      //      System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        //      driver = new ChromeDriver();
-        //    System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-            // driver = new InternetExplorerDriver();
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
@@ -227,14 +153,15 @@ public class WebDriverSettings   {
 
         @After
         public void close() throws Exception {
-            /*String newAutoTest = "newAutoTest" + x;
+            TimeUnit.SECONDS.sleep(2);
+            String newAutoTest = "newAutoTest" + x;
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-             String path = "C:\\Programms\\PNG\\"  +  screenshot.getName();
-           // String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
+            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\"   + getClass() +  screenshot.getName();
+            // String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
             FileUtils.copyFile(screenshot, new File(path));
             saveAllureScreenshot();
-            makeScreenshot();*/
+            makeScreenshot();
 
             if (driver != null) {
                 driver.quit();
