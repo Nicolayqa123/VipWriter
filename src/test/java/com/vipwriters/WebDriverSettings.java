@@ -51,7 +51,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-
+//@RunWith(SeleniumRunner.class)
 public class WebDriverSettings   {
 
    // public PhantomJSDriver driver;
@@ -138,10 +138,11 @@ public class WebDriverSettings   {
 
 
 
-        @Before
-        public void setup() throws MalformedURLException {
+    @Rule
+    public TestWatcher watcher = new TestWatcher() {
 
-
+        @Override
+        protected void starting(Description description) {
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
             driver = new FirefoxDriver();
 
@@ -149,24 +150,35 @@ public class WebDriverSettings   {
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
             driver.manage().window().setSize(new Dimension(1600, 1000));
+
         }
 
-        @After
-        public void close() throws Exception {
-            TimeUnit.SECONDS.sleep(2);
-            String newAutoTest = "newAutoTest" + x;
+        @Override
+        protected void finished(Description description) {
+            makeScreenshotOnFailure();
+            driver.quit();
+        }
+
+        @Override
+        protected void failed(Throwable e, Description description) {
+            String newAutoTest = "TestFailure";
             File screenshot = ((TakesScreenshot) driver).
                     getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\"   + getClass() +  screenshot.getName();
-            // String path = "C:\\Programms\\GitHub\\VipWriter\\target\\surefire-reports\\"  +  screenshot.getName();
-            FileUtils.copyFile(screenshot, new File(path));
-            saveAllureScreenshot();
-            makeScreenshot();
-
-            if (driver != null) {
-                driver.quit();
+            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+            try {
+                FileUtils.copyFile(screenshot, new File(path));
+            } catch (IOException e1) {
+                e1.printStackTrace();
             }
+            makeScreenshotOnFailure();
         }
+
+        @Attachment("Screenshot on failure")
+        public byte[] makeScreenshotOnFailure() {
+            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+        }
+
+    };
 
 
 
