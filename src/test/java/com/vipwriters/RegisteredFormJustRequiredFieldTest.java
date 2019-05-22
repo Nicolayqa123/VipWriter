@@ -76,7 +76,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         SignUp.iHaveRead(driver).click();
         jse.executeScript("scroll(0, 250);");
         SignUp.finish(driver).click();
-        TimeUnit.SECONDS.sleep(7);
+        TimeUnit.SECONDS.sleep(15);
         assertEquals("Email", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
 
     }
@@ -131,7 +131,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
         SignUp.iHaveRead(driver).click();
         jse.executeScript("scroll(0, 250);");
         SignUp.finish(driver).click();
-        TimeUnit.SECONDS.sleep(10);
+        TimeUnit.SECONDS.sleep(15);
        // assertEquals("Email", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
         assertEquals("Email", driver.findElement(By.xpath("//*[@id=\"signinForm\"]/div/div[2]/p")).getText());
     }
