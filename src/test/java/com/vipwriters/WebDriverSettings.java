@@ -156,7 +156,6 @@ public class WebDriverSettings   {
 
         @Override
         protected void finished(Description description) {
-            makeScreenshotOnFailure();
             driver.quit();
         }
 
@@ -171,51 +170,14 @@ public class WebDriverSettings   {
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
-            makeScreenshotOnFailure();
-        }
-
-        @Override
-        protected void skipped(AssumptionViolatedException e, Description description) {
-            String newAutoTest = "TestFailure";
-            File screenshot = ((TakesScreenshot) driver).
-                    getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
-            try {
-                FileUtils.copyFile(screenshot, new File(path));
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
-            makeScreenshotOnFailure();
-        }
-
-        @Override
-        protected void skipped(org.junit.internal.AssumptionViolatedException e, Description description) {
-            String newAutoTest = "TestFailure";
-            File screenshot = ((TakesScreenshot) driver).
-                    getScreenshotAs(OutputType.FILE);
-            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
-            try {
-                FileUtils.copyFile(screenshot, new File(path));
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
-            makeScreenshotOnFailure();
-
         }
 
 
 
 
-        @Attachment("Screenshot on failure")
-        public byte[] makeScreenshotOnFailure() {
-            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-        }
 
 
-        @Attachment(value = "Page screenshot", type = "image/png")
-        public byte[] saveScreenshot(byte[] screenShot) {
-            return screenShot;
-        }
+
     };
 
 
