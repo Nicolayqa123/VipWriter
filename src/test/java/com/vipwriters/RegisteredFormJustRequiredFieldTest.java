@@ -56,6 +56,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
 
         TimeUnit.SECONDS.sleep(5);
 
+
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span").click();
         driver.findElementByXPath("//*[@id=\"signUpWizard\"]/div[2]/div/div/section/div[1]/div/span/span[1]/span/ul/li/input").sendKeys("Art");
         driver.findElementByXPath("/html/body/span/span/span").click();
