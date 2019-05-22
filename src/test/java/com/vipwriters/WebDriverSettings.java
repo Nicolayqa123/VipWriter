@@ -41,6 +41,7 @@ import java.awt.event.KeyEvent;
 import java.beans.Statement;
 import java.io.File;
 import java.io.IOException;
+import io.qameta.allure.Attachment;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -173,11 +174,48 @@ public class WebDriverSettings   {
             makeScreenshotOnFailure();
         }
 
+        @Override
+        protected void skipped(AssumptionViolatedException e, Description description) {
+            String newAutoTest = "TestFailure";
+            File screenshot = ((TakesScreenshot) driver).
+                    getScreenshotAs(OutputType.FILE);
+            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+            try {
+                FileUtils.copyFile(screenshot, new File(path));
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+            makeScreenshotOnFailure();
+        }
+
+        @Override
+        protected void skipped(org.junit.internal.AssumptionViolatedException e, Description description) {
+            String newAutoTest = "TestFailure";
+            File screenshot = ((TakesScreenshot) driver).
+                    getScreenshotAs(OutputType.FILE);
+            String path = "C:\\Programms\\GitHub\\VipWriter\\screenshot\\" + getClass() + screenshot.getName();
+            try {
+                FileUtils.copyFile(screenshot, new File(path));
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+            makeScreenshotOnFailure();
+
+        }
+
+
+
+
         @Attachment("Screenshot on failure")
         public byte[] makeScreenshotOnFailure() {
             return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         }
 
+
+        @Attachment(value = "Page screenshot", type = "image/png")
+        public byte[] saveScreenshot(byte[] screenShot) {
+            return screenShot;
+        }
     };
 
 
@@ -187,26 +225,7 @@ public class WebDriverSettings   {
 
 
 
-   /* @AfterMethod
-    public static void   screenshot(ITestResult result) throws Exception {
-        if (!result.isSuccess()) {
-            try {
-                WebDriver returned = new Augmenter().augment(driver);
-                if (returned != null) {
-                    File f = ((TakesScreenshot) returned)
-                            .getScreenshotAs(OutputType.FILE);
-                    try {
-                        FileUtils.copyFile(f, new File("C:\\Test_results\\"
-                                + result.getName() + ".jpg"));
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-            } catch (ScreenshotException se) {
-                se.printStackTrace();
-            }
-        }
-    }*/
+
 
 
 

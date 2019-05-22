@@ -35,8 +35,8 @@ public class LoginTest extends WebDriverSettings {
         }
     };
 */
-
-        @Test
+        @Test 
+        @io.qameta.allure.Description("Тест Логин не правельный ")
         public void Loginuser() throws Exception {
             driver.get("https://writer.urgentpapers.org/");
             TimeUnit.SECONDS.sleep(5);
