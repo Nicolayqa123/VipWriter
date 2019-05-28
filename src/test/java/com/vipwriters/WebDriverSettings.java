@@ -182,19 +182,6 @@ public class WebDriverSettings   {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     Random r = new Random();
     int x = r.nextInt(90000) + 1;
     String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
