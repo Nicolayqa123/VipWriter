@@ -72,9 +72,15 @@ public class WebDriverSettings   {
     // String mail = "nicolayqa@gmail.com";
     // String pass = "nicolayqa";
 
+
+    public String mailPro = "Kallyan2@ya.ru";
+    public String passPro = "123456";
     public String mail = "Nicolayqa@gmail.com";
     public String pass = "123456";
-    public String WriterUrl = "https://writer.urgentpapers.org";
+    public String Writer_StageUrl = "https://writer.urgentpapers.org";
+    public String Writer_ProdUrl = "https://vip-writers.com";
+    public String ProPapers_StageUrl = "https://client.urgentpapers.org/";
+    public String ProPapers_ProdUrl = "https://pro-papers.com";
 
 
 
@@ -218,7 +224,7 @@ public class WebDriverSettings   {
 
     public void WritersLogin() throws Exception {
      //   TimeUnit.SECONDS.sleep(15);
-        driver.get(WriterUrl);
+        driver.get(Writer_StageUrl);
         Lending.loginForm(driver).click();
         Lending.userName(driver).sendKeys(mail);
         Lending.password(driver).sendKeys(pass);

@@ -13,11 +13,11 @@ public class LoginClient extends WebDriverSettings {
 
     @Test
     public void Login1() throws InterruptedException {
-        driver.get("https://client.urgentpapers.org/");
+        driver.get(ProPapers_ProdUrl);
 
         driver.findElement(loginClient).click();
-        driver.findElement(loginClientUserName).sendKeys(mail);
-        driver.findElement(loginClientPassword).sendKeys(pass);
+        driver.findElement(loginClientUserName).sendKeys(mailPro);
+        driver.findElement(loginClientPassword).sendKeys(passPro);
         driver.findElement(loginClientSubmit).click();
         TimeUnit.SECONDS.sleep(10);
         Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]").getText()));
