@@ -549,7 +549,7 @@ public class WebDriverSettings   {
 
 
 
-    public By loginClient = By.cssSelector("#navbar > div > div.desktop-nav > ul > li.nav-item.nav-right-buttons > button");
+    public By loginClient = By.xpath("//*[@id=\"navbar\"]/div[1]/div/ul/li[6]/button");
     public By loginClientUserName = By.id("login-email");
     public By loginClientPassword = By.id("login-password");
     public By loginClientSubmit = By.cssSelector(".login-submit");
