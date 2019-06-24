@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class Robot_Txt extends WebDriverSettings {
+public class Robot_TxtTest extends WebDriverSettings {
 
     @Test
     public void CheckRobotTxtStage() throws Exception {
