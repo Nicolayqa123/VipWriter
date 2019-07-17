@@ -25,10 +25,12 @@ public class SaveFiles extends WebDriverSettings {
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 350);");
-        driver.findElement(currentOrdersOrder10292).click();
+        driver.findElement(By.cssSelector("tr.odd:nth-child(1) > td:nth-child(1) > a:nth-child(2)")).click();
         jse.executeScript("scroll(0, 950);");
         TimeUnit.SECONDS.sleep(7);
         DetailedOrder.addNewFile(driver).click();
+        TimeUnit.SECONDS.sleep(1);
+        driver.findElementById("file-input-span").click();
         TimeUnit.SECONDS.sleep(2);
         TestFileDrop();
         TimeUnit.SECONDS.sleep(10);

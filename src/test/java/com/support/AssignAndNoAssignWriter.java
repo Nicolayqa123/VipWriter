@@ -11,66 +11,45 @@ import java.util.concurrent.TimeUnit;
 public class AssignAndNoAssignWriter extends WebDriverSettings {
     @Test
     public void ANA() throws Exception {
-        RegisteredStep3NewOrder();
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+      //  RegisteredStep3NewOrder();
         LoginSupport();
-        try {
             TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.get("https://support.vip-writers.commentality.com/orders");
-        driver.findElementByXPath("//*[@id=\"main\"]/div[1]/div/div[1]/div[4]/div/div/button").click();
+        driver.get("https://support.urgentpapers.org/orders");
+        driver.findElement(By.cssSelector("#main-container > div > div.row.orders-row > div.col-lg-12.order-top-blocks > div > div > form > div.col-md-12.block.orders-inputs-block > button")).click();
+        jse.executeScript("scroll(0, 250);");
+        TimeUnit.SECONDS.sleep(5);
+        driver.findElementByCssSelector("#main-container > div > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > table > tbody > tr:nth-child(1) > td:nth-child(1)").click();
         driver.findElementByXPath("//*[@id=\"orders\"]/thead/tr/th[1]").click();
         String number = driver.findElementByXPath("//*[@id=\"orders\"]/tbody/tr[1]/td[1]/a").getText();
         driver.findElementByXPath("//*[@id=\"orders\"]/tbody/tr[1]/td[1]/a").click();
-        try {
             TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElementByXPath("//*[@id=\"main\"]/div[1]/div[1]/div[1]/div/div/div[1]/button").click();
         driver.findElementByXPath("//*[@id=\"main\"]/div[1]/div[1]/div[1]/div/div/div[1]/ul/li[1]/a").click();
         driver.findElementByCssSelector("#stateChangeModal > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(2) > div:nth-child(2) > textarea:nth-child(1)").sendKeys("Paid");
         driver.findElementByCssSelector("#stateChangeModal > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > button:nth-child(1)").click();
-        try {
             TimeUnit.SECONDS.sleep(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElementByXPath("//*[@id=\"main\"]/div[1]/div[1]/div[1]/div/div/div[1]/button").click();
         driver.findElementByXPath("//*[@id=\"main\"]/div[1]/div[1]/div[1]/div/div/div[1]/ul/li[1]/a").click();
         driver.findElementByCssSelector("#stateChangeModal > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > form:nth-child(1) > div:nth-child(2) > div:nth-child(2) > textarea:nth-child(1)").sendKeys("Case published");
         driver.findElementByCssSelector("#stateChangeModal > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > button:nth-child(1)").click();
-        try {
             TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         WritersLogin();
         driver.findElementByXPath("//*[@id=\"availableOrders_filter\"]/label/input").sendKeys(number);
         driver.findElementByXPath("//*[@id=\"availableOrders\"]/tbody/tr/td[1]/a").click();
         driver.findElementByXPath("/html/body/div[3]/div[1]/div[3]/div/div/div/div/div/form/div[3]/div/textarea").sendKeys("test1");
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 250);");
         driver.findElementByXPath("/html/body/div[3]/div[1]/div[3]/div/div/div/div/div/form/div[4]/div/div/input").click();
-        try {
             TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         WritersLoginNic();
         driver.findElementByXPath("//*[@id=\"availableOrders_filter\"]/label/input").sendKeys(number);
         driver.findElementByXPath("//*[@id=\"availableOrders\"]/tbody/tr/td[1]/a").click();
         driver.findElementByXPath("/html/body/div[3]/div[1]/div[3]/div/div/div/div/div/form/div[3]/div/textarea").sendKeys("test2");
         jse.executeScript("scroll(0, 250);");
         driver.findElementByXPath("/html/body/div[3]/div[1]/div[3]/div/div/div/div/div/form/div[4]/div/div/input").click();
-        try {
             TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         LoginSupport();
-        driver.get("https://support.vip-writers.commentality.com/orders");
+        driver.get("https://support.urgentpapers.org/orders");
         driver.findElementByXPath("//*[@id=\"orders_filter\"]/label/input").sendKeys(number);
         driver.findElementByXPath("//*[@id=\"main\"]/div[1]/div/div[1]/div[4]/div/div/button").click();
         driver.findElementByXPath("//*[@id=\"orders\"]/tbody/tr[1]/td[1]/a").click();

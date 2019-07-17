@@ -11,45 +11,24 @@ import static org.junit.Assert.assertEquals;
 
 public class ProfileEnterAlternativeEmail extends WebDriverSettings {
     @Test
-    public void email () {
+    public void email () throws InterruptedException {
         driver.get("https://writer.urgentpapers.org");
-
-        try {
             TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         WebElement login =  driver.findElement(By.xpath("/html/body/div/div/div/div[1]/header/div/div[2]/nav/ul/li[10]/a"));
         WebElement username =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[2]/input"));
         WebElement password =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[3]/input"));
         WebElement loginButton =  driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/form/div/div[4]/input"));
-
-
-        try {
             TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         login.click();
         username.sendKeys("nicolayqa@gmail.com");
         password.sendKeys("nicolayqa");
         loginButton.click();
-        try {
             TimeUnit.SECONDS.sleep(11);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElement(By.xpath("/html/body/div[2]/div/div/ul/li[4]/a")).click();
-        try {
             TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         driver.findElement(By.xpath("/html/body/div[3]/div[1]/form/div/div/div[2]/div/div[2]/table/tbody/tr[5]/td[2]/div/input")).clear();
         driver.findElement(By.xpath("/html/body/div[3]/div[1]/form/div/div/div[2]/div/div[2]/table/tbody/tr[5]/td[2]/div/input")).sendKeys("123qwe12qwe@gmail.com");
         driver.findElement(By.xpath("/html/body/div[3]/div[1]/form/div/div/div[2]/div/div[2]/table/tfoot/tr/td/button[1]")).click();
-
     }
     @Test
     public void emailMax () {

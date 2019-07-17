@@ -70,8 +70,6 @@ public class RegisteredStep3 extends WebDriverSettings {
         driver.findElement(oNSteps3NumberOfSlides).sendKeys(a + "");
         Select deadlines = new Select(driver.findElement(By.name("deadline")));
         deadlines.selectByIndex(s);
-        driver.findElementByCssSelector("#payment-radio-2").click();
-        driver.findElement(oNSteps3IAgree).click();
         driver.findElement(oNStep3Pay).click();
     }
     @Test
