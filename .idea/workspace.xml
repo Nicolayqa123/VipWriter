@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31c96775-281d-413e-9fd3-048df4ed83b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/DetailedOrder.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/DetailedOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFiles.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/CurrentOrders/SaveFiles.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep2.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep2.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/RegisteredStep3.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/AssignAndNoAssignWriter.java" afterPath="$PROJECT_DIR$/src/test/java/com/support/AssignAndNoAssignWriter.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/LoginTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/Profile/ProfileEnterAlternativeEmail.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/Profile/ProfileEnterAlternativeEmail.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/available/AvailableSearchTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/DetailedOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/DetailedOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SaveFiles.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/CurrentOrders/SaveFiles.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep2.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/RegisteredStep3.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Robot_Txt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/AssignAndNoAssignWriter.class" afterPath="$PROJECT_DIR$/target/test-classes/com/support/AssignAndNoAssignWriter.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/LoginTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileEnterAlternativeEmail.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/Profile/ProfileEnterAlternativeEmail.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/available/AvailableSearchTest.class" />
-    </list>
+    <list default="true" id="31c96775-281d-413e-9fd3-048df4ed83b4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -210,7 +186,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="1" />
     <option name="width" value="1298" />
@@ -231,9 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -315,6 +288,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -623,6 +599,7 @@
       <workItem from="1563010907032" duration="2876000" />
       <workItem from="1563192547390" duration="6420000" />
       <workItem from="1563261012073" duration="650000" />
+      <workItem from="1563354252945" duration="541000" />
     </task>
     <servers />
   </component>
@@ -659,10 +636,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158340000" />
+    <option name="totallyTimeSpent" value="158881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -680,7 +657,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30665952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31095597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -997,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
