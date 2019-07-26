@@ -7,7 +7,6 @@ com\Pro_Papers\CurrentOrders\SaveFiles.class
 com\vipwriters\MailUSFormTest.class
 com\vipwriters\Affiliate\AffiliateStatistics.class
 com\PageClient\Lending.class
-com\vipwriters\available\AvailableDownloadFilesTest.class
 com\vipwriters\MyOrders\MyOrderDetailedOrderViewTest.class
 com\vipwriters\Profile\ProfileEnterAlternativeEmail.class
 com\vipwriters\available\AvailablePageSwitchingTest.class
@@ -73,7 +72,6 @@ com\Pro_Papers\Profile\EditingProfile.class
 com\vipwriters\LoginTest.class
 com\PageSupport\OrderStatus.class
 com\Pro_Papers\UnpaidOrders\SendMessageInOrder.class
-com\vipwriters\MyOrders\MyOrdersDownloadFilesTest.class
 com\PageWriter\SignUp.class
 Regression\Available.class
 com\Pro_Papers\Profile\ChangesPassword.class

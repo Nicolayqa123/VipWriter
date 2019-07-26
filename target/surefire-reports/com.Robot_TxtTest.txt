@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.vipwriters.LoginTest
+Test set: com.Robot_TxtTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 136.117 s - in com.vipwriters.LoginTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.396 s - in com.Robot_TxtTest
