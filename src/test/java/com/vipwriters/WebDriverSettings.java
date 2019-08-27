@@ -98,7 +98,7 @@ public class WebDriverSettings   {
            // System.setProperty( " webdriver.firefox.marionette", "/usr/bin/firefox" );
            // driver = new FirefoxDriver();
 
-            File firefoxPathBinary = new File("/usr/bin/firefox-bin");
+            File firefoxPathBinary = new File("/usr/bin/firefox");
             System.setProperty("webdriver.firefox.bin", firefoxPathBinary.getAbsolutePath());
             driver = new FirefoxDriver();
 
