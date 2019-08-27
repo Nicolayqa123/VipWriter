@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c96775-281d-413e-9fd3-048df4ed83b4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Order_Sign_Up.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Page.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Profile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/PageSupport/HintBox.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/DetailedOrder.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/DetailedOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Lending.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageClient/Registered.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageSupport/OrderStatus.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" afterPath="$PROJECT_DIR$/src/test/java/com/PageWriter/DetailedOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClient.java" afterPath="$PROJECT_DIR$/src/test/java/com/Pro_Papers/LoginClient.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupport.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MailUSFormTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MailUSFormTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderSendMessageTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrderSendMessageTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersUploadFileTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.MyOrders.MyOrdersUploadFileTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsPageSwitchingTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsPageSwitchingTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsReasonTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsReasonTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsSearchTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.Payments.PaymentsSearchTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.RegisteredFormJustRequiredFieldTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vipwriters.RegisteredFormJustRequiredFieldTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MailUSFormTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MailUSFormTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderDetailedOrderViewTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderSendMessageTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrderSendMessageTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersUploadFileTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.MyOrders.MyOrdersUploadFileTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsPageSwitchingTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsPageSwitchingTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsReasonTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsReasonTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsSearchTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.Payments.PaymentsSearchTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.RegisteredFormJustRequiredFieldTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vipwriters.RegisteredFormJustRequiredFieldTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/DetailedOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/DetailedOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/Lending.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageClient/Registered.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageSupport/OrderStatus.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageSupport/OrderStatus.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageWriter/DetailedOrder.class" afterPath="$PROJECT_DIR$/target/test-classes/com/PageWriter/DetailedOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClient.class" afterPath="$PROJECT_DIR$/target/test-classes/com/Pro_Papers/LoginClient.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupport.class" afterPath="$PROJECT_DIR$/target/test-classes/com/support/CheckStepsOfSupport.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vipwriters/WebDriverSettings.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +17,11 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="96" column="79" lean-forward="true" selection-start-line="96" selection-start-column="79" selection-end-line="96" selection-end-column="79" />
+            <state relative-caret-position="210">
+              <caret line="97" column="82" lean-forward="false" selection-start-line="97" selection-start-column="82" selection-end-line="97" selection-end-column="82" />
               <folding>
-                <element signature="e#3450#3451#0" expanded="true" />
-                <element signature="e#3487#3488#0" expanded="true" />
+                <element signature="e#3537#3538#0" expanded="true" />
+                <element signature="e#3574#3575#0" expanded="true" />
                 <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
                 <element signature="method#RegisteredWriter#0;class#WebDriverSettings#0" expanded="false" />
                 <element signature="method#RegisteredRefWriter#0;class#WebDriverSettings#0" expanded="false" />
@@ -675,7 +637,7 @@
       <workItem from="1565854632617" duration="9124000" />
       <workItem from="1566308153339" duration="1147000" />
       <workItem from="1566467895976" duration="567000" />
-      <workItem from="1566910534164" duration="1006000" />
+      <workItem from="1566910534164" duration="1416000" />
     </task>
     <servers />
   </component>
@@ -712,7 +674,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207866000" />
+    <option name="totallyTimeSpent" value="208276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="15" width="2118" height="1281" extended-state="6" />
@@ -1127,11 +1089,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="96" column="79" lean-forward="true" selection-start-line="96" selection-start-column="79" selection-end-line="96" selection-end-column="79" />
+        <state relative-caret-position="210">
+          <caret line="97" column="82" lean-forward="false" selection-start-line="97" selection-start-column="82" selection-end-line="97" selection-end-column="82" />
           <folding>
-            <element signature="e#3450#3451#0" expanded="true" />
-            <element signature="e#3487#3488#0" expanded="true" />
+            <element signature="e#3537#3538#0" expanded="true" />
+            <element signature="e#3574#3575#0" expanded="true" />
             <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
             <element signature="method#RegisteredWriter#0;class#WebDriverSettings#0" expanded="false" />
             <element signature="method#RegisteredRefWriter#0;class#WebDriverSettings#0" expanded="false" />

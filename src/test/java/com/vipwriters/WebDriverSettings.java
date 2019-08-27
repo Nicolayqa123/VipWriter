@@ -95,6 +95,7 @@ public class WebDriverSettings   {
         @Override
         protected void starting(Description description) {
             System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
+            System.setProperty( " webdriver.firefox.marionette", "/usr/bin/firefox" );
             driver = new FirefoxDriver();
 
 
