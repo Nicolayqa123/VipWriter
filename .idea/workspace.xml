@@ -17,11 +17,11 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="100" column="63" lean-forward="false" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+            <state relative-caret-position="378">
+              <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
               <folding>
-                <element signature="e#3744#3745#0" expanded="true" />
-                <element signature="e#3781#3782#0" expanded="true" />
+                <element signature="e#3761#3762#0" expanded="true" />
+                <element signature="e#3798#3799#0" expanded="true" />
                 <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
                 <element signature="method#RegisteredWriter#0;class#WebDriverSettings#0" expanded="false" />
                 <element signature="method#RegisteredRefWriter#0;class#WebDriverSettings#0" expanded="false" />
@@ -637,7 +637,7 @@
       <workItem from="1565854632617" duration="9124000" />
       <workItem from="1566308153339" duration="1147000" />
       <workItem from="1566467895976" duration="567000" />
-      <workItem from="1566910534164" duration="2380000" />
+      <workItem from="1566910534164" duration="3663000" />
     </task>
     <servers />
   </component>
@@ -674,7 +674,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209240000" />
+    <option name="totallyTimeSpent" value="210523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="15" width="2118" height="1281" extended-state="6" />
@@ -1089,11 +1089,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="100" column="63" lean-forward="false" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+        <state relative-caret-position="378">
+          <caret line="96" column="68" lean-forward="false" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
           <folding>
-            <element signature="e#3744#3745#0" expanded="true" />
-            <element signature="e#3781#3782#0" expanded="true" />
+            <element signature="e#3761#3762#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
             <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
             <element signature="method#RegisteredWriter#0;class#WebDriverSettings#0" expanded="false" />
             <element signature="method#RegisteredRefWriter#0;class#WebDriverSettings#0" expanded="false" />
