@@ -94,12 +94,12 @@ public class WebDriverSettings   {
 
         @Override
         protected void starting(Description description) {
-            System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "/usr/bin/driver/geckodriver");
            // System.setProperty( " webdriver.firefox.marionette", "/usr/bin/firefox" );
            // driver = new FirefoxDriver();
 
-            File firefoxPathBinary = new File("/usr/bin/firefox");
-            System.setProperty("webdriver.firefox.bin", firefoxPathBinary.getAbsolutePath());
+            //File firefoxPathBinary = new File("/usr/bin/firefox-bin");
+           // System.setProperty("webdriver.firefox.bin", firefoxPathBinary.getAbsolutePath());
             driver = new FirefoxDriver();
 
 
