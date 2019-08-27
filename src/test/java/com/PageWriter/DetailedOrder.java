@@ -36,7 +36,11 @@ public class DetailedOrder {
         return element;
     }
     public static WebElement confirm (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[2]/button"));
+        element = driver.findElement(By.cssSelector(".writers-order-left-info-wrapper > button:nth-child(6)"));
+        return element;
+    }
+    public static WebElement confirmFile (WebDriver driver){
+        element = driver.findElement(By.cssSelector(".writers-for-upload-file > button:nth-child(3)"));
         return element;
     }
     public static WebElement fileRecipientClient (WebDriver driver){
@@ -49,6 +53,10 @@ public class DetailedOrder {
     }
     public static WebElement fileTypeAditiMater (WebDriver driver){
         element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/select/option[2]"));
+        return element;
+    }
+    public static WebElement fileTypeFinal (WebDriver driver){
+        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[2]/div/select/option[4]"));
         return element;
     }
     public static WebElement downloadFile (WebDriver driver){

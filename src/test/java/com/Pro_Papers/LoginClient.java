@@ -4,6 +4,7 @@ import com.vipwriters.WebDriverSettings;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,6 +24,24 @@ public class LoginClient extends WebDriverSettings {
         Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]").getText()));
 
     }
+
+    /*public static void main(String[] args) throws InterruptedException {
+
+        FirefoxDriver driver;
+        System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
+
+        driver = new FirefoxDriver();
+
+        driver.get("https://client.urgentpapers.org");
+
+        driver.findElement(By.xpath("//*[@id=\"navbar\"]/div[1]/div/ul/li[6]/button")).click();
+        driver.findElement(By.xpath("//*[@id=\"login-email\"]")).sendKeys("Kallyan2@ya.ru");
+        driver.findElement(By.xpath("//*[@id=\"login-password\"]")).sendKeys("123456");
+        driver.findElement(By.xpath("//*[@id=\"login\"]/div[3]/div[1]/button")).click();
+        TimeUnit.SECONDS.sleep(10);
+        Assert.assertFalse("NicolayQA", Boolean.parseBoolean(driver.findElementByXPath("//*[@id=\"mm-0\"]/div[3]/div/div[1]/div[1]/div[2]/span[1]").getText()));
+
+    }*/
 
    /* @After
     public void closes(ITestResult testResult) throws Exception {

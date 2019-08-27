@@ -87,63 +87,6 @@ public class WebDriverSettings   {
 
 
 
-    /*@Rule
-    public TestWatcher screenshotOnFailure = new TestWatcher() {
-
-    };
-*/
-
-
-   /* @Rule
-    public TestWatcher watcher = new TestWatcher() {
-
-        @Override
-        protected void starting(Description description) {
-            System.setProperty("webdriver.gecko.driver", "C://Programms/geckodriver.exe");
-            driver = new FirefoxDriver();
-            System.setProperty("webdriver.chrome.driver", "C://Programms/chromedriver.exe");
-            //  driver = new ChromeDriver();
-            System.setProperty("webdriver.ie.driver", "C://Programms/IEDriverServer.exe");
-            // driver = new InternetExplorerDriver();
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
-            driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-            driver.manage().window().maximize();
-
-        }
-
-        @Override
-        protected void finished(Description description) {
-            makeScreenshotOnFailure();
-            driver.quit();
-        }
-
-        @Override
-        protected void failed(Throwable e, Description description) {
-            makeScreenshotOnFailure();
-        }
-
-        @Attachment("Screenshot on failure")
-        public byte[] makeScreenshotOnFailure() {
-            return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-        }
-
-    };
-*/
-
-
-
-
-
-
-
-
-   /* private static WebDriver getFirefoxDriver(){
-        System.setProperty("webdriver.gecko.driver", "//src/main/resources/geckodriver");
-        return new FirefoxDriver();
-    }*/
-
-
 
 
     @Rule
@@ -151,13 +94,17 @@ public class WebDriverSettings   {
 
         @Override
         protected void starting(Description description) {
-            System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "driver/geckodriver");
             driver = new FirefoxDriver();
+
+
+
 
             driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-            driver.manage().window().setSize(new Dimension(1600, 1000));
+            driver.manage().window().maximize();
+            //  driver.manage().window().setSize(new Dimension(1600, 1000));
 
         }
 
@@ -243,6 +190,14 @@ public class WebDriverSettings   {
         TimeUnit.SECONDS.sleep(2);
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
+    }
+
+    public void SupportLogin() throws Exception {
+        driver.get("https://support.urgentpapers.org/");
+        driver.findElementByCssSelector("div.form-group:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").sendKeys("boosters@test.com");
+        driver.findElementByCssSelector("div.form-group:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").sendKeys("LnH6isXPPL");
+        driver.findElementByCssSelector(".btn").click();
+        TimeUnit.SECONDS.sleep(5);
     }
 
     public void WritersLoginNic() {
@@ -490,6 +445,65 @@ public class WebDriverSettings   {
         driver.findElement(oNStep3Pay).click();
 
 
+
+    }
+
+    public void LoginNewInquiry() throws Exception {
+        Random r = new Random();
+        int x = r.nextInt(90000) + 1;
+        int v = r.nextInt( 300) + 1;
+        int z = r.nextInt(4) + 1;
+        int va = r.nextInt(50);
+        int vb = r.nextInt(100);
+        String regmail = x + "test@test.com";
+        String regpass = "Password123";
+         String testText = "test text";
+
+        int n = r.nextInt(4) + 1;
+        int b = r.nextInt(9) + 1;
+
+        String[] subjectChoose = {"Architecture", "Art history", "Aviation", "Classic English literature", "Culture", "Drama", "Film studies", "Literature", "Music", "Philosophy", "Poetry", "Religious studies", "Shakespeare studies", "Theater studies", "World literature", "Business", "Human Resource Management", "Investments", "Management", "Marketing", "C++", "Communication", "Java programming", "Linear programming", "Programming", "Accounting", "Economics", "Finance", "Engineering", "Geology", "Technology", "History", "Political science", "World affairs", "English", "Criminal Law", "Law", "Anthropology", "Astronomy", "Biochemistry", "Biology", "Chemistry", "Ecology", "Environmental studies", "Genetics", "Geography", "Medicine", "Nursing", "Physics", "Mathematics", "MATLAB", "SPSS", "Statistics", "Civics", "Cognitive Science", "Criminology", "Education", "Family and consumer science", "Health", "Journalism", "Psychology", "Sociology", "Women and gender studies",
+        };
+        String subjectList = subjectChoose[va];
+        String[] paper_typeChoose = {"Admission essay", "Article review", "Article", "Dissertation proposal", "Dissertation", "Essay", "Research paper", "Research proposal", "Term paper", "Thesis", "Other", "Business plan", "Business feasibility plan", "Investor business plan", "One-page business plan", "Operations business plan", "Start-up Business Plan", "Scholarship essay", "Admission essay", "Application letter", "Personal statement", "Business School application essay", "Graduate School application essay", "Law School application essay", "MBA admission essay", "MBA application essay", "Medical School application essay", "Study abroad application essay", "Cover letter", "Military cover letter", "Referral cover letter", "Cold-contact cover letter", "Entry level cover letter", "Executive cover letter", "Internship cover letter", "CV", "Academic CV", "Executive CV", "Internship CV", "Military CV", "Dissertation", "Dissertation abstract", "Dissertation chapter", "Dissertation conclusion", "Dissertation hypothesis", "Dissertation introduction", "Dissertation methodology", "Dissertation proposal", "Dissertation results", "Dissertation discussion", "Literature review", "Annotated bibliography", "Argumentative essay", "Course work", "Creative writing", "Essay", "Literature review", "Presentation", "Report", "OtherEssay", "Analytical essay", "Cause and Effect essay", "Comparative essay", "Compare and contrast essay", "Creative writing essay", "Deductive essay", "Definition essay", "Descriptive essay", "Exploratory essay", "Expository essay", "Informal essay", "Literary essay", "Literature essay", "MBA essay", "Military essay", "Narrative essay", "Persuasive essay", "Reflective essay", "Response essay", "Short essay", "Algebra homework help", "College homework help", "English homework help", "Homework for kids", "Maths homework help", "School homework help (middle & high)", "Science homework help", "Article", "Biography", "Case study", "Critical thinking", "Term paper", "Multiple choice questions", "Annotated bibliography", "Book critique", "Capstone project", "Coursework", "Critical analysis", "Grant proposal", "Journal critique", "Powerpoint presentation", "Problem solution", "Reaction paper", "Speech", "Other", "Problem solving", "Lab report", "Business report", "Engineering report", "Experience report", "Feasibility report", "Formal report", "Investigation report", "Policy report", "Progress report", "Research report", "Science report", "Short report", "Technical report", "Workplace report", "Research paper", "Research proposal", "Research thesis", "Research outline", "Research summary", "Resume", "Chronological resume", "Combination (combined) resume", "Entry level resume", "Functional resume", "Internship resume", "Military resume", "Article review", "Book review", "Movie review", "Critical appraisal", "Critical review", "Meta-analysis", "Peer review", "Systematic review", "Thesis", "Thesis proposal", "Thesis statement", "Analytical thesis statement", "Project thesis", "Thesis abstract", "Thesis conclusion", "Thesis discussion", "Thesis introduction", "Thesis methodology",
+        };
+        String paper_typeList = paper_typeChoose[vb];
+
+
+
+
+        LoginPap();
+        driver.findElementByCssSelector(".btn-success").click();
+        // driver.get("https://Pro-Papers.com/order");
+        //  Lending.Order_Now(driver).click();
+        Registered.paper_type(driver).sendKeys(paper_typeList);
+        Registered.subject(driver).sendKeys(subjectList);
+        Registered.topic(driver).sendKeys("Test order Test");
+        Select paper_format = new Select(driver.findElement(By.name("paper_format")));
+        paper_format.selectByValue(String.valueOf(z));
+//      Registered.number_of_references(driver).sendKeys("" + b);
+        Registered.paper_details(driver).sendKeys("Test test test tes tes ");
+        Registered.nextStep(driver).click();
+        TimeUnit.SECONDS.sleep(5);
+
+        // вторая страница
+
+        Select level = new Select(driver.findElement(By.name("academic_level")));
+        level.selectByIndex(2);
+        //   driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "");
+        //   driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "");
+        driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "");
+        driver.findElement(oNSteps3NumberOfSlides).sendKeys(z + "");
+        //    Select deadlines = new Select(driver.findElement(By.name("deadline")));
+        //    deadlines.selectByIndex(s);
+//        driver.findElementByCssSelector("#payment-radio-2").click();
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 350);");
+        Registered.pay(driver).click();
+        TimeUnit.SECONDS.sleep(5);
+        /*TimeUnit.SECONDS.sleep(10);
+      String IdOrder = driver.findElementByCssSelector(".order-h3 > span:nth-child(1)").getText();
+      System.out.println(IdOrder);*/
 
     }
     public void RegisteredStep3NewOrder()throws Exception{

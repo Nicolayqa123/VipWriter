@@ -1,4 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: com.vipwriters.MyOrders.MyOrderSendMessageTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 194.142 s - in com.vipwriters.MyOrders.MyOrderSendMessageTest
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 175.116 s <<< FAILURE! - in com.vipwriters.MyOrders.MyOrderSendMessageTest
+SendMessageToClient1(com.vipwriters.MyOrders.MyOrderSendMessageTest)  Time elapsed: 52.845 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <h2 id="swal2-title" class="swal2-title"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 30468, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d875aff8-02d9-481d-b734-74179bfd7015
+	at com.vipwriters.MyOrders.MyOrderSendMessageTest.SendMessageToClient1(MyOrderSendMessageTest.java:28)
+
+SendMessageToClientMax(com.vipwriters.MyOrders.MyOrderSendMessageTest)  Time elapsed: 69.233 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Message successfully sen]t!> but was:<[Something gone wrong... Please contact our suppor]t!>
+	at com.vipwriters.MyOrders.MyOrderSendMessageTest.SendMessageToClientMax(MyOrderSendMessageTest.java:44)
+
+SendMessageToClientMin(com.vipwriters.MyOrders.MyOrderSendMessageTest)  Time elapsed: 53.03 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <h2 id="swal2-title" class="swal2-title"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6L7S93F', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190717172542, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14640, moz:profile: C:\Users\dmytr\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dcdb25e5-78e2-4bad-8f92-38fd246d448b
+	at com.vipwriters.MyOrders.MyOrderSendMessageTest.SendMessageToClientMin(MyOrderSendMessageTest.java:60)
+

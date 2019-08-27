@@ -51,5 +51,10 @@ public class Registered {
         element = driver.findElement(By.name("paper_type"));
         return element;
     }
+    public static WebElement pay (WebDriver driver){
+        element = driver.findElement(By.cssSelector(".btn-primary"));
+        return element;
+    }
+
 
 }
