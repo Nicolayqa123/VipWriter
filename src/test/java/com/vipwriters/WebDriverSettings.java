@@ -198,7 +198,7 @@ public class WebDriverSettings   {
 
     }
     public void TestFileDrop() throws Exception {
-        setClipboardData("\\Test.docx");
+        setClipboardData("C:\\Users\\Administrator\\Desktop\\Test.docx");
         Robot robot = new Robot();
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_V);
