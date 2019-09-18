@@ -34,6 +34,7 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(15);
         String number = driver.findElementByCssSelector(".order-h3 > span:nth-child(1)").getText();
         driver.manage().window().maximize();
+        System.out.println(number);
 
       //  String number = "10573";
 
@@ -42,21 +43,23 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
 
         SupportLogin();
         HintBox.inquiry(driver).click();
-            TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(3);
         HintBox.search(driver).sendKeys(number);
         driver.findElementByCssSelector(".animate-scroll-up").click();
-        TimeUnit.SECONDS.sleep(5);
+        TimeUnit.SECONDS.sleep(10);
 //        assertEquals("Injuiry processing", driver.findElement(By.cssSelector("select.push-5")).getText());
         Select status = new Select(driver.findElement(By.cssSelector("select.push-5")));
+        TimeUnit.SECONDS.sleep(10);
         status.selectByValue("6"); // WFP
         OrderStatus.reason(driver).sendKeys("test test test");
         OrderStatus.ok(driver).click();
-        TimeUnit.SECONDS.sleep(7);
+        TimeUnit.SECONDS.sleep(12);
         status.selectByValue("7"); // Paid
         OrderStatus.reason(driver).sendKeys("test test test");
         OrderStatus.ok(driver).click();
-        TimeUnit.SECONDS.sleep(10);
+        TimeUnit.SECONDS.sleep(12);
         status.selectByValue("8"); // Case Published
+        OrderStatus.reason(driver).sendKeys("test test test");
         OrderStatus.ok(driver).click();
       //  assertEquals("Inquiry published", driver.findElement(By.cssSelector(".dropdown-toggle")).getText());
 

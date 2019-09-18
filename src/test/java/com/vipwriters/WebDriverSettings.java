@@ -28,7 +28,9 @@ import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.logging.*;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -50,6 +52,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
 
 import static org.junit.Assert.assertEquals;
 
@@ -94,12 +97,16 @@ public class WebDriverSettings   {
 
         @Override
         protected void starting(Description description) {
-            System.setProperty("webdriver.gecko.driver", "/usr/bin/driver/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "driver/geckodriver.exe");
            // System.setProperty( " webdriver.firefox.marionette", "/usr/bin/firefox" );
            // driver = new FirefoxDriver();
 
             //File firefoxPathBinary = new File("/usr/bin/firefox-bin");
            // System.setProperty("webdriver.firefox.bin", firefoxPathBinary.getAbsolutePath());
+
+
+
+
             driver = new FirefoxDriver();
 
 
@@ -111,6 +118,7 @@ public class WebDriverSettings   {
             //  driver.manage().window().setSize(new Dimension(1600, 1000));
 
         }
+
 
         @Override
         protected void finished(Description description) {
@@ -172,7 +180,12 @@ public class WebDriverSettings   {
     }
 
 
+    public void Test500() throws Exception {
+        //driver.get("https://client.urgentpapers.org/asdasd");
+        driver.manage().logs().get("https://client.urgentpapers.org/asdasd");
 
+
+    }
 
     public void WritersLogin() throws Exception {
      //   TimeUnit.SECONDS.sleep(15);

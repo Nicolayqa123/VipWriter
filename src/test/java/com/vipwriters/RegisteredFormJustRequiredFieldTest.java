@@ -28,7 +28,7 @@ public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
 
 
     @Test
-    public void RegisteredFormJustRequiredField1() throws InterruptedException {
+    public void RegisteredFormJustRequiredField12() throws InterruptedException {
         driver.get("https://writer.urgentpapers.org/signUp");
         TimeUnit.SECONDS.sleep(3);
 
