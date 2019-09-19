@@ -115,7 +115,7 @@ public class WebDriverSettings   {
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
            // driver.manage().window().maximize();
-            driver.manage().window().setSize(new Dimension(1240, 800));
+            driver.manage().window().setSize(new Dimension(1400, 800));
 
         }
 
