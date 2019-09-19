@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class CheckStepsOfSupportT extends WebDriverSettings {
+public class CheckStepsOfSupportTest extends WebDriverSettings {
 
 
 
@@ -95,8 +95,8 @@ public class CheckStepsOfSupportT extends WebDriverSettings {
         DetailedOrder.uploadFile(driver).click();
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeFinal(driver).click();
-        DetailedOrder.drop(driver).click();
-        TestFileDrop();
+        DetailedOrder.drop(driver).sendKeys("C:\\Users\\Administrator\\Desktop\\Test.docx");
+      //  TestFileDrop();
      //   JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 350);");
         TimeUnit.SECONDS.sleep(2);
