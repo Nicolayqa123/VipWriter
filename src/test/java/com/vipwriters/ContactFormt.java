@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class ContactFormTest extends WebDriverSettings {
+public class ContactFormt extends WebDriverSettings {
 
     @Test
     public void ContactForm1 () throws InterruptedException  {

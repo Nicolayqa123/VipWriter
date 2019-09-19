@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class CalculatorTest extends WebDriverSettings {
+public class Calculatort extends WebDriverSettings {
     @Test
     public void Check_Calculator () throws Exception {
         driver.get(ProPapers_StageUrl);

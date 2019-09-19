@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class RegisteredFormJustRequiredFieldTest extends WebDriverSettings {
+public class RegisteredFormJustRequiredFieldt extends WebDriverSettings {
 
     Random r = new Random();
     int x = r.nextInt(10000) + 1;

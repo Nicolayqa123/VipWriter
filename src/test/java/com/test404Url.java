@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class test404UrlTest extends WebDriverSettings {
+public class test404Url extends WebDriverSettings {
 
     String urlCheck = "https://pro-papers.com/argumentative-essay-writing";
 

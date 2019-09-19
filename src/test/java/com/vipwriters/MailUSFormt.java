@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class MailUSFormTest extends WebDriverSettings {
+public class MailUSFormt extends WebDriverSettings {
 
     @Test
     public void mailUs () throws Exception{
