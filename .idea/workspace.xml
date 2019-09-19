@@ -22,8 +22,8 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+            <state relative-caret-position="429">
+              <caret line="518" column="39" lean-forward="true" selection-start-line="518" selection-start-column="39" selection-end-line="518" selection-end-column="39" />
               <folding>
                 <element signature="e#3878#3879#0" expanded="true" />
                 <element signature="e#3915#3916#0" expanded="true" />
@@ -109,7 +109,7 @@
       <file leaf-file-name="CheckStepsOfSupportTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="135">
               <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding />
             </state>
@@ -678,7 +678,7 @@
       <workItem from="1568623355467" duration="546000" />
       <workItem from="1568709186046" duration="9449000" />
       <workItem from="1568791777425" duration="6879000" />
-      <workItem from="1568875591167" duration="5505000" />
+      <workItem from="1568875591167" duration="6100000" />
     </task>
     <servers />
   </component>
@@ -695,8 +695,8 @@
     <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.19 at 14h 29m 36s.xml">
       <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test404UrlTest_TestLinks - 2019.09.17 at 18h 07m 28s.xml">
-      <configuration name="test404UrlTest.TestLinks" configurationId="JUnit" />
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.19 at 14h 31m 07s.xml">
+      <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
     <history-entry file="test404UrlTest_TestLinks - 2019.09.17 at 18h 14m 12s.xml">
       <configuration name="test404UrlTest.TestLinks" configurationId="JUnit" />
@@ -715,7 +715,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252634000" />
+    <option name="totallyTimeSpent" value="253229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1137,7 +1137,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="135">
           <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding />
         </state>
@@ -1145,8 +1145,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+        <state relative-caret-position="429">
+          <caret line="518" column="39" lean-forward="true" selection-start-line="518" selection-start-column="39" selection-end-line="518" selection-end-column="39" />
           <folding>
             <element signature="e#3878#3879#0" expanded="true" />
             <element signature="e#3915#3916#0" expanded="true" />
