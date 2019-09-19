@@ -493,8 +493,8 @@ public class WebDriverSettings   {
         driver.findElementByCssSelector(".btn-success").click();
         // driver.get("https://Pro-Papers.com/order");
         //  Lending.Order_Now(driver).click();
-        Registered.paper_type(driver).sendKeys(paper_typeChoose[va]);
-        Registered.subject(driver).sendKeys(subjectChoose[vb]);
+        Registered.paper_type(driver).sendKeys(paper_typeChoose[vb]);
+        Registered.subject(driver).sendKeys(subjectChoose[va]);
         Registered.topic(driver).sendKeys("Test order Test");
        // Select paper_format = new Select(driver.findElement(By.name("paper_format")));
        // paper_format.selectByValue(String.valueOf(z));
