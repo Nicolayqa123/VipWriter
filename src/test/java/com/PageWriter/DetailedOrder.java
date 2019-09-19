@@ -32,7 +32,7 @@ public class DetailedOrder {
         return element;
     }
     public static WebElement drop  (WebDriver driver){
-        element = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[2]/div[2]/div[2]/div/div[2]/div[2]"));
+        element = driver.findElement(By.cssSelector(".writers-order-drop-file"));
         return element;
     }
     public static WebElement confirm (WebDriver driver){
