@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class MyOrdersUploadFileT extends WebDriverSettings {
+public class MyOrdersUploadFileTest extends WebDriverSettings {
 
     public static void setClipboardData(String string) {
         StringSelection stringSelection = new StringSelection(string);
@@ -27,7 +27,7 @@ public class MyOrdersUploadFileT extends WebDriverSettings {
     @Test
     public void dropfiles1() throws Exception {
         WritersLogin();
-        TimeUnit.SECONDS.sleep(4);
+        TimeUnit.SECONDS.sleep(1);
         MyOrders.myOrders(driver).click();
         MyOrders.OrderInProgress(driver).click();
         DetailedOrder.uploadFile(driver).click();
@@ -35,11 +35,14 @@ public class MyOrdersUploadFileT extends WebDriverSettings {
         DetailedOrder.fileTypeAditiMater(driver).click();
         DetailedOrder.drop(driver).click();
         TestFileDrop();
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("scroll(0, 550);");
+        TimeUnit.SECONDS.sleep(1);
         DetailedOrder.confirm(driver).click();
-       // TimeUnit.SECONDS.sleep(10);
+        TimeUnit.SECONDS.sleep(2);
       //  driver.findElementById("2261").click();
      //   driver.findElementByXPath("/html/body/div[2]/div/div[3]/button[1]").click();
-      //  assertEquals("File successfully upload!", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
+        assertEquals("The file was successfully uploaded.", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }
 

@@ -20,7 +20,7 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
-public class LoginTest extends WebDriverSettings {
+public class LoginT extends WebDriverSettings {
 
    /* @Rule
     public TestWatcher screenshotOnFailure = new TestWatcher() {

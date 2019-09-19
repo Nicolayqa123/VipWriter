@@ -36,7 +36,7 @@ public class DetailedOrder {
         return element;
     }
     public static WebElement confirm (WebDriver driver){
-        element = driver.findElement(By.cssSelector(".writers-order-left-info-wrapper > button:nth-child(6)"));
+        element = driver.findElement(By.cssSelector(".writers-for-upload-file > button:nth-child(3)"));
         return element;
     }
     public static WebElement confirmFile (WebDriver driver){
