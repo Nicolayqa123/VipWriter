@@ -34,6 +34,10 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeAditiMater(driver).click();
         DetailedOrder.drop(driver).click();
+        DetailedOrder.drop(driver).click();
+        DetailedOrder.drop(driver).click();
+        TestFileDrop();
+        TestFileDrop();
         TestFileDrop();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 550);");
@@ -42,6 +46,7 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         TimeUnit.SECONDS.sleep(2);
       //  driver.findElementById("2261").click();
      //   driver.findElementByXPath("/html/body/div[2]/div/div[3]/button[1]").click();
+        jse.executeScript("scroll(0, 850);");
         assertEquals("The file was successfully uploaded.", driver.findElement(By.xpath("//*[@id=\"swal2-title\"]")).getText());
 
     }
