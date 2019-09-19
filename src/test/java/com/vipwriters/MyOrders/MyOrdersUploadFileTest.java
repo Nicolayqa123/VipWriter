@@ -26,6 +26,8 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
 
     @Test
     public void dropfiles1() throws Exception {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+
         WritersLogin();
         TimeUnit.SECONDS.sleep(1);
         MyOrders.myOrders(driver).click();
@@ -33,9 +35,10 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         DetailedOrder.uploadFile(driver).click();
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeAditiMater(driver).click();
-        DetailedOrder.drop(driver).click();
+        jse.executeScript("scroll(0, 850);");
+        TimeUnit.SECONDS.sleep(1);
+        DetailedOrder.drop(driver).sendKeys("C:\\Users\\Administrator\\Desktop\\Test.docx");
         TestFileDrop();
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 550);");
         TimeUnit.SECONDS.sleep(1);
         DetailedOrder.confirm(driver).click();

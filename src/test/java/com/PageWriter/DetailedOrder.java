@@ -32,7 +32,7 @@ public class DetailedOrder {
         return element;
     }
     public static WebElement drop  (WebDriver driver){
-        element = driver.findElement(By.cssSelector(".writers-order-drop-file"));
+        element = driver.findElement(By.cssSelector(".writers-order-drop-file-text > input:nth-child(2)"));
         return element;
     }
     public static WebElement confirm (WebDriver driver){
