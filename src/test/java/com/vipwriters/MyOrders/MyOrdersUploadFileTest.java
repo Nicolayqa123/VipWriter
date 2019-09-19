@@ -34,10 +34,6 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         DetailedOrder.fileRecipientClient(driver).click();
         DetailedOrder.fileTypeAditiMater(driver).click();
         DetailedOrder.drop(driver).click();
-        DetailedOrder.drop(driver).click();
-        DetailedOrder.drop(driver).click();
-        TestFileDrop();
-        TestFileDrop();
         TestFileDrop();
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 550);");
