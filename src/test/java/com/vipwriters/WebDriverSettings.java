@@ -115,7 +115,7 @@ public class WebDriverSettings   {
             driver.manage().timeouts().setScriptTimeout(50, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
            // driver.manage().window().maximize();
-            driver.manage().window().setSize(new Dimension(1650, 1000));
+            driver.manage().window().setSize(new Dimension(1240, 800));
 
         }
 
@@ -505,8 +505,8 @@ public class WebDriverSettings   {
 
         // вторая страница
 
-        Select level = new Select(driver.findElement(By.name("academic_level")));
-        level.selectByIndex(2);
+    //    Select level = new Select(driver.findElement(By.name("academic_level")));
+    //    level.selectByIndex(2);
         //   driver.findElement(oNSteps3NumberOfPages).sendKeys(x + "");
         //   driver.findElement(oNSteps3NumberOfProblem).sendKeys(y + "");
         driver.findElement(oNSteps3NumberOfQuestions).sendKeys(z + "");

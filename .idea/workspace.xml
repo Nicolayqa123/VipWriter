@@ -22,11 +22,11 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="496" column="63" lean-forward="true" selection-start-line="496" selection-start-column="63" selection-end-line="496" selection-end-column="63" />
+            <state relative-caret-position="282">
+              <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
               <folding>
-                <element signature="e#3879#3880#0" expanded="true" />
-                <element signature="e#3916#3917#0" expanded="true" />
+                <element signature="e#3878#3879#0" expanded="true" />
+                <element signature="e#3915#3916#0" expanded="true" />
                 <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
                 <element signature="method#RegisteredWriter#0;class#WebDriverSettings#0" expanded="false" />
                 <element signature="method#RegisteredRefWriter#0;class#WebDriverSettings#0" expanded="false" />
@@ -110,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -678,7 +678,7 @@
       <workItem from="1568623355467" duration="546000" />
       <workItem from="1568709186046" duration="9449000" />
       <workItem from="1568791777425" duration="6879000" />
-      <workItem from="1568875591167" duration="3296000" />
+      <workItem from="1568875591167" duration="3954000" />
     </task>
     <servers />
   </component>
@@ -715,7 +715,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250425000" />
+    <option name="totallyTimeSpent" value="251083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1138,18 +1138,18 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="496" column="63" lean-forward="true" selection-start-line="496" selection-start-column="63" selection-end-line="496" selection-end-column="63" />
+        <state relative-caret-position="282">
+          <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
           <folding>
-            <element signature="e#3879#3880#0" expanded="true" />
-            <element signature="e#3916#3917#0" expanded="true" />
+            <element signature="e#3878#3879#0" expanded="true" />
+            <element signature="e#3915#3916#0" expanded="true" />
             <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
             <element signature="method#RegisteredWriter#0;class#WebDriverSettings#0" expanded="false" />
             <element signature="method#RegisteredRefWriter#0;class#WebDriverSettings#0" expanded="false" />
