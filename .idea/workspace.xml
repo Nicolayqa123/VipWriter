@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="499" column="9" lean-forward="false" selection-start-line="499" selection-start-column="9" selection-end-line="499" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="496" column="63" lean-forward="true" selection-start-line="496" selection-start-column="63" selection-end-line="496" selection-end-column="63" />
               <folding>
                 <element signature="e#3879#3880#0" expanded="true" />
                 <element signature="e#3916#3917#0" expanded="true" />
@@ -106,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckStepsOfSupportTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckStepsOfSupportTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -678,7 +678,7 @@
       <workItem from="1568623355467" duration="546000" />
       <workItem from="1568709186046" duration="9449000" />
       <workItem from="1568791777425" duration="6879000" />
-      <workItem from="1568875591167" duration="2527000" />
+      <workItem from="1568875591167" duration="3296000" />
     </task>
     <servers />
   </component>
@@ -689,8 +689,8 @@
     <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.19 at 10h 00m 22s.xml">
       <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test404UrlTest_TestLinks - 2019.09.17 at 18h 04m 14s.xml">
-      <configuration name="test404UrlTest.TestLinks" configurationId="JUnit" />
+    <history-entry file="CheckStepsOfSupportTest_stepsSupport - 2019.09.19 at 11h 12m 34s.xml">
+      <configuration name="CheckStepsOfSupportTest.stepsSupport" configurationId="JUnit" />
     </history-entry>
     <history-entry file="test404UrlTest_TestLinks - 2019.09.17 at 18h 05m 25s.xml">
       <configuration name="test404UrlTest.TestLinks" configurationId="JUnit" />
@@ -715,7 +715,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249656000" />
+    <option name="totallyTimeSpent" value="250425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1135,10 +1135,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="499" column="9" lean-forward="false" selection-start-line="499" selection-start-column="9" selection-end-line="499" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="496" column="63" lean-forward="true" selection-start-line="496" selection-start-column="63" selection-end-line="496" selection-end-column="63" />
           <folding>
             <element signature="e#3879#3880#0" expanded="true" />
             <element signature="e#3916#3917#0" expanded="true" />
@@ -1147,14 +1155,6 @@
             <element signature="method#RegisteredRefWriter#0;class#WebDriverSettings#0" expanded="false" />
             <element signature="method#LoginPapRef#0;class#WebDriverSettings#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
