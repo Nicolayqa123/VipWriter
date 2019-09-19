@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertFalse;
 
-public class AvailableFilterTest extends WebDriverSettings {
+public class AvailableFilterT extends WebDriverSettings {
 
     @Test
     public void Filter () throws Exception{

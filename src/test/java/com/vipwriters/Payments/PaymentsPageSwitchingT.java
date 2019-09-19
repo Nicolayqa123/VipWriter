@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
-public class PaymentsPageSwitchingTest extends WebDriverSettings {
+public class PaymentsPageSwitchingT extends WebDriverSettings {
     @Test
     public void ppswitching10 () throws Exception {
         WritersLogin();

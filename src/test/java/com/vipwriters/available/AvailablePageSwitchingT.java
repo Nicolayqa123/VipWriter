@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
-public class AvailablePageSwitchingTest extends WebDriverSettings {
+public class AvailablePageSwitchingT extends WebDriverSettings {
     @Test
     public  void pageSwitch10 () throws Exception{
        WritersLogin();

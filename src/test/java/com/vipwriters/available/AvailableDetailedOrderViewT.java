@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 
 import static org.junit.Assert.assertEquals;
 
-public class AvailableDetailedOrderViewTest extends WebDriverSettings {
+public class AvailableDetailedOrderViewT extends WebDriverSettings {
 
 
 

@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 
 import static org.junit.Assert.assertEquals;
 
-public class AvailableSearchTest extends WebDriverSettings {
+public class AvailableSearchT extends WebDriverSettings {
  @Test
     public void Search () throws Exception {
         WritersLogin();

@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class AvailableShowOnlyOrdersWithinMyProficiencyTest extends WebDriverSettings {
+public class AvailableShowOnlyOrdersWithinMyProficiencyT extends WebDriverSettings {
 
     @Test
     public void OrderWithMy () throws Exception {
