@@ -85,9 +85,9 @@ public class CheckStepsOfSupportTest extends WebDriverSettings {
         driver.get("https://writer.urgentpapers.org/panel/orders-available");
         TimeUnit.SECONDS.sleep(5);
         ConfirmationNeeded.confirmationNeeded(driver).click();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(4);
         driver.findElementByCssSelector("div.writers-available-orders-table:nth-child(2) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1)").click();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(4);
         DetailedOrder.confirm(driver).click();
         TimeUnit.SECONDS.sleep(2);
         assertEquals("You confirmed the order", driver.findElement(By.id("swal2-title")).getText());
