@@ -38,7 +38,6 @@ public class MyOrdersUploadFileTest extends WebDriverSettings {
         jse.executeScript("scroll(0, 850);");
         TimeUnit.SECONDS.sleep(1);
         DetailedOrder.drop(driver).sendKeys("C:\\Users\\Administrator\\Desktop\\Test.docx");
-        TestFileDrop();
         jse.executeScript("scroll(0, 550);");
         TimeUnit.SECONDS.sleep(1);
         DetailedOrder.confirm(driver).click();

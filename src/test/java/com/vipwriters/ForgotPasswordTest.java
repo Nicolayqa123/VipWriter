@@ -1,6 +1,7 @@
 package com.vipwriters;
 
 import com.PageWriter.Lending;
+import io.qameta.allure.Attachment;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,9 +11,10 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
-public class ForgotPasswordt extends WebDriverSettings {
+public class ForgotPasswordTest extends WebDriverSettings {
 
 @Test
+@Attachment ("asd")
     public void forgotpassword() throws Exception{
 
         driver.get("https://writer.urgentpapers.org");

@@ -136,6 +136,7 @@ public class WebDriverSettings   {
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
+            System.out.println(screenshot);
         }
 
 
