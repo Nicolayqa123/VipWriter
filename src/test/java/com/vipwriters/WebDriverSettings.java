@@ -126,6 +126,7 @@ public class WebDriverSettings   {
         }
 
         @Override
+        @Attachment(value = "PNG", type = "image/png")
         protected void failed(Throwable e, Description description) {
             String newAutoTest = "TestFailure";
             File screenshot = ((TakesScreenshot) driver).
@@ -136,7 +137,8 @@ public class WebDriverSettings   {
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
-            System.out.println(screenshot);
+
+            System.out.println(screenshot + "");
         }
 
 

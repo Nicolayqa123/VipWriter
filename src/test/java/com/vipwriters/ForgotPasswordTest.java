@@ -14,8 +14,11 @@ import static org.junit.Assert.assertFalse;
 public class ForgotPasswordTest extends WebDriverSettings {
 
 @Test
-@Attachment ("asd")
-    public void forgotpassword() throws Exception{
+@Attachment(value = "PNG", type = "image/png")
+public byte[] createAttachment() {
+    return  makeScreenshot();
+}
+public void forgotpassword() throws Exception{
 
         driver.get("https://writer.urgentpapers.org");
     TimeUnit.SECONDS.sleep(3);
@@ -25,7 +28,7 @@ public class ForgotPasswordTest extends WebDriverSettings {
         Lending.forgotPasswordSend(driver).click();
 
         assertEquals("The password reset link was sent to your email. Please click it to change your password.\n" +
-                "If you can’t find this link, please contact us at manager@vip-writers.com.", driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
+                "If you can’ aaaaat find this link, please contact us at manager@vip-writers.com.", driver.findElement(By.xpath("//*[@id=\"sendResetPasswordEmailForm\"]/p")).getText());
     }
 
 @Test

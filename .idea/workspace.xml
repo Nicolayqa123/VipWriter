@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c96775-281d-413e-9fd3-048df4ed83b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/support/CheckStepsOfSupportT.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordt.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/MyOrders/MyOrdersUploadFileTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Vip_Writerss.iml" afterPath="$PROJECT_DIR$/Vip_Writerss.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" afterPath="$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,9 +21,10 @@
       <file leaf-file-name="WebDriverSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="138" column="43" lean-forward="false" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+            <state relative-caret-position="219">
+              <caret line="128" column="8" lean-forward="true" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="54" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#3878#3879#0" expanded="true" />
                 <element signature="e#3915#3916#0" expanded="true" />
                 <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
@@ -37,9 +39,12 @@
       <file leaf-file-name="ForgotPasswordTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="231">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -641,7 +646,7 @@
       <workItem from="1568709186046" duration="9449000" />
       <workItem from="1568791777425" duration="6879000" />
       <workItem from="1568875591167" duration="14540000" />
-      <workItem from="1568969457401" duration="4472000" />
+      <workItem from="1568969457401" duration="6371000" />
     </task>
     <servers />
   </component>
@@ -678,7 +683,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266141000" />
+    <option name="totallyTimeSpent" value="268040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1105,9 +1110,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="138" column="43" lean-forward="false" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+        <state relative-caret-position="219">
+          <caret line="128" column="8" lean-forward="true" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="54" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#3878#3879#0" expanded="true" />
             <element signature="e#3915#3916#0" expanded="true" />
             <element signature="method#WritersLoginNic#0;class#WebDriverSettings#0" expanded="false" />
@@ -1120,9 +1126,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vipwriters/ForgotPasswordTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="231">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
